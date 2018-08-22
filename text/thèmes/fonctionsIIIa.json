@@ -1,0 +1,15 @@
+{
+  "thème": "Fonctions IIIa",
+  "description": "fonctions convexes et concaves",
+  "Théorie": {
+    "classes": [
+      {
+        "course": "Terminale ES",
+        "color": "dark",
+        "reference": "terminaleES.html"
+      }
+    ]
+  },
+  "Exercices I": [],
+  "Exercices II": []
+}

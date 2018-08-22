@@ -1,0 +1,26 @@
+{
+  "thème": "Suites III",
+  "description": "le raisonnement par récurrence",
+  "Théorie": {
+    "classes": [
+      {
+        "course": "Terminale S",
+        "color": "danger",
+        "reference": "terminaleS.html"
+      }
+    ],
+    "intro": "Plusieurs propriétés qui concernent les suites, peuvent être démontrées grâce au raisonnement par récurrence. Il s'agit du \"principe du domino\", qui se déroule en <span style='font-family:\"Latin Modern\"'>3</span> étapes:<ol><li><b>Initialisation:</b> On prouve que la propriété fonctionne pour le premier nombre (<span style='font-family:\"Latin Modern\"'>0</span> ou <span style='font-family:\"Latin Modern\"'>1</span> normalement). On fait tomber la première pièce du domino.</li><li><b>Hérédité:</b> on démontre que si la propriété est valable pour un entier <img style='position: relative; top: 2px' src='math/p.svg'>, elle est également valable pour le prochain entier <img src='math/p+1.svg'>. Lorsqu'une pièce de domino tombe, elle fait tomber la prochaine pièce.</li><li><b>Conclusion:</b> La première pièce de domino fait tomber la deuxième pièce et ainsi de suite jusqu'à l'infini. La propriété est alors valable pour tous les entiers <img src='math/n.svg'>.</li> </ol> Dans tous les exercices du bac il y a au moins un exercice avec une démonstration par récurrence. Il s'agit d'un thème très important!",
+    "thèmes": [
+      {
+        "difficultée": "danger",
+        "thème": "Comprendre le principe par récurrence et connaître la rédaction pour un exercice type bac."
+      },
+      {
+        "difficultée": "dark",
+        "thème": "Réussir la démonstration par récurrence systématiquement!"
+      }
+    ]
+  },
+  "Exercices I": [],
+  "Exercices II": []
+}

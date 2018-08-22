@@ -1,0 +1,15 @@
+{
+  "thème": "Fonctions IV",
+  "description": "limite de fonctions",
+  "Théorie": {
+    "classes": [
+      {
+        "course": "Terminale S",
+        "color": "danger",
+        "reference": "terminaleS.html"
+      }
+    ]
+  },
+  "Exercices I": [],
+  "Exercices II": []
+}

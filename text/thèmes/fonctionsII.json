@@ -1,0 +1,61 @@
+{
+  "thème": "Fonctions II",
+  "description": "exponentielle, logarithme népérien, intégrales...",
+  "Théorie": {
+    "classes": [
+      {
+        "course": "Terminale ES",
+        "color": "dark",
+        "reference": "terminaleES.html"
+      },
+      {
+        "course": "Terminale S",
+        "color": "danger",
+        "reference": "terminaleS.html"
+      },
+      {
+        "course": "Première ES",
+        "color": "success",
+        "reference": "premiereES.html"
+      },
+      {
+        "course": "Première S",
+        "color": "warning",
+        "reference": "premiereS.html"
+      }
+    ],
+    "intro": "<p>L’analyse des fonctions continue avec la notion de la continuité d’une fonction, la primitive d’une fonction (contraire d’une dérivée) et l’intégrale (≈ aire sous la courbe d’une fonction).</p> <p> D’autres fonctions s’ajoutent à la liste des fonctions de référence comme la fonction exponentielle <img style='position: relative; bottom: 3px' src='math/exp.svg'>, et le logarithme népérien <img style='position: relative; bottom: 1px' src='math/ln.svg'>. </p>",
+    "thèmes": [
+      {
+        "difficultée": "success",
+        "thème": "Comprendre la notion de continuité"
+      },
+      {
+        "difficultée": "success",
+        "thème": "Comprendre le théorème des valeurs intermédiaires"
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Connaître les propriétés de la fonction <i>exponentielle</i> (dérivée, sens de variations, calculs...)"
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Connaître les propriétés de la fonction <i>logarithme népérien</i> (dérivée, sens de variations, calculs...)"
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Comprendre ce qu'est une primitive et son lien avec les intégrales"
+      },
+      {
+        "difficultée": "dark",
+        "thème": "Calculer correctement une intégrale/primitive"
+      },
+      {
+        "difficultée": "dark",
+        "thème": "Connaître les <a href='#'>formules</a> importantes des intégrales"
+      }
+    ]
+  },
+  "Exercices I": [],
+  "Exercices II": []
+}

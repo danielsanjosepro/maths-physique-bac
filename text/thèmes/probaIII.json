@@ -1,0 +1,24 @@
+{
+  "thème": "Probabilités III",
+  "description": "loi de densité, loi uniforme et normale",
+  "Théorie": {
+    "classes": [
+      {
+        "course": "Terminale ES",
+        "color": "dark",
+        "reference": "terminaleES.html"
+      },
+      {
+        "course": "Terminale S",
+        "color": "danger",
+        "reference": "terminaleS.html"
+      }
+    ],
+    "intro": "",
+    "thèmes": [
+
+    ]
+  },
+  "Exercices I": [],
+  "Exercices II": []
+}

@@ -1,0 +1,154 @@
+{
+  "classe": "Terminale ES-L",
+  "description": "<p>\n    Ici vous pouvez retrouver les thèmes à savoir pour le bac en maths pour les sections\n    économique/littéraire et les liens aux exercices.\n</p>\n<p>\n    Les maths pour ces séctions sont utilisées pour décrire des modèles économiques grâce à des\n    fonctions ou des suites, et pour aquir une connaissance basique dans la statistique et les\n    probabilités. Les maths dans cette section sont dépourvues de géométrie ou théories des ensembles\n    de nombres.\n</p>\n\n<ul>\n    <li>\n        <p>\n            Pour <b>l'enseignement obligatoire</b> (non-spé maths) la matière peut se diviser en <b>2\n            grandes parties</b>. D'une part la partie <b>Analyse</b>, qui consiste en l'étude de\n            fonctions et de suites, et d'autre part <b>Statistique et Probabilités</b>.\n        </p>\n    </li>\n    <li>\n        <p>\n            Pour <b>l'enseignement spécialité</b> (spé maths), en plus de l'enseignement obligatoire, il\n            y a encore une introduction aux matrices et aux graphes.\n        </p>\n    </li>\n</ul>\n<p>\n    Vous trouvez à la fin de cette page un archive <a href=\"#linkPdf\">PDF</a> avec toutes les\n    informations détaillées par rapport aux connaissances nécessaires pour le baccalauréat.\n</p>",
+  "chapitres": [
+    {
+      "color": "#E4F9FF",
+      "id": "analyse",
+      "nom": "Analyse",
+      "thèmes": [
+        {
+          "nom": "Suites:",
+          "sous thèmes": [
+            {
+              "sous thèmes": "Suites en première:",
+              "color": "primary",
+              "lien": "suitesI.html",
+              "nomSmall": "S1"
+            },
+            {
+              "sous thèmes": "Suites en terminale:",
+              "color": "primary",
+              "lien": "suitesII.html",
+              "nomSmall": "S2"
+            }
+          ]
+        },
+        {
+          "nom": "Fonctions:",
+          "sous thèmes": [
+            {
+              "sous thèmes": "Fonctions en première:",
+              "color": "primary",
+              "lien": "fonctionsI.html",
+              "nomSmall": "F1"
+            },
+            {
+              "sous thèmes": "Exponentielle, logarithme, primitives:",
+              "color": "primary",
+              "lien": "fonctionsII.html",
+              "nomSmall": "F2"
+            },
+            {
+              "sous thèmes": "Convexité:",
+              "color": "primary",
+              "lien": "fonctionsIIIa.html",
+              "nomSmall": "F3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "color": "#FFE4E4",
+      "id": "proba",
+      "nom": "Probabilités/Statistique",
+      "thèmes": [
+        {
+          "nom": "Probabilités",
+          "sous thèmes": [
+            {
+              "sous thèmes": "Probabilités discrètes:",
+              "color": "danger",
+              "lien": "probaI.html",
+              "nomSmall": "P1"
+            },
+            {
+              "sous thèmes": "Conditionnement:",
+              "color": "danger",
+              "lien": "probaII.html",
+              "nomSmall": "P2"
+            },
+            {
+              "sous thèmes": "Probabilités continues:",
+              "color": "danger",
+              "lien": "probaIII.html",
+              "nomSmall": "P3"
+            }
+          ]
+        },
+        {
+          "nom": "Échantillonnage:",
+          "sous thèmes": [
+            {
+              "sous thèmes": "Intervalles de fluctuation:",
+              "color": "danger",
+              "lien": "fluctuation.html",
+              "nomSmall": "IF"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "color": "#FCFFE4",
+      "nom": "Algorithmique",
+      "id": "algo",
+      "thèmes": [
+        {
+          "nom": "Algorithmique",
+          "sous thèmes": [
+            {
+              "sous thèmes": "Variables, boucles... :",
+              "color": "warning",
+              "lien": "algorithmique.html",
+              "nomSmall": "AL"
+            }
+          ]
+        },
+        {
+          "nom": "Calculette",
+          "sous thèmes": [
+            {
+              "sous thèmes": "Comprendre la \"TI\":",
+              "color": "warning",
+              "lien": "calculette.html",
+              "nomSmall": "CA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "color": "#E4FFE4",
+      "nom": "Notation Mathématique",
+      "id": "nota",
+      "thèmes": [
+        {
+          "nom": "Comprendre l'écriture mathématique:",
+          "sous thèmes": [
+            {
+              "sous thèmes": "Notation mathématique:",
+              "color": "success",
+              "lien": "notation.html",
+              "nomSmall": "NM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "color": "#FFFFFF",
+      "nom": "Graphes et Matrices",
+      "id": "matrices",
+      "thèmes": []
+    }
+  ],
+  "autres":[
+    {
+      "nom1":"Tableau avec le programme officiel depuis 2011 pour les ES/L:",
+      "nom2":"Mathématiques ES/L: Matière au bac",
+      "lien":"documents/maths_ES_L.pdf"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "thème": "Probabilités I",
+  "description": "variables aléatoires, loi binomiale...",
+  "Théorie": {
+    "classes": [
+      {
+        "course": "Terminale ES",
+        "color": "dark",
+        "reference": "terminaleES.html"
+      },
+      {
+        "course": "Terminale S",
+        "color": "danger",
+        "reference": "terminaleS.html"
+      },
+      {
+        "course": "Première ES",
+        "color": "success",
+        "reference": "premiereES.html"
+      },
+      {
+        "course": "Première S",
+        "color": "warning",
+        "reference": "premiereS.html"
+      }
+    ],
+    "intro": "<p>Les variables aléatoires lors d'une expérience aléatoire transforment des événements en probabilités.</p><p>En première on commence à étudier des probabilités discrètes, c'est-à-dire que la variable aléatoire prend uniquement des valeurs entières, un ensemble fini, et pas un intervalle avec une infinité de valeurs. La loi binomiale permet de représenter des problèmes discrets avec une épreuve de succès ou échec qui se répète un certain nombre de fois.</p>",
+    "thèmes": [
+      {
+        "difficultée": "success",
+        "thème": "Comprendre ce qu'est une variable aléatoire <img style='position: relative; bottom: 2px' src='math/valéatoire.svg'>"
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Utiliser la loi de probabilité <img src='math/loiproba.svg'> (tableau)"
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Calculer l'espérance <img src='math/espérance.svg'> et l'interpréter"
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Connaître la rédaction pour la loi binomiale"
+      },
+      {
+        "difficultée": "dark",
+        "thème": "Connaître et utiliser correctement les formules de la loi binomiale comme <img src='math/binom.svg'>"
+      }
+    ]
+  },
+  "Exercices I": [
+    {
+      "titre": "Exercice sur loi binomiale et jeu de hasard(variable aléatoire)",
+      "référence": "exercices/proba1/exercices_sur_probabilités.pdf",
+      "nomPdf": "Exercice 1: Probabilités I | pdf"
+    }
+  ],
+  "Exercices II": []
+}

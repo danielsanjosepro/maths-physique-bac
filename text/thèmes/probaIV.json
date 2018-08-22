@@ -1,0 +1,19 @@
+{
+  "thème": "Probabilités IV",
+  "description": "loi exponentielle",
+  "Théorie": {
+    "classes": [
+      {
+        "course": "Terminale S",
+        "color": "danger",
+        "reference": "terminaleS.html"
+      }
+    ],
+    "intro": "",
+    "thèmes": [
+
+    ]
+  },
+  "Exercices I": [],
+  "Exercices II": []
+}

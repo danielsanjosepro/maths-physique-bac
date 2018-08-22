@@ -1,0 +1,33 @@
+           <div class="col-md-6 col-lg-4">
+                <div class="card shadow">
+                    <img class="card-img-top img-fluid shadow-sm" src="images/{{image}}" alt="{{title}} Image">
+
+                    <div class="card-body">
+                        <h5 class="card-title">{{title}}</h5>
+                        <p class="card-text" style="font-size: 14px">
+                            {{{content}}} Connaissances importantes sur ce thème:
+                         </p>
+
+                         <ul class="card-text" style="font-size: 14px">
+                            {{#thèmes}}
+                              <li> {{{.}}} </li>
+                            {{/thèmes}}
+                         </ul>
+                    </div>
+                    <div class="card-footer">
+                        <a href="{{référence}}" class="btn btn-sm btnForThem align-text-bottom d-inline">
+                            {{bouton}}
+                            {{^bouton}}
+                                {{title}}
+                            {{/bouton}}
+                        </a>
+                        <!-- Badges des classes-->
+
+                        <p class="d-inline float-right">
+                        {{#badges}}
+                            <a href="{{reference}}" class="badge badge-{{color}}"> {{course}} </a>
+                        {{/badges}}
+                        </p>
+                    </div>
+                </div>
+            </div>

@@ -1,0 +1,122 @@
+
+                    <ul class="nav nav-tabs">
+                      <li class="nav-item">
+                        <a class="nav-link active" id="theorie-tab" data-toggle="tab" href="#theorie" role="tab" aria-controls="theorie" aria-selected="true"> Théorie </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="exercicesI-tab" data-toggle="tab" href="#exercicesI" role="tab" aria-controls="exercicesI" aria-selected="false"> Exercices I </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="exercicesII-tab" data-toggle="tab" href="#exercicesII" role="tab" aria-controls="exercicesII" aria-selected="false"> Exercices II </a>
+                      </li>
+                    </ul>
+                    <div class="tab-content" id="tabContent">
+                    
+                        <div class="tab-pane fade show active" id="theorie" role="tabpanel" aria-labelledby="theorie-tab">
+                            <br>
+
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb" style="background-color: #F0F0F0">
+                                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                    <li class="breadcrumb-item"><a href="maths.html">Maths</a></li>
+                                    <li class="breadcrumb-item">{{thème}}</li>
+                                    <li class="breadcrumb-item active" aria-current="page">Théorie</li>
+                                </ol>
+                            </nav>
+
+
+                            <div class="text-justify">
+                                    <div>
+                                        <h5>&#8226 Classes: </h5>
+                                        <p class="d-inline"> Les classes concernées par ce chapitre sont: </p>
+                                        <div class="d-inline">
+                                        {{ #Théorie.classes }}
+                                            <a class="btn btn-{{color}} btn-sm" href="{{reference}}"> {{course}} </a>
+                                        {{ /Théorie.classes }}
+                                        {{^Théorie.classes}}
+                                        <div class="alert alert-danger" role="alert" style="margin-bottom: 10px; margin-top: 15px"><i class="fas fa-frown"></i> Il n'y a pas de déscription de classes pour l'instant!</div>
+                                        {{/Théorie.classes}}
+                                        </div>
+                                    </div>
+
+                                    <div style="margin-top: 30px">
+                                        <h5>&#8226 À savoir: </h5>
+                                        <p>
+                                            {{{ Théorie.intro }}}
+                                            {{^Théorie.intro}}
+                                            <div class="alert alert-danger" role="alert" style="margin-bottom: 20px"><i class="fas fa-frown"></i> Il n'y a pas de contenu pour l'instant!</div>
+                                            {{/Théorie.intro}}
+                                        </p>
+                                        <p>
+                                            <span class="h6">Connaissances nécessaires:</span>
+                                        </p>
+                                        <ul class="list-group list-group-flush">
+                                        {{#Théorie.thèmes}}
+                                            <li class="list-group-item">
+                                                <span class="badge badge-pill badge-{{difficultée}}">
+                                                    <i class="far fa-circle"></i>
+                                                </span>
+                                                {{{thème}}}
+                                            </li>
+                                        {{/Théorie.thèmes}}
+                                        {{^Théorie.thèmes}} <div class="alert alert-danger" role="alert" style="margin-bottom: 100px"><i class="fas fa-frown"></i> Il n'y a pas de contenu pour l'instant!</div> {{/Théorie.thèmes}}
+                                        </ul>
+                                    </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tab-pane fade" id="exercicesI" role="tabpanel" aria-labelledby="exercicesI-tab">
+                            <br>
+
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb" style="background-color: #F0F0F0">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item"><a href="maths.html">Maths</a></li>
+                                <li class="breadcrumb-item">{{thème}}</li>
+                                <li class="breadcrumb-item active" aria-current="page">Exercices I</li>
+                            </ol>
+                        </nav> 
+
+                        <div class="container text-justify">
+                            <h5> Exercices en pdf: </h5>
+                            <p> Appuyez sur les liens pour accéder aux exercices proposés: </p>
+                            <ul class="list-group list-group-flush" style="margin-bottom: 100px">
+                            {{#Exercices I}}
+                                <li class="list-group-item">
+                                    <h5 class="font-weight-light"> {{titre}} </h5>
+                                    <a class="float-right" href="{{référence}}"><i class="fas fa-file-pdf"></i> {{nomPdf}} </a>
+                                </li>
+                            {{/Exercices I}}
+                            {{^Exercices I}} <div class="alert alert-danger" role="alert"><i class="fas fa-frown"></i> Il n'y a pas d'exercices disponibles!</div> {{/Exercices I}}
+                            </ul>
+                        </div>
+                        </div>
+                        
+                        <div class="tab-pane fade" id="exercicesII" role="tabpanel" aria-labelledby="exercicesII-tab">
+                        
+                        <br>
+
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb" style="background-color: #F0F0F0">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item"><a href="maths.html">Maths</a></li>
+                                <li class="breadcrumb-item">{{thème}}</li>
+                                <li class="breadcrumb-item active" aria-current="page">Exercices II</li>
+                            </ol>
+                        </nav> 
+
+                        <div class="container text-justify">
+                            <h5> Liens aux sites externes: </h5>
+                            <p> Appuyez sur les liens pour accéder aux sites proposés: </p>
+                            <ul class="list-group list-group-flush">
+                            {{#Exercices II}}
+                                <li class="list-group-item">
+                                    <h5 class="font-weight-light"> {{titre}} </h5>
+                                    <a class="float-right" href="{{référence}}"><i class="fas fa-angle-right"></i> {{nomSite}} </a>
+                                </li>
+                            {{/Exercices II}}
+                            {{^Exercices II}} <div class="alert alert-danger" role="alert" style="margin-bottom: 100px"><i class="fas fa-frown"></i> Il n'y a pas de sites disponibles!</div> {{/Exercices II}}
+                            </ul>
+                        </div>
+                            
+                        </div>

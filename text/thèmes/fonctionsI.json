@@ -1,0 +1,63 @@
+{
+  "thème": "Fonctions I",
+  "description": "tableau de signe/variation, dérivées, fonctions de référence...",
+  "Théorie": {
+    "classes": [
+      {
+        "course": "Terminale ES",
+        "color": "dark",
+        "reference": "terminaleES.html"
+      },
+      {
+        "course": "Terminale S",
+        "color": "danger",
+        "reference": "terminaleS.html"
+      },
+      {
+        "course": "Première ES",
+        "color": "success",
+        "reference": "premiereES.html"
+      },
+      {
+        "course": "Première S",
+        "color": "warning",
+        "reference": "premiereS.html"
+      }
+    ],
+    "intro": "<p> Les fonctions transforment des valeurs réelles <img src=\"http://latex.codecogs.com/svg.latex?x\" title=\"x\" />  pour donner une nouvelle valeur <img src=\"http://latex.codecogs.com/svg.latex?f(x)\" title=\"f(x)\" />. Les fonctions peuvent être représentées graphiquement par une courbe et ses propriétés peuvent être étudiées comme par exemple sens de variations, signe, dérivée…</p>",
+    "thèmes": [
+      {
+        "difficultée": "success",
+        "thème": "Comprendre les termes: antécédent, image, signe, sens de variation…"
+      },
+      {
+        "difficultée": "success",
+        "thème": "Savoir analyser graphiquement une courbe"
+      },{
+        "difficultée": "success",
+        "thème": "Connaître les fonctions de référence et savoir les analyser (fonctions affine, carrée, racine carrée, cube …)"
+      },{
+        "difficultée": "danger",
+        "thème": "Comprendre ce qu’est une dérivée et savoir calculer les dérivées de base"
+      },{
+        "difficultée": "danger",
+        "thème": "Interpréter la dérivée d’une fonction et savoir trouver l’équation de la tangente d’une fonction "
+      },{
+        "difficultée": "dark",
+        "thème": "Prendre l’initiative de dériver une fonction compliquée pour retrouver les variations de celle-ci"
+      },
+      {
+        "difficultée": "dark",
+        "thème": "Analyser les positions relatives de 2 courbes."
+      }
+    ]
+  },
+  "Exercices I": [
+    {
+      "titre": "Exercice avec tout ce qui est important:",
+      "référence": "exercices/fonctions1/exercices_sur_les_fonctions.pdf",
+      "nomPdf": "Exercice 1: Fonctions I | pdf"
+    }
+  ],
+  "Exercices II": []
+}

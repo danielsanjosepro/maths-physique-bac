@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Maths</title>
+    <link rel="icon" href="images/logo.png">
+    <meta charset="utf-8"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="main.css" rel="stylesheet">
+
+    <!-- For icons https://fontawesome.com/icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+          integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
+    <!-- For Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css"
+          integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+
+    <!--JQuery-->
+    <script src="js/jquery.js"></script>
+
+    <!-- Mustache -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.js"></script>
+
+    <!--load page-->
+    <script>
+        $(function () {
+            $("#load_screen").fadeOut(1000, function () {
+                $("#content").fadeIn(1000);
+            })
+        })
+    </script>
+
+</head>
+
+<body>
+
+<div id="load_screen" class="centered display-4 text-center">
+    <img id="chargingLogo" style="height: 80px" src="images/charging.png" class="image-fluid rounded mh-100">
+    Chargement...
+</div>
+
+<div id="content">
+<header></header>
+
+<div class="container-fluid" style="margin-top: 70px">
+    <div class="row">
+        <!-- "Navbar" aside -->
+        <div class="col-sm-4 col-lg-2" style="margin-bottom: 20px;">
+            <div class="p-2 mb-2 rounded shadow-sm" style="background-color: #F0F0F0">
+                <h1 class="text-center font-weight-light">Maths</h1>
+            </div>
+                <div id="navAside">
+                    <!-- Content for the navAside -->
+                </div>
+
+        </div>
+
+        <div class="col-sm-8 col-md-8 col-lg-10">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb" style="background-color: #F0F0F0">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Maths</li>
+                </ol>
+            </nav>
+            <div class="row" id="mathCards">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer></footer>
+
+</div>
+
+<!-- Footer -->
+<script src="js/footer.js"></script>
+
+<div class="modal fade" id="aboutMeModal" tabindex="-1" role="dialog" aria-labelledby="aboutMeModalLabel"
+     aria-hidden="true">
+    <!-- Modal Content -->
+</div>
+
+<!-- Modal about me -->
+<script src="js/about_me.js"></script>
+
+<!-- Jquery & Javascript for Bootstrap -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"
+        integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+        crossorigin="anonymous"></script>
+
+
+<!-- to use poopers and tooltip -->
+<script src="js/pop_tool.js"></script>
+
+<!-- changes icon email -->
+<script src="js/email_icon.js"></script>
+
+<!-- JavaScript for the Template -->
+<script type="text/javascript">
+    $(function () {
+        $.get("mustache_templates/mathCardsTemplate.mst", function (template) {
+            $.getJSON("text/data.json", function (data) {
+                let i;
+                let j;
+                for(i in data.Maths) {
+                    for (j in data.Maths[i].thèmes) {
+                        let result = Mustache.render(template, data.Maths[i].thèmes[j]);
+                        $('#mathCards').append(result);
+                    }
+                }
+            })
+        })
+
+        $.get("mustache_templates/navAsideTemplate.mst", function (template) {
+            $.getJSON("text/data.json", function (data) {
+                let result = Mustache.render(template, data);
+                $('#navAside').html(result);
+            })
+        })
+    })
+</script>
+
+<!-- Header -->
+<script src="js/navbar.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,886 @@
+{
+  "Maths": [
+    {
+      "groupe": "Suites",
+      "id": "suites",
+      "thèmes": [
+        {
+          "title": "Suites I",
+          "tags": [
+            "suite",
+            "suites",
+            "arithmétique",
+            "arithmetique",
+            "géométrique",
+            "geometrique",
+            "auxiliaire",
+            "arithmético-géométrique",
+            "arithmetico-geometrique",
+            "variation",
+            "variations"
+          ],
+          "image": "suites.png",
+          "content": "\"Les Suites\" est un chapitre important de la première et terminale.",
+          "thèmes": [
+            "Les suites arithmétiques/ géométriques",
+            "Somme de suites",
+            "Suites auxiliaires"
+          ],
+          "badges": [
+            {
+              "course": "TES",
+              "color": "dark",
+              "reference": "terminaleES.html"
+            },
+            {
+              "course": "TS",
+              "color": "danger",
+              "reference": "terminaleS.html"
+            },
+            {
+              "course": "1ES",
+              "color": "success",
+              "reference": "premiereES.html"
+            },
+            {
+              "course": "1S",
+              "color": "warning",
+              "reference": "premiereS.html"
+            }
+          ],
+          "référence": "suitesI.html",
+          "id": "suites1",
+          "groupe": "suites"
+        },
+        {
+          "title": "Suites II",
+          "tags": [
+            "suite",
+            "suites",
+            "limite",
+            "limites",
+            "infini",
+            "divergence",
+            "convergence",
+            "géométrique"
+          ],
+          "image": "suites2.png",
+          "content": "Qu'est-ce qui se passe lorsque <img src='math/n.svg'> devient très grand?",
+          "thèmes": [
+            "Divergence/Convergence",
+            "Déterminer une limite",
+            "Limite d'une suite géométrique"
+          ],
+          "badges": [
+            {
+              "course": "TES",
+              "color": "dark",
+              "reference": "terminaleES.html"
+            },
+            {
+              "course": "TS",
+              "color": "danger",
+              "reference": "terminaleS.html"
+            }
+          ],
+          "référence": "suitesII.html",
+          "id": "suites2",
+          "groupe": "suites"
+        },
+        {
+          "title": "Suites III",
+          "tags": [
+            "suite",
+            "suites",
+            "récurrence",
+            "recurrence",
+            "initialisation",
+            "hérédité",
+            "heredite",
+            "conclusion",
+            "domino",
+            "raisonnement",
+            "démonstration"
+          ],
+          "image": "suites3.png",
+          "content": "Le raisonnement par récurrence permet de démontrer des propriétés par rapport aux suites.",
+          "thèmes": [
+            "Comprendre le principe du raisonnement par récurrence",
+            "Connaître la rédaction"
+          ],
+          "badges": [
+            {
+              "course": "TS",
+              "color": "danger",
+              "reference": "terminaleS.html"
+            }
+          ],
+          "référence": "suitesIII.html",
+          "id": "suites3",
+          "groupe": "suites"
+        }
+      ]
+    },
+    {
+      "groupe": "Fonctions",
+      "id": "fonctions",
+      "thèmes":[
+        {
+          "title": "Fonctions I",
+          "tags": [
+            "fonction",
+            "fonctions",
+            "référence",
+            "tableau",
+            "signe",
+            "variation",
+            "variations",
+            "carré",
+            "affine",
+            "cube",
+            "dérivée",
+            "dérivé",
+            "derive",
+            "dériver",
+            "deriver",
+            "tangente",
+            "tangentes",
+            "dérivées",
+            "derivees",
+            "dérivation"
+          ],
+          "image": "fonctions.png",
+          "content": "Dans tous les sujets du bac, il y a au moins un exercice sur les fonctions!",
+          "thèmes": [
+            "Analyse graphique et par le calcul",
+            "Calcul de dérivés",
+            "Tableau de variations"
+          ],
+          "badges": [
+            {
+              "course": "TES",
+              "color": "dark",
+              "reference": "terminaleES.html"
+            },
+            {
+              "course": "TS",
+              "color": "danger",
+              "reference": "terminaleS.html"
+            },
+            {
+              "course": "1ES",
+              "color": "success",
+              "reference": "premiereES.html"
+            },
+            {
+              "course": "1S",
+              "color": "warning",
+              "reference": "premiereS.html"
+            }
+          ],
+          "référence": "fonctionsI.html",
+          "id": "fonctions1",
+          "groupe": "fonctions"
+        },
+        {
+          "title": "Fonctions II",
+          "tags": [
+            "fonction",
+            "fonctions",
+            "primitive",
+            "intégrale",
+            "integrale",
+            "exponentielle",
+            "ln",
+            "e",
+            "exp",
+            "logarithme",
+            "népérien",
+            "neperien",
+            "tvi",
+            "intermédiaire",
+            "intermédiaires"
+          ],
+          "image": "fonctions2.png",
+          "content": "En terminale on commence une étude plus approfondie des fonctions.",
+          "thèmes": [
+            "Fonction exponentielle",
+            "Fonction logarithme",
+            "Primitive et intégrale"
+          ],
+          "badges": [
+            {
+              "course": "TES",
+              "color": "dark",
+              "reference": "terminaleES.html"
+            },
+            {
+              "course": "TS",
+              "color": "danger",
+              "reference": "terminaleS.html"
+            }
+          ],
+          "référence": "fonctionsII.html",
+          "id": "fonctions2",
+          "groupe": "fonctions"
+        },
+        {
+          "title": "Fonctions IIIa",
+          "tags": [
+            "fonction",
+            "fonctions",
+            "convexité",
+            "convexite",
+            "concave",
+            "convexe",
+            "tangentes",
+            "tangente",
+            "seconde",
+            "dérivée",
+            "dérivées",
+            "derivees",
+            "dérivation"
+          ],
+          "image": "fonctions3a.png",
+          "content": "En ES, on étudie l'interprétation de la seconde dérivée de manière plus approfondie.",
+          "thèmes": [
+            "Fonction concave",
+            "Fonction convexe"
+          ],
+          "badges": [
+            {
+              "course": "TES",
+              "color": "dark",
+              "reference": "terminaleES.html"
+            }
+          ],
+          "référence": "fonctionsIIIa.html",
+          "id": "fonctions3a",
+          "groupe": "fonctions"
+        },
+        {
+          "title": "Fonctions IIIb",
+          "tags": [
+            "fonction",
+            "fonctions",
+            "cosinus",
+            "dérivée",
+            "derivee",
+            "dériver",
+            "deriver",
+            "dérivées",
+            "derivees",
+            "dérivation",
+            "sinus",
+            "cos",
+            "sin",
+            "trigonométrique",
+            "trigonométriques",
+            "trigonometrique",
+            "trigonometriques",
+            "trigo"
+          ],
+          "image": "fonctions3b.png",
+          "content": "Dans ce thème, on continue l'étude de dérivées et les fonctions trigonométriques.",
+          "thèmes": [
+            "Dérivées de la forme <img style='position: relative; bottom: 3px' src='math/u^n.svg'>, <img style='position: relative; bottom: 3px' src='math/sqrt(u).svg'> ...",
+            "Dérivées des fonctions trigonométriques"
+          ],
+          "badges": [
+            {
+              "course": "TS",
+              "color": "danger",
+              "reference": "terminaleS.html"
+            }
+          ],
+          "référence": "fonctionsIIIb.html",
+          "id": "fonctions3b",
+          "groupe": "fonctions"
+        },
+        {
+          "title": "Fonctions IV",
+          "tags": [
+            "fonction",
+            "fonctions",
+            "lim",
+            "limite",
+            "limites",
+            "asymptote",
+            "infini"
+          ],
+          "image": "fonctions4.png",
+          "content": "Il existe également des limites pour les fonctions, mais pas uniquement lorsque <img src='math/x.svg'> tend vers l'infini!",
+          "thèmes": [
+            "Limite de fonction",
+            "Asymptote",
+            "Limite de <img style='position: relative; bottom: 3px' src='math/exp.svg'>, <img style='position: relative; bottom: 2px' src='math/ln.svg'>"
+          ],
+          "badges": [
+            {
+              "course": "TS",
+              "color": "danger",
+              "reference": "terminaleS.html"
+            }
+          ],
+          "référence": "fonctionsIV.html",
+          "id": "fonctions4",
+          "groupe": "fonctions"
+        }
+      ]
+    },
+    {
+      "groupe": "Probabilités",
+      "id": "proba",
+      "thèmes": [
+        {
+          "title": "Probabilités I",
+          "tags": [
+            "proba",
+            "probas",
+            "probabilité",
+            "probabilités",
+            "probabilites",
+            "probabilite",
+            "loi",
+            "binomiale",
+            "binomial",
+            "binomiales",
+            "variable",
+            "aléatoire",
+            "aleatoire",
+            "esperance",
+            "espérance",
+            "événement",
+            "événements",
+            "evenement",
+            "evenements",
+            "identique",
+            "indépendant",
+            "independant"
+          ],
+          "image": "probabilites.png",
+          "content": "Les jeux de cartes, un lancé de dés, \"pile ou face\"... Les \"probas\" sont partout!",
+          "thèmes": [
+            "Évenements, Univers...",
+            "Variables Aléatoires",
+            "Loi Binomiale"
+          ],
+          "badges": [
+            {
+              "course": "TES",
+              "color": "dark",
+              "reference": "terminaleES.html"
+            },
+            {
+              "course": "TS",
+              "color": "danger",
+              "reference": "terminaleS.html"
+            },
+            {
+              "course": "1ES",
+              "color": "success",
+              "reference": "premiereES.html"
+            },
+            {
+              "course": "1S",
+              "color": "warning",
+              "reference": "premiereS.html"
+            }
+          ],
+          "référence": "probaI.html",
+          "id": "proba1",
+          "groupe": "proba"
+        },
+        {
+          "title": "Probabilités II",
+          "tags": [
+            "proba",
+            "probas",
+            "probabilité",
+            "probabilités",
+            "probabilites",
+            "probabilite",
+            "conditionnement",
+            "conditionnelle",
+            "totale",
+            "totales",
+            "loi",
+            "indépendants",
+            "indépendant",
+            "independants",
+            "independant",
+            "événement",
+            "événements",
+            "evenement",
+            "evenements"
+          ],
+          "image": "probabilites2.png",
+          "content": "En sachant que... quelle est la probabilité que...",
+          "thèmes": [
+            "Événements indépendants",
+            "Probabilité conditionnelle",
+            "Loi de probabilité totale"
+          ],
+          "badges": [
+            {
+              "course": "TES",
+              "color": "dark",
+              "reference": "terminaleES.html"
+            },
+            {
+              "course": "TS",
+              "color": "danger",
+              "reference": "terminaleS.html"
+            }
+          ],
+          "référence": "probaII.html",
+          "id": "proba2",
+          "groupe": "proba"
+        },
+        {
+          "title": "Probabilités III",
+          "tags": [
+            "proba",
+            "probas",
+            "probabilité",
+            "probabilités",
+            "probabilites",
+            "probabilite",
+            "continu",
+            "normale",
+            "centrée",
+            "centré",
+            "centre",
+            "centree",
+            "réduite",
+            "reduite",
+            "réduit",
+            "reduit",
+            "loi",
+            "moivre",
+            "laplace",
+            "moivre-laplace",
+            "independant",
+            "événement",
+            "événements",
+            "evenement",
+            "evenements",
+            "espérance",
+            "esperance",
+            "écart-type",
+            "écarttype",
+            "ecart-type",
+            "écart",
+            "ecart",
+            "type",
+            "uniforme",
+            "gauss",
+            "gauß"
+
+          ],
+          "image": "probabilites3.png",
+          "content": "En terminale, on étudie les probabilités lorsque le nombre de choix possibles est infini.",
+          "thèmes": [
+            "Loi de densité",
+            "Loi uniforme et normale",
+            "Moivre-Laplace"
+          ],
+          "badges": [
+            {
+              "course": "TES",
+              "color": "dark",
+              "reference": "terminaleES.html"
+            },
+            {
+              "course": "TS",
+              "color": "danger",
+              "reference": "terminaleS.html"
+            }
+          ],
+          "référence": "probaIII.html",
+          "id": "proba3",
+          "groupe": "proba"
+        },
+        {
+          "title": "Probabilités IV",
+          "tags": [
+            "proba",
+            "probas",
+            "probabilité",
+            "probabilités",
+            "probabilites",
+            "probabilite",
+            "continu",
+            "loi",
+            "exponentielle",
+            "paramètre",
+            "parametre",
+            "lambda",
+            "lamda",
+            "espérance",
+            "esperance"
+
+          ],
+          "image": "probabilites4.png",
+          "content": "La loi exponentielle permet de décrire plusieurs phénomènes naturels.",
+          "thèmes": [
+            "Propriétés de la loi exponentielle",
+            "Calculs de probabilités",
+            "Espérance"
+          ],
+          "badges": [
+            {
+              "course": "TS",
+              "color": "danger",
+              "reference": "terminaleS.html"
+            }
+          ],
+          "référence": "probaIV.html",
+          "id": "proba4",
+          "groupe": "proba"
+        },
+        {
+          "title": "Intervalle de fluctuation",
+          "tags": [
+            "proba",
+            "probas",
+            "probabilité",
+            "probabilités",
+            "probabilites",
+            "probabilite",
+            "fluctuation",
+            "intervalle",
+            "intervalles",
+            "confiance",
+            "fréquence",
+            "frequence",
+            "population"
+          ],
+          "bouton":"Fluctuation",
+          "image": "fluctuation.png",
+          "content": "Pour des élections, des contrôles de qualité et d'autres, les intervalles de fluctuation sont essentiels.",
+          "thèmes": [
+            "Intervalle de fluctuation",
+            "Intervalle de confiance"
+          ],
+          "badges": [
+            {
+              "course": "TES",
+              "color": "dark",
+              "reference": "terminaleES.html"
+            },
+            {
+              "course": "TS",
+              "color": "danger",
+              "reference": "terminaleS.html"
+            }
+          ],
+          "référence": "fluctuation.html",
+          "id": "fluctuation",
+          "groupe": "proba"
+        }
+      ]
+    },
+    {
+      "groupe": "Géométrie",
+      "id": "geometrie",
+      "thèmes": [
+        {
+          "title": "Géométrie dans l'espace",
+          "tags": [
+            "géométrie",
+            "geometrie",
+            "l'espace",
+            "espace",
+            "3d",
+            "dimension",
+            "dimensions",
+            "plan",
+            "plans",
+            "paramétrique",
+            "parametrique",
+            "vecteur",
+            "vecteurs",
+            "orthogonalité",
+            "orthogonalite",
+            "droite",
+            "droites",
+            "objet",
+            "objets",
+            "coordonnées",
+            "coordonnees",
+            "coordonnée",
+            "coordonnee"
+          ],
+          "image": "gde.png",
+          "content": "Droites, vecteurs, plans et autres objets en 3 dimensions!",
+          "thèmes": [
+            "Analyse sans coordonnées",
+            "Orthogonalité",
+            "Représentation paramétrique"
+          ],
+          "badges": [
+            {
+              "course": "TS",
+              "color": "danger",
+              "reference": "terminaleS.html"
+            }
+          ],
+          "référence": "gde.html",
+          "id": "gde",
+          "groupe": "geometrie"
+        },
+        {
+          "title": "Complexes",
+          "tags": [
+            "géométrie",
+            "geometrie",
+            "plan",
+            "complexe",
+            "complexes",
+            "nombre",
+            "nombres",
+            "trigonométrique",
+            "trigonometrique",
+            "trigo",
+            "expo",
+            "exponentielle",
+            "i",
+            "imaginaire",
+            "réel",
+            "reel",
+            "conjugué",
+            "conjuguée"
+          ],
+          "image": "complexes.png",
+          "content": "Dans l'ensemble des complexes, le carré d'un nombre peut être négatif!",
+          "thèmes": [
+            "L'ensemble des complexes",
+            "Plan complexe et calculs",
+            "Forme trigonométrique et exponentielle"
+          ],
+          "badges": [
+            {
+              "course": "TS",
+              "color": "danger",
+              "reference": "terminaleS.html"
+            }
+          ],
+          "référence": "complexes.html",
+          "id": "complexes",
+          "groupe": "geometrie"
+        }
+      ]
+    },
+    {
+      "groupe": "Autres",
+      "id": "autres",
+      "thèmes": [
+        {
+          "title": "Révisions 1°",
+          "tags": [
+            "autres",
+            "autre",
+            "revisions",
+            "révisions",
+            "révision",
+            "revision",
+            "première",
+            "premiere",
+            "1°",
+            "bases",
+            "base"
+          ],
+          "image": "revisions.png",
+          "content": "Quels chapitres de la première sont importants avant de commencer la terminale?",
+          "thèmes": [
+            "Suites",
+            "Fonctions",
+            "Autres thèmes de 1°..."
+          ],
+          "badges": [
+            {
+              "course": "TES",
+              "color": "dark",
+              "reference": "terminaleES.html"
+            },
+            {
+              "course": "TS",
+              "color": "danger",
+              "reference": "terminaleS.html"
+            },
+            {
+              "course": "1ES",
+              "color": "secondary",
+              "reference": "premiereES.html"
+            },
+            {
+              "course": "1S",
+              "color": "secondary",
+              "reference": "premiereS.html"
+            }
+          ],
+          "référence": "revisions.html",
+          "id": "revisions",
+          "groupe": "autres"
+        },
+        {
+          "title": "Algorithmique",
+          "tags": [
+            "autres",
+            "autre",
+            "algo",
+            "variables",
+            "variable",
+            "algorithmique",
+            "algorithme",
+            "algorithmes",
+            "boucle",
+            "boucles",
+            "while",
+            "tant",
+            "for",
+            "pour",
+            "if",
+            "si",
+            "programme",
+            "programmes"
+          ],
+          "image": "algorithmique.png",
+          "content": "Les algorithmes sont devenus très importants dans toutes les séctions.",
+          "thèmes": [
+            "Comprendre les conceptes basiques",
+            "Variables",
+            "Boucles for/while"
+          ],
+          "badges": [
+            {
+              "course": "TES",
+              "color": "dark",
+              "reference": "terminaleES.html"
+            },
+            {
+              "course": "TS",
+              "color": "danger",
+              "reference": "terminaleS.html"
+            },
+            {
+              "course": "1ES",
+              "color": "success",
+              "reference": "premiereES.html"
+            },
+            {
+              "course": "1S",
+              "color": "warning",
+              "reference": "premiereS.html"
+            }
+          ],
+          "référence": "algorithmique.html",
+          "id": "algorithmique",
+          "groupe": "autres"
+        },
+        {
+          "title": "Calculette",
+          "tags": [
+            "autres",
+            "autre",
+            "calculatrice",
+            "calculette",
+            "ti",
+            "formules",
+            "formule"
+          ],
+          "image": "calculette.png",
+          "content": "Beaucoup d'exercices nécessitent l'utilisation de la calculette!",
+          "thèmes": [
+            "Connaître les formules/fonctions basiques",
+            "Savoir dessiner des graphiques et tableau sur la calculette"
+          ],
+          "badges": [
+            {
+              "course": "TES",
+              "color": "dark",
+              "reference": "terminaleES.html"
+            },
+            {
+              "course": "TS",
+              "color": "danger",
+              "reference": "terminaleS.html"
+            },
+            {
+              "course": "1ES",
+              "color": "success",
+              "reference": "premiereES.html"
+            },
+            {
+              "course": "1S",
+              "color": "warning",
+              "reference": "premiereS.html"
+            }
+          ],
+          "référence": "calculette.html",
+          "id": "calculette",
+          "groupe": "autres"
+        },
+        {
+          "title": "Notation mathématique",
+          "tags": [
+            "autres",
+            "autre",
+            "notation",
+            "notations",
+            "mathématique",
+            "mathematique",
+            "maths",
+            "intervalle",
+            "et",
+            "ou",
+            "inverse"
+          ],
+          "bouton": "Notation maths",
+          "image": "notation.png",
+          "content": "Pour faire des maths, il faut d'abord les comprendre!",
+          "thèmes": [
+            "Événement inverse",
+            "Logique et/ou",
+            "Intervalles"
+          ],
+          "badges": [
+            {
+              "course": "TES",
+              "color": "dark",
+              "reference": "terminaleES.html"
+            },
+            {
+              "course": "TS",
+              "color": "danger",
+              "reference": "terminaleS.html"
+            },
+            {
+              "course": "1ES",
+              "color": "success",
+              "reference": "premiereES.html"
+            },
+            {
+              "course": "1S",
+              "color": "warning",
+              "reference": "premiereS.html"
+            }
+          ],
+          "référence": "notation.html",
+          "id": "notation",
+          "groupe": "autres"
+        }
+      ]
+    }
+  ],
+  "Physique Chimie": [
+    {
+      "title": "Étudier en Allemagne",
+      "image": "allemagne.png",
+      "content": "Avant de commencer mes études en Allemagne, je me suis préparé aux mots techniques en physique et chimie. Ici vous retrouvez un document que j'ai écrit.",
+      "référence": "allemagne.html",
+      "id": "allemagne"
+    }
+  ]
+}

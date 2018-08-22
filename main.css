@@ -1,0 +1,79 @@
+#textAboutMe {
+    font-size: 12px;
+}
+
+#emailFooterAboutMe {
+    margin-right: 30px
+}
+
+#roundedImagePhysics {
+    width: 200px;
+    height: 200px;
+    opacity: 0;
+}
+
+#roundedImageMaths {
+    width: 200px;
+    height: 200px;
+    opacity: 0;
+}
+
+#aboutMeLink {
+    cursor: pointer;
+}
+
+#roundedImageOthers {
+    width: 200px;
+    height: 200px;
+    opacity: 0;
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+.imgCard {
+    height: 200px;
+}
+
+.btnForThem {
+    background-color: #004f98; 
+    color: white;
+}
+
+#active_nav {
+    background-color: #004f98;
+    color: white;
+}
+
+.btnForThem:hover{
+    background-color: white; 
+    color: #004f98; 
+    border: 1px solid #004f98; 
+}
+
+.card{
+    height: 510px;
+    margin-bottom: 20px;
+}
+
+#content{
+    display: none;
+}
+
+#chargingLogo{
+    animation-name: chargement;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    position: relative;
+    bottom: 8px;
+}
+
+@keyframes chargement {
+    from {transform: rotate(0deg)}
+    to {transform: rotate(360deg)}
+}

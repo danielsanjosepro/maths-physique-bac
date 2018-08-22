@@ -1,0 +1,55 @@
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb" style="background-color: #F0F0F0">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="maths.html">Maths</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">{{classe}}</li>
+                </ol>
+            </nav>
+            <span class="display-4">{{classe}}</span>
+            <hr>
+
+            <div class="text-justify">
+                {{{description}}}
+            </div>
+
+            <div class="container alert alert-warning text-center"><i class="fas fa-exclamation-triangle"></i> Utilisez
+                les documents proposés pour savoir ce qui est important au cours de l'année et également au bac
+            </div>
+            <p style="margin-bottom: 10px">
+                <i class="fas fa-clipboard-list"></i> La matière:
+            </p>
+            <ul class="list-group shadow">
+            {{#chapitres}}
+                <li class="list-group-item" style="background-color: {{color}}">
+                    <h4> {{nom}}
+                        <button class="float-right btn btn-outline-dark" type="button" data-toggle="collapse"
+                                data-target="#collapse{{id}}" aria-expanded="false" aria-controls="collapse{{id}}"><i
+                                class="fas fa-align-justify"></i></button>
+                    </h4>
+                    <div class="container">
+                        <div class="collapse" id="collapse{{id}}">
+                            <ul class="list-group list-group-flush">
+                            {{#thèmes}}
+                                <li class="list-group-item bg-transparent">
+                                    <h5>{{nom}}</h5>
+                                    {{#sous thèmes}}
+                                    <p>&#8226 {{sous thèmes}} <a href="{{lien}}" class="btn btn-outline-{{color}} btn-sm float-right">{{nomSmall}}</a></p>
+                                    {{/sous thèmes}}
+                                </li>
+                            {{/thèmes}}
+                            {{^thèmes}}
+                                <li class="list-group-item bg-transparent">
+                                <div class="alert alert-danger" role="alert"><i class="fas fa-frown"></i> Il n'y a pas de contenu pour l'instant!</div>
+                                </li>
+                            {{/thèmes}}
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            {{/chapitres}}
+            </ul>
+            {{#autres}}
+            <h5 class="font-weight-light" style="margin-top: 30px"> {{nom1}}</h5>
+            <a class="float-right" id="linkPdf" href="{{lien}}"><i class="fas fa-file-pdf"></i>
+                {{nom2}}</a>
+            {{/autres}}

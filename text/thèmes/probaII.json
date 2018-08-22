@@ -1,0 +1,40 @@
+{
+  "thème": "Probabilités II",
+  "description": "probabilité conditionnelle, loi de probabilitée totale...",
+  "Théorie": {
+    "classes": [
+      {
+        "course": "Terminale ES",
+        "color": "dark",
+        "reference": "terminaleES.html"
+      },
+      {
+        "course": "Terminale S",
+        "color": "danger",
+        "reference": "terminaleS.html"
+      }
+    ],
+    "intro": "<p>La loi binomiale (voir <a href=\"probaI.html\">Probabilités I</a>) décrit des problèmes où une épreuve de succés ou échec se répète plusieurs fois de manière <i>identique et indépendante</i>. Ceci n'est pas toujours le cas.</p><p>Grâce aux probabilités conditionnelles entre autres, on peut étudier d'autres types de cas plus complexes. Mais pour celà, il faut également comprendre la loi de probabilités totales et les événements indépendants.</p>",
+    "thèmes": [
+      {
+        "difficultée": "success",
+        "thème": "Savoir interpréter un arbre de probabilités"
+      },
+      {
+        "difficultée": "success",
+        "thème": "Comprendre la notion d'événement indépendants"
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Connaître les formules pour:<ul><li>Probabilité conditionnelle <img src='math/conditionnelle.svg'></li><li><img src='math/pinter.svg'></li><li>Loi de probabilités totales <img src='math/ptotale.svg'></li></ul>"
+      },
+      {
+        "difficultée": "dark",
+        "thème": "Interpréter correctement l'exercice! Ce qui implique:<ol><li>Dessiner un arbre de probabilités</li><li>Traduire l'énoncé en événements et probabilités</li><li>Calculer la probabilité cherchée</li></ol>"
+      }
+
+    ]
+  },
+  "Exercices I": [],
+  "Exercices II": []
+}

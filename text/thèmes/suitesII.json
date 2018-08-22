@@ -1,0 +1,39 @@
+{
+  "thème": "Suites II",
+  "description": "limite de suites...",
+  "Théorie": {
+    "classes": [
+      {
+        "course": "Terminale ES",
+        "color": "dark",
+        "reference": "terminaleES.html"
+      },
+      {
+        "course": "Terminale S",
+        "color": "danger",
+        "reference": "terminaleS.html"
+      }
+    ],
+    "intro": "Dans l’étude des suites, on s’intéresse également au comportement des suites lorsque <img src='math/n.svg'> devient très grand, c’est dire la limite d’une suite lorsque <img src='math/n.svg'> tend vers l’infini.",
+    "thèmes": [
+      {
+        "difficultée": "success",
+        "thème": "Comprendre la divergence/convergence d’une suite"
+      },
+      {
+        "difficultée": "success",
+        "thème": "Déterminer la limite d’expressions simples <img src='math/n.svg'> , <img src='math/1_n.svg'> , <img src='math/n^2.svg'> ..."
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Déterminer la limite d’une suite géométrique <img src='math/q^n.svg'>"
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Comprendre (compléter et peut être écrire) un algorithme pour déterminer un seuil à partir duquel <img src='math/q^n.svg'> est inférieur à un réel <img src='math/a.svg'> positif donné."
+      }
+    ]
+  },
+  "Exercices I": [],
+  "Exercices II": []
+}

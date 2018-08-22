@@ -1,0 +1,68 @@
+{
+  "thème": "Suites I",
+  "description": "définition d'une suite, suites arithmétiques et géométriques, somme de suites ...",
+  "Théorie": {
+    "classes": [
+      {
+        "course": "Terminale ES",
+        "color": "dark",
+        "reference": "terminaleES.html"
+      },
+      {
+        "course": "Terminale S",
+        "color": "danger",
+        "reference": "terminaleS.html"
+      },
+      {
+        "course": "Première ES",
+        "color": "success",
+        "reference": "premiereES.html"
+      },
+      {
+        "course": "Première S",
+        "color": "warning",
+        "reference": "premiereS.html"
+      }
+    ],
+    "intro": "Les suites décrivent des phénomènes qui varient par rapport à une variable <img style='position: relative; bottom: 1px' src='math/n.svg'> prenant des valeurs <b>discrètes</b>, c'est-à-dire que la variable appartient aux entiers naturels (<span style='font-family: \"Latin Modern\"'>0, 1, 2, 3...</span>). Au contraire, les fonctions décrivent des phénomènes qui dépendent d'une variable <img style='position: relative; bottom: 1px' src='math/x.svg'> définie dans un intervalle <b>continu</b>, c'est-à-dire que <img style='position: relative; bottom: 1px' src='math/x.svg'> appartient aux réels (<span style='font-family: \"Latin Modern\"'>0.333</span>, <img style='position: relative; bottom: 3px; height: 14px' src='math/sqrt(2).svg'>...).",
+    "thèmes": [
+      {
+        "difficultée": "success",
+        "thème": "Définition d'une suite <img src='math/u_n.svg'> en fonction de <img src='math/n.svg'> ou par récurrence"
+      },
+      {
+        "difficultée": "success",
+        "thème": "Sens de variations"
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Suites arithmétiques <img src='math/arithmétique.svg'>"
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Suites géométriques <img src='math/géométrique.svg'>"
+      },
+      {
+        "difficultée": "dark",
+        "thème": "Exercices avec des suites arithmético-géométrique et auxiliaire"
+      },
+      {
+        "difficultée": "dark",
+        "thème": "<b>Uniquement S:</b> Somme de suites <img src='math/sum.svg'>"
+      }
+    ]
+  },
+  "Exercices I": [
+    {
+      "titre": "Exercice avec une suite auxiliaire:",
+      "référence": "exercices/suites1/ex_suites_suite_auxiliaire.pdf",
+      "nomPdf": "Exercice 1: Suite I | pdf"
+    },
+    {
+      "titre": "Exercice avec un algorithme et une suite auxiliaire:",
+      "référence": "exercices/suites1/ex_suites_algorithme_et_auxiliaire.pdf",
+      "nomPdf": "Exercice 2: Suite I | pdf"
+    }
+  ],
+  "Exercices II": []
+}

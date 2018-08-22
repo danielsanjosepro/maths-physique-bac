@@ -1,0 +1,187 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Daniel's Website</title>
+    <!-- PS C:\Program Files (x86)\IIS Express> ./iisexpress.exe /path:C:\Users\sanjo\Desktop\Website /port:8000 -->
+    <!--http://localhost:8000/ -->
+    <meta charset="utf-8"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="images/logo.png">
+
+    <link href="main.css" rel="stylesheet">
+
+    <!-- For icons https://fontawesome.com/icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+          integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
+    <!-- For Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css"
+          integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+
+    <script src="js/jquery.js"></script>
+
+    <!-- Mustache -->
+    <script src="js/mustache.js"></script>
+
+    <!--load page-->
+    <script>
+        $(function () {
+            $("#load_screen").fadeOut(1000, function () {
+                $("#homeBtn").attr("class", "nav-item active");
+                $("#content").fadeIn(500, function () {
+                    startWeb();
+                });
+            })
+        })
+    </script>
+
+</head>
+
+<body>
+
+<div id="load_screen" class="centered">
+    <img id="chargingLogo" style="height: 100px" src="images/logo.png" class="image-fluid rounded mh-100">
+</div>
+
+<div id="content">
+
+    <header></header>
+
+    <!-- Content -->
+
+    <div class="container-fluid" style="margin-top: 100px">
+        <div class="row">
+            <div class="col-lg-6">
+                <h1 class="display-4 text-center" style="margin-bottom: 40px ; margin-top: 20px"> Maths </h1>
+                <div class="mx-auto d-block" style="margin-bottom: 40px; margin-top: 20px">
+                    <a href="maths.html"><img onclick="changeShadow('roundedImageMaths')"
+                                              onmouseover="mouseOver('roundedImageMaths')"
+                                              onmouseleave="mouseLeave('roundedImageMaths')" id="roundedImageMaths"
+                                              src="images/mathe.png"
+                                              class="rounded-circle shadow rounded  mx-auto d-block"></a>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <h1 class="display-4 text-center" style="margin-bottom: 40px; margin-top: 20px"> Physique & Chimie </h1>
+                <div class="mx-auto d-block" style="margin-bottom: 40px; margin-top: 20px">
+                    <a href="physicsandchemistry.html"><img onclick="changeShadow('roundedImagePhysics')"
+                                                            onmouseover="mouseOver('roundedImagePhysics')"
+                                                            onmouseleave="mouseLeave('roundedImagePhysics')"
+                                                            id="roundedImagePhysics" src="images/physics0.png"
+                                                            class="rounded-circle shadow rounded  mx-auto d-block"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-6 offset-lg-3">
+            <hr>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <h1 class="display-4 text-center" style="margin-bottom: 40px; margin-top: 20px"> Others... </h1>
+                <div class="mx-auto d-block" style="margin-bottom: 40px ; margin-top: 20px">
+                    <a data-toggle="tooltip" data-placement="top" title="This part isn't ready yet..."><img
+                            onclick="changeShadow('roundedImageOthers')" onmouseover="mouseOver('roundedImageOthers')"
+                            onmouseleave="mouseLeave('roundedImageOthers')" id="roundedImageOthers"
+                            src="images/2000px-Maya_3.svg.png"
+                            class="rounded-circle shadow rounded  mx-auto d-block"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer></footer>
+
+</div>
+
+<!-- Footer -->
+<script src="js/footer.js">
+</script>
+
+
+<div class="modal fade" id="aboutMeModal" tabindex="-1" role="dialog" aria-labelledby="aboutMeModalLabel"
+     aria-hidden="true">
+    <!-- Modal Content -->
+</div>
+<!-- Modal about me -->
+<script>
+    $(function () {
+        $("#aboutMeModal").load("html/about_me.html");
+    })
+</script>
+
+<!-- Jquery & Javascript for Bootstrap -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"
+        integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+        crossorigin="anonymous"></script>
+
+<!-- for Poopers and Tooltips -->
+<script>
+    $(function () {
+        $('[data-toggle="popover"]').popover()
+    })
+
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+</script>
+
+<!-- my Script -->
+
+<script>
+
+    function changeIconEmail() {
+        var icon = document.getElementById("iconEmail").className;
+        if (icon == "far fa-envelope") {
+            document.getElementById("iconEmail").className = "far fa-envelope-open";
+        } else if (icon == "far fa-envelope-open") {
+            document.getElementById("iconEmail").className = "far fa-envelope";
+        }
+    }
+
+    function changeShadow(image) {
+        document.getElementById(image).className = "rounded-circle rounded mx-auto d-block";
+    }
+
+    function mouseOver(image) {
+        document.getElementById(image).className = "rounded-circle shadow-lg rounded mx-auto d-block";
+    }
+
+    function mouseLeave(image) {
+        document.getElementById(image).className = "rounded-circle shadow rounded mx-auto d-block";
+    }
+
+    function startWeb() {
+        var opacity = 0;
+        var t;
+
+        function changeOpacity() {
+            if (opacity < 1) {
+                opacity += 0.01;
+                document.getElementById("roundedImageMaths").style.opacity = opacity;
+                document.getElementById("roundedImagePhysics").style.opacity = opacity;
+                document.getElementById("roundedImageOthers").style.opacity = opacity;
+            }
+            else {
+                clearInterval(t);
+            }
+        }
+
+        t = setInterval(changeOpacity, 20)
+    }
+
+</script>
+
+<!-- Header -->
+<script src="js/navbar.js"></script>
+
+
+</body>
+</html>

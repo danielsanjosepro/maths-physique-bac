@@ -1,0 +1,50 @@
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                    
+                <!-- Header of the "About me" -->
+                
+                <div class="modal-header">
+                <h5 class="modal-title" id="aboutMeModalLabel">About me</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                
+                <!-- Body of the "About me" -->
+                
+                <div class="modal-body">
+                    
+                    <div class="row" id="flagsImages">
+                        <div class="col-4">
+                            <div class="col-4 offset-4"><img src="images/fr.png" class="img-fluid rounded mh-100" alt="Responsive image"></div>
+                        </div>
+                        <div class="col-4">
+                            <div class="col-4 offset-4"><img src="images/de.png" class="img-fluid rounded mh-100" alt="Responsive image"></div> 
+                        </div>
+                        <div class="col-4">
+                            <div class="col-4  offset-4"><img src="images/eng.jpg" class="img-fluid rounded mh-100" alt="Responsive image"></div>  
+                        </div>
+                    </div>
+                    
+                    <div class="row" id="textAboutMe">
+                        <div class="col-4 text-justify">
+                            {{{ french }}}
+                        </div>
+                        <div class="col-4 text-justify">
+                            {{{ german }}}
+                        </div>
+                        <div class="col-4 text-justify">
+                            {{{ english }}}
+                        </div>
+                    </div>
+                </div>
+                    
+                <!-- Footer of the "About me" -->
+                    
+                <div class="modal-footer">
+                    <div class="row" id="emailFooterAboutMe">
+                        <h6> <i class="fas fa-envelope"></i> ######.####@gmail.com </h6>
+                    </div>
+                </div>
+            </div>
+        </div>

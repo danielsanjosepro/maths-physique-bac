@@ -1,0 +1,60 @@
+{
+  "thème": "Révisions de 1°",
+  "description": "tous les chapitres importants de la première...",
+  "Théorie":{
+    "classes": [
+      {
+        "course": "Terminale ES",
+        "color": "dark",
+        "reference": "terminaleES.html"
+      },
+      {
+        "course": "Terminale S",
+        "color": "danger",
+        "reference": "terminaleS.html"
+      },
+      {
+        "course": "Première ES",
+        "color": "secondary",
+        "reference": "premiereES.html"
+      },
+      {
+        "course": "Première S",
+        "color": "secondary",
+        "reference": "premiereS.html"
+      }
+    ],
+    "intro": "<p>Avant de commencer la terminale, il faut avoir certaines \"bases en maths\".</p><p>Les sujets du bac en maths ont beaucoup d'exercices qui nécessitent les connaisances de première, qui sont souvent oubliées en été... Revoir les sujets importants est alors nécessaire pour commencer la terminale.</p>",
+    "thèmes": [
+      {
+        "difficultée": "primary",
+        "thème": "<a href='suitesI.html'>Suites</a>"
+      },
+      {
+        "difficultée": "primary",
+        "thème": "<a href='fonctionsI.html'>Fonctions</a>"
+      },
+      {
+        "difficultée": "primary",
+        "thème": "<a href='probaI.html'>Probabilités</a>"
+      },
+      {
+        "difficultée": "primary",
+        "thème": "ES: Pourcentages"
+      },
+      {
+        "difficultée": "primary",
+        "thème": "S: Vecteurs et Trigonométrie"
+      }
+
+    ]
+  },
+  "Exercices I": [
+    {
+    "titre": "Exercices de révision",
+    "référence": "exercices/revisions/les_bases_en_maths.pdf",
+    "nomPdf": "Exercices: Révisions de la 1° | pdf"
+  }
+  ],
+  "Exercices II": []
+}

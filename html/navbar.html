@@ -1,0 +1,46 @@
+<div class="fixed-top">
+    <div class="rounded">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #004f98">
+            <a class="navbar-brand" href="index.html">Daniel's Website</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <!-- Navbar Elements --> 
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li id="homeBtn" class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMat" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Matières</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMat">
+                            <a class="dropdown-item" href="maths.html">Maths</a>
+                            <a class="dropdown-item" href="physicsandchemistry.html">Physique & Chimie</a>
+                            <div class="dropdown-divider"></div> 
+                            <a class="dropdown-item" data-toggle="tooltip" data-placement="right" title="This part isn't ready yet...">Others...</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownSec" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Séctions</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownSec">
+                            <a class="dropdown-item" href="terminaleES.html">Terminale ES</a>
+                            <a class="dropdown-item" href="terminaleS.html">Terminale S</a>
+                            <a class="dropdown-item" data-toggle="tooltip" data-placement="right" title="This part isn't ready yet...">Première ES</a>
+                            <a class="dropdown-item" data-toggle="tooltip" data-placement="right" title="This part isn't ready yet...">Première S</a>
+                        </div>
+                    </li>
+                </ul>
+                <!-- Search bar -->
+                <form class="form-inline">
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="searchInput" placeholder="Search" aria-label="search" aria-describedby="buttonSearch">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-light" type="button" onclick="search()" id="buttonSearch"><i class="fas fa-search"></i></button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </nav>
+    </div>
+</div>
+
+<script src="js/search.js"></script>

@@ -1,0 +1,15 @@
+{
+  "thème": "Fonctions IIIb",
+  "description": "approfondissement dérivées et fonctions trigonométriques",
+  "Théorie": {
+    "classes": [
+      {
+        "course": "Terminale S",
+        "color": "danger",
+        "reference": "terminaleS.html"
+      }
+    ]
+  },
+  "Exercices I": [],
+  "Exercices II": []
+}
