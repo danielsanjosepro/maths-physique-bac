@@ -71,6 +71,7 @@
 
                 <div class="row justify-content-center mt-4">
                     <div class="btn-group" role="group" id="pagination">
+                        <button type="button" id="pageButtonPrevious" onclick="previous_or_next('previous')" class="btn btnPage"><i class="fas fa-angle-double-left"></i></button>
                         <button type="button" id="pageButton1" onclick="changeCards('#cardPage1')" class="btn activePage">1</button>
                     </div>
                 </div>
@@ -131,6 +132,7 @@
                         }
                     }
                 }
+                $("#pagination").append('<button type="button" id="pageButtonNext" onclick="previous_or_next(\'next\')" class="btn btnPage"><i class="fas fa-angle-double-right"></i></button>')
             })
         })
 
@@ -146,23 +148,8 @@
 <!-- Header -->
 <script src="js/navbar.js"></script>
 
-<script>
-    function changeCards(id) {
-        $(".activeCards").fadeOut(700,function () {
-            $(".activePage").addClass("btnPage");
-            $(".activePage").removeClass("activePage");
-            $(".activeCards").removeClass("activeCards");
-            let number = $(id).attr("id").substr(-1);
-            $(id).addClass("activeCards");
-            $("#pageButton"+number).addClass("activePage");
-            $("#pageButton"+number).removeClass("btnPage");
-            $(id).fadeIn(700);
-            $("html, body").animate({
-                scrollTop: 0
-            }, 400);
-        });
-    }
-</script>
+<!--Pagination -->
+<script src="js/pagination.js"></script>
 
 </body>
 </html>
