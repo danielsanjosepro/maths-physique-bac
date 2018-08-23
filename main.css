@@ -61,6 +61,23 @@
     margin-bottom: 20px;
 }
 
+
+.btnPage {
+    background-color: white;
+    color: #004f98;
+}
+
+.activePage {
+    background-color: #004f98;
+    color: white;
+}
+
+.btnPage:hover{
+    background-color: #004f98;
+    color: white;
+}
+
+
 #content{
     display: none;
 }

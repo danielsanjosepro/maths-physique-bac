@@ -43,36 +43,43 @@
 </div>
 
 <div id="content">
-<header></header>
+    <header></header>
 
-<div class="container-fluid" style="margin-top: 70px">
-    <div class="row">
-        <!-- "Navbar" aside -->
-        <div class="col-sm-4 col-lg-2" style="margin-bottom: 20px;">
-            <div class="p-2 mb-2 rounded shadow-sm" style="background-color: #F0F0F0">
-                <h1 class="text-center font-weight-light">Maths</h1>
-            </div>
+    <div class="container-fluid" style="margin-top: 70px">
+        <div class="row">
+            <!-- "Navbar" aside -->
+            <div class="col-sm-4 col-lg-2" style="margin-bottom: 20px;">
+                <div class="p-2 mb-2 rounded shadow-sm" style="background-color: #F0F0F0">
+                    <h1 class="text-center font-weight-light">Maths</h1>
+                </div>
                 <div id="navAside">
                     <!-- Content for the navAside -->
                 </div>
 
-        </div>
+            </div>
 
-        <div class="col-sm-8 col-md-8 col-lg-10">
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb" style="background-color: #F0F0F0">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Maths</li>
-                </ol>
-            </nav>
-            <div class="row" id="mathCards">
+            <div class="col-sm-8 col-md-8 col-lg-10">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb" style="background-color: #F0F0F0">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Maths</li>
+                    </ol>
+                </nav>
+                <div id="mathCards">
+                    <div class="row activeCards" id="cardPage1"></div>
+                </div>
+
+                <div class="row justify-content-center mt-4">
+                    <div class="btn-group" role="group" id="pagination">
+                        <button type="button" id="pageButton1" onclick="changeCards('#cardPage1')" class="btn activePage">1</button>
+                    </div>
+                </div>
 
             </div>
         </div>
     </div>
-</div>
 
-<footer></footer>
+    <footer></footer>
 
 </div>
 
@@ -109,10 +116,19 @@
             $.getJSON("text/data.json", function (data) {
                 let i;
                 let j;
-                for(i in data.Maths) {
+                let page = 1;
+                let number_of_cards = 0;
+                for (i in data.Maths) {
                     for (j in data.Maths[i].thèmes) {
                         let result = Mustache.render(template, data.Maths[i].thèmes[j]);
-                        $('#mathCards').append(result);
+                        $('#cardPage' + page).append(result);
+                        number_of_cards += 1;
+                        if ((number_of_cards % 6) === 0) {
+                            page = page + 1;
+                            $("#pagination").append('<button type="button" id="pageButton'+page+'" class="btn btnPage" onclick="changeCards(\'#cardPage'+page+'\')">' + page + '</button>');
+                            $("#mathCards").append('<div class="row" id="cardPage' + page + '"></div>');
+                            $("#cardPage" + page).hide();
+                        }
                     }
                 }
             })
@@ -129,6 +145,24 @@
 
 <!-- Header -->
 <script src="js/navbar.js"></script>
+
+<script>
+    function changeCards(id) {
+        $(".activeCards").fadeOut(700,function () {
+            $(".activePage").addClass("btnPage");
+            $(".activePage").removeClass("activePage");
+            $(".activeCards").removeClass("activeCards");
+            let number = $(id).attr("id").substr(-1);
+            $(id).addClass("activeCards");
+            $("#pageButton"+number).addClass("activePage");
+            $("#pageButton"+number).removeClass("btnPage");
+            $(id).fadeIn(700);
+            $("html, body").animate({
+                scrollTop: 0
+            }, 400);
+        });
+    }
+</script>
 
 </body>
 </html>
