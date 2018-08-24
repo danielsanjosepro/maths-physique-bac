@@ -1,13 +1,4 @@
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb" style="background-color: #F0F0F0">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item"><a href="maths.html">Maths</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">{{classe}}</li>
-                </ol>
-            </nav>
-            <span class="display-4">{{classe}}</span>
-            <hr>
-
+{{#Maths}}
             <div class="text-justify">
                 {{{description}}}
             </div>
@@ -53,3 +44,4 @@
             <a class="float-right" id="linkPdf" href="{{lien}}"><i class="fas fa-file-pdf"></i>
                 {{nom2}}</a>
             {{/autres}}
+{{/Maths}}

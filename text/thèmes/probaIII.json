@@ -14,9 +14,36 @@
         "reference": "terminaleS.html"
       }
     ],
-    "intro": "",
+    "intro": "<p>En probabilités, on a toujours étudié des cas <b>discrets</b>, c'est-à-dire que la variable aléatoire prend uniquement des valeurs dans un ensemble fini. Par exemple prendre au hasard un jeton d'un sachet avec des 10 jetons: 3 bleus, 1 rouge, et 6 verts. On peut prendre soit un bleu, soit un rouge ou soit un vert.</p><p>Au contraire les probabilités <b>continues</b> décrivent un cas dans lequel l'ensemble de valeurs prises par la variable aléatoire, est un ensemble avec une infinité de valeurs. Par exemple, une expérience qui consiste en prendre un nombre au hasard compris entre 0 et 1. On pourrait prendre le nombre 0.846234619463791...</p><p>Pour décrire ce type de probabilités on va utiliser des fonctions qui suivent une loi de densité. Comme la loi binomiale, il existe également des lois pour les probabilités continues comme la loi uniforme et la loi normale.</p>",
     "thèmes": [
-
+      {
+        "difficultée": "success",
+        "thème": "Savoir ce qu'est la loi de densité"
+      },
+      {
+        "difficultée": "success",
+        "thème": "Reconnaître une fonction qui suit une loi de densité"
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Savoir calculer des probabilités grâce à une fonction qui suit un loi de densité"
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Comprendre la loi uniforme <img src='math/uniforme.svg'> et savoir appliquer les formules par calculer des probabilités"
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Comprendre la loi normale centrée réduite <img src='math/normale.svg'> et savoir l'analyser graphiquement et avec la <a href='calculette.html'>calculatrice</a>"
+      },
+      {
+        "difficultée": "dark",
+        "thème": "Comprendre le théorème de Moivre-Laplace"
+      },
+      {
+        "difficultée": "dark",
+        "thème": "Centrer et réduite un loi normale <img style='position: relative; bottom: 2px' src='math/centrerreduire.svg'> pour résoudre un problème complexe"
+      }
     ]
   },
   "Exercices I": [],

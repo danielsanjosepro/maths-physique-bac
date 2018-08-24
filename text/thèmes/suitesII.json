@@ -30,6 +30,10 @@
       },
       {
         "difficultée": "danger",
+        "thème": "Faires des calculs de limites et savoir reconnaître une forme indéterminée <a href='documents/Opérationslimites.pdf'>(voir tableaux sur les opérations sur les limites)</a>"
+      },
+      {
+        "difficultée": "danger",
         "thème": "Comprendre (compléter et peut être écrire) un algorithme pour déterminer un seuil à partir duquel <img src='math/q^n.svg'> est inférieur à un réel <img src='math/a.svg'> positif donné."
       }
     ]

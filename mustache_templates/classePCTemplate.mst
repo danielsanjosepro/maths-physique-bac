@@ -1,0 +1,3 @@
+{{#PC}}
+<div class="alert alert-danger" role="alert" style="margin-bottom: 200px"><i class="fas fa-frown"></i> Il n'y a pas de contenu pour l'instant!</div>
+{{/PC}}

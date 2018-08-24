@@ -8,6 +8,29 @@
         "color": "danger",
         "reference": "terminaleS.html"
       }
+    ],
+    "intro": "<p>Après avoir étudier les limites de suites, on commence une étude plus complexe des limites avec des fonctions, mais avec beaucoup de points communs. Ici la variable <img src='math/x.svg'>, peut également tendre vers <img src='math/minusinfty.svg'> ou même vers un réel <img src='math/a.svg'> !</p><p>On étudie également le comportement des fonctions <i>exponentielle</i> et <i>logarithme népérien</i>, puis de fonctions composées par celles-ci.</p>",
+    "thèmes":[
+      {
+        "difficultée": "success",
+        "thème": "Reconnaître graphiquement une asymptote horizontale et verticale"
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Déterminer par le calcul une limite de fonction et déterminer s'il s'agit d'une asymptote verticale ou horizontale(avec l'équation de droite)"
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Faires des calculs de limites et savoir reconnaître une forme indéterminée <a href='documents/Opérationslimites.pdf'>(voir tableaux sur les opérations sur les limites)</a>"
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Connaître les limites des fonctions <img style=\"position: relative; bottom: 2px\"  src='math/exp.svg'> et <img src='math/ln.svg'>"
+      },
+      {
+        "difficultée": "dark",
+        "thème": "Déterminer la limite d'une fonction composée d'autres fonctions (également les fonctions composées <img style=\"position: relative; bottom: 2px\"  src='math/exp.svg'> et <img src='math/ln.svg'>)"
+      }
     ]
   },
   "Exercices I": [],

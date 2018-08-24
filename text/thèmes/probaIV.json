@@ -9,8 +9,20 @@
         "reference": "terminaleS.html"
       }
     ],
-    "intro": "",
+    "intro": "<p>En Terminale S, on étudie encore un loi continue appart la loi normale et la loi normale: il s'agit de la loi exponentielle.</p><p>La loi exponentielle permet de décrire plein de phénomènes naturels (radioactivité entre autres), et elle a beaucoup de propriétés intéressantes comme la durée de vie sans vieillissement.</p>",
     "thèmes": [
+      {
+        "difficultée": "danger",
+        "thème": "Connaître la fonction de densité <img src='math/exponentielle.svg'> et les calculs de probabilités"
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Connaître la relation de <img style='position: relative; bottom: 2px' src='math/lambda.svg'> et l'espérance <img src='math/espérance.svg'>"
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Connaître et savoir utiliser la loi de vieillissement <img src='math/vieillissement.svg'> et connaître sa <b>démonstration</b>"
+      }
 
     ]
   },

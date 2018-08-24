@@ -1,189 +1,193 @@
 {
-  "classe": "Terminale S",
-  "description": "<p>Ici vous\npouvez retrouver les thèmes à savoir pour le bac en maths pour la section\nscientifique et les liens aux exercices.</p><p>Les maths pour cette\nsection sont généralisées. Certaines connaissances sont utilisées pour décrire\ndes phénomènes des sciences naturelles grâce à des fonctions ou des suites, la\ngéométrie pour représenter des objets sur le plan ou l’espace et finalement les\nprobabilités qui sont importantes pour la production en masse de produits. Dans\nles exercices type bac, les exercices seront souvent thématisés, ce qui montre\nl’aspect appliqué des maths.</p><ul><li>Pour <b>l'enseignement obligatoire</b> (non-spé\nmaths) la matière peut se diviser en <b>3 grandes parties</b>. D'une part la partie <b>Analyse</b>, qui consiste en\nl'étude de fonctions et de suites, d'autre part <b>Statistique et Probabilités</b>, et\nfinalement<b> Géométrie</b> sur le plan et dans l’espace.</li><li>Pour <b>l'enseignement spécialité</b> (spé\nmaths), en plus de l'enseignement obligatoire, il y a encore une introduction à\nl’arithmétique et aux matrices. <div class=\"alert alert-primary\"><i\nclass=\"fas fa-info-circle\"></i> \t Dans ce site, vous  ne trouverez aucun document pour la <i>spécialité\nmaths</i>. Si vous avez besoin d’aide par rapport à un thème de spé, ne\ndoutez pas en m’envoyer un <a href=\"#iconEmail\">mail</a> !</div></li>",
-  "chapitres": [
-    {
-      "color": "#E4F9FF",
-      "nom": "Analyse",
-      "thèmes": [
-        {
-          "nom": "Suites:",
-          "sous thèmes": [
-            {
-              "sous thèmes": "Suites en première:",
-              "color": "primary",
-              "lien": "suitesI.html",
-              "nomSmall": "S1"
-            },
-            {
-              "sous thèmes": "Limite de suite:",
-              "color": "primary",
-              "lien": "suitesII.html",
-              "nomSmall": "S2"
-            },
-            {
-              "sous thèmes": "Récurrence:",
-              "color": "primary",
-              "lien": "suitesIII.html",
-              "nomSmall": "S3"
-            }
-          ]
-        },
-        {
-          "nom": "Fonctions:",
-          "sous thèmes": [
-            {
-              "sous thèmes": "Fonctions en première:",
-              "color": "primary",
-              "lien": "fonctionsI.html",
-              "nomSmall": "F1"
-            },
-            {
-              "sous thèmes": "Exponentielle, logarithme, primitives:",
-              "color": "primary",
-              "lien": "fonctionsII.html",
-              "nomSmall": "F2"
-            },
-            {
-              "sous thèmes": "Approfondissement dérivées et fonctions trigonométriques:",
-              "color": "primary",
-              "lien": "fonctionsIIIb.html",
-              "nomSmall": "F3"
-            },
-            {
-              "sous thèmes": "Limite de fonctions:",
-              "color": "primary",
-              "lien": "fonctionsIV.html",
-              "nomSmall": "F4"
-            }
-          ]
-        }
-      ],
-      "id": "analyse"
-    },
-    {
-      "color": "#FFE4E4",
-      "nom": "Probabilités/Statistique",
-      "thèmes": [
-        {
-          "nom": "Probabilités",
-          "sous thèmes": [
-            {
-              "sous thèmes": "Probabilités discrètes:",
-              "color": "danger",
-              "lien": "probaI.html",
-              "nomSmall": "P1"
-            },
-            {
-              "sous thèmes": "Conditionnement:",
-              "color": "danger",
-              "lien": "probaII.html",
-              "nomSmall": "P2"
-            },
-            {
-              "sous thèmes": "Loi uniforme et normale:",
-              "color": "danger",
-              "lien": "probaIII.html",
-              "nomSmall": "P3"
-            },
-            {
-              "sous thèmes": "Loi exponentielle:",
-              "color": "danger",
-              "lien": "probaIV.html",
-              "nomSmall": "P4"
-            }
-          ]
-        },
-        {
-          "nom": "Échantillonnage:",
-          "sous thèmes": [
-            {
-              "sous thèmes": "Intervalles de fluctuation:",
-              "color": "danger",
-              "lien": "fluctuation.html",
-              "nomSmall": "IF"
-            }
-          ]
-        }
-      ],
-      "id": "proba"
-    },
-    {
-      "color": "#FFFFFF",
-      "nom": "Géométrie",
-      "thèmes": [
-        {
-          "nom": "Géométrie sur le plan:",
-          "sous thèmes": [
-            {
-              "sous thèmes": "Complexes:",
-              "color": "dark",
-              "lien": "complexes.html",
-              "nomSmall": "NC"
-            }
-          ]
-        },
-        {
-          "nom": "Géométrie dans l'espace",
-          "sous thèmes": [
-            {
-              "sous thèmes": "Géométrie dans l'espace:",
-              "color": "dark",
-              "lien": "gde.html",
-              "nomSmall": "GE"
-            }
-          ]
-        }
-      ],
-      "id": "geometrie"
-    },
-    {
-      "color": "#FCFFE4",
-      "nom": "Algorithmique",
-      "thèmes": [
-        {
-          "nom": "Algorithmique",
-          "sous thèmes": [
-            {
-              "sous thèmes": "Variables, boucles... :",
-              "color": "warning",
-              "lien": "algorithmique.html",
-              "nomSmall": "AL"
-            }
-          ]
-        },
-        {
-          "nom": "Calculette",
-          "sous thèmes": [
-            {
-              "sous thèmes": "Comprendre la \"TI\":",
-              "color": "warning",
-              "lien": "calculette.html",
-              "nomSmall": "CA"
-            }
-          ]
-        }
-      ],
-      "id": "algo"
-    },
-    {
-      "color": "#E4FFE4",
-      "nom": "Notation Mathématique",
-      "thèmes": [
-        {
-          "nom": "Comprendre l'écriture mathématique:",
-          "sous thèmes": [
-            {
-              "sous thèmes": "Notation mathématique:",
-              "color": "success",
-              "lien": "notation.html",
-              "nomSmall": "NM"
-            }
-          ]
-        }
-      ],
-      "id": "nota"
-    }
-  ],
-  "autres": []
+  "Maths": {
+    "classe": "Terminale S",
+    "description": "<p>Ici vous\npouvez retrouver les thèmes à savoir pour le bac en maths pour la section\nscientifique et les liens aux exercices.</p><p>Les maths pour cette\nsection sont généralisées. Certaines connaissances sont utilisées pour décrire\ndes phénomènes des sciences naturelles grâce à des fonctions ou des suites, la\ngéométrie pour représenter des objets sur le plan ou l’espace et finalement les\nprobabilités qui sont importantes pour la production en masse de produits. Dans\nles exercices type bac, les exercices seront souvent thématisés, ce qui montre\nl’aspect appliqué des maths.</p><ul><li>Pour <b>l'enseignement obligatoire</b> (non-spé\nmaths) la matière peut se diviser en <b>3 grandes parties</b>. D'une part la partie <b>Analyse</b>, qui consiste en\nl'étude de fonctions et de suites, d'autre part <b>Statistique et Probabilités</b>, et\nfinalement<b> Géométrie</b> sur le plan et dans l’espace.</li><li>Pour <b>l'enseignement spécialité</b> (spé\nmaths), en plus de l'enseignement obligatoire, il y a encore une introduction à\nl’arithmétique et aux matrices. <div class=\"alert alert-primary\"><i\nclass=\"fas fa-info-circle\"></i> \t Dans ce site, vous  ne trouverez aucun document pour la <i>spécialité\nmaths</i>. Si vous avez besoin d’aide par rapport à un thème de spé, ne\ndoutez pas en m’envoyer un <a href=\"#iconEmail\">mail</a> !</div></li>",
+    "chapitres": [
+      {
+        "color": "#E4F9FF",
+        "nom": "Analyse",
+        "thèmes": [
+          {
+            "nom": "Suites:",
+            "sous thèmes": [
+              {
+                "sous thèmes": "Suites en première:",
+                "color": "primary",
+                "lien": "suitesI.html",
+                "nomSmall": "S1"
+              },
+              {
+                "sous thèmes": "Limite de suite:",
+                "color": "primary",
+                "lien": "suitesII.html",
+                "nomSmall": "S2"
+              },
+              {
+                "sous thèmes": "Récurrence:",
+                "color": "primary",
+                "lien": "suitesIII.html",
+                "nomSmall": "S3"
+              }
+            ]
+          },
+          {
+            "nom": "Fonctions:",
+            "sous thèmes": [
+              {
+                "sous thèmes": "Fonctions en première:",
+                "color": "primary",
+                "lien": "fonctionsI.html",
+                "nomSmall": "F1"
+              },
+              {
+                "sous thèmes": "Exponentielle, logarithme, primitives:",
+                "color": "primary",
+                "lien": "fonctionsII.html",
+                "nomSmall": "F2"
+              },
+              {
+                "sous thèmes": "Approfondissement dérivées et fonctions trigonométriques:",
+                "color": "primary",
+                "lien": "fonctionsIIIb.html",
+                "nomSmall": "F3"
+              },
+              {
+                "sous thèmes": "Limite de fonctions:",
+                "color": "primary",
+                "lien": "fonctionsIV.html",
+                "nomSmall": "F4"
+              }
+            ]
+          }
+        ],
+        "id": "analyse"
+      },
+      {
+        "color": "#FFE4E4",
+        "nom": "Probabilités/Statistique",
+        "thèmes": [
+          {
+            "nom": "Probabilités",
+            "sous thèmes": [
+              {
+                "sous thèmes": "Probabilités discrètes:",
+                "color": "danger",
+                "lien": "probaI.html",
+                "nomSmall": "P1"
+              },
+              {
+                "sous thèmes": "Conditionnement:",
+                "color": "danger",
+                "lien": "probaII.html",
+                "nomSmall": "P2"
+              },
+              {
+                "sous thèmes": "Loi uniforme et normale:",
+                "color": "danger",
+                "lien": "probaIII.html",
+                "nomSmall": "P3"
+              },
+              {
+                "sous thèmes": "Loi exponentielle:",
+                "color": "danger",
+                "lien": "probaIV.html",
+                "nomSmall": "P4"
+              }
+            ]
+          },
+          {
+            "nom": "Échantillonnage:",
+            "sous thèmes": [
+              {
+                "sous thèmes": "Intervalles de fluctuation:",
+                "color": "danger",
+                "lien": "fluctuation.html",
+                "nomSmall": "IF"
+              }
+            ]
+          }
+        ],
+        "id": "proba"
+      },
+      {
+        "color": "#FFFFFF",
+        "nom": "Géométrie",
+        "thèmes": [
+          {
+            "nom": "Géométrie sur le plan:",
+            "sous thèmes": [
+              {
+                "sous thèmes": "Complexes:",
+                "color": "dark",
+                "lien": "complexes.html",
+                "nomSmall": "NC"
+              }
+            ]
+          },
+          {
+            "nom": "Géométrie dans l'espace",
+            "sous thèmes": [
+              {
+                "sous thèmes": "Géométrie dans l'espace:",
+                "color": "dark",
+                "lien": "gde.html",
+                "nomSmall": "GE"
+              }
+            ]
+          }
+        ],
+        "id": "geometrie"
+      },
+      {
+        "color": "#FCFFE4",
+        "nom": "Algorithmique",
+        "thèmes": [
+          {
+            "nom": "Algorithmique",
+            "sous thèmes": [
+              {
+                "sous thèmes": "Variables, boucles... :",
+                "color": "warning",
+                "lien": "algorithmique.html",
+                "nomSmall": "AL"
+              }
+            ]
+          },
+          {
+            "nom": "Calculette",
+            "sous thèmes": [
+              {
+                "sous thèmes": "Comprendre la \"TI\":",
+                "color": "warning",
+                "lien": "calculette.html",
+                "nomSmall": "CA"
+              }
+            ]
+          }
+        ],
+        "id": "algo"
+      },
+      {
+        "color": "#E4FFE4",
+        "nom": "Notation Mathématique",
+        "thèmes": [
+          {
+            "nom": "Comprendre l'écriture mathématique:",
+            "sous thèmes": [
+              {
+                "sous thèmes": "Notation mathématique:",
+                "color": "success",
+                "lien": "notation.html",
+                "nomSmall": "NM"
+              }
+            ]
+          }
+        ],
+        "id": "nota"
+      }
+    ],
+    "autres": []
+  },
+  "PC": {
+  }
 }

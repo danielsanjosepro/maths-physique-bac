@@ -6,6 +6,8 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="icon" href="images/logo.png">
+
     <link href="main.css" rel="stylesheet">
 
     <!-- For icons https://fontawesome.com/icons -->
@@ -36,7 +38,7 @@
 <body>
 
 <div id="load_screen" class="centered display-4 text-center">
-    <img id="chargingLogo" style="height: 80px" src="images/charging.png" class="image-fluid rounded mh-100">
+    <img id="chargingLogo" style="height: 80px" src="images/charging(1).png" class="image-fluid rounded mh-100">
     Chargement...
 </div>
 
@@ -57,9 +59,45 @@
 
             </div>
 
-            <div id="contenuClasse" class="col-sm-8 col-md-8 col-lg-10">
+            <div class="col-sm-8 col-md-8 col-lg-10">
+                <span class="display-4">Terminale S</span>
+                <ul class="nav nav-tabs my-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="maths-tab" data-toggle="tab" href="#maths" role="tab" aria-controls="maths" aria-selected="true"> Maths </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="PC-tab" data-toggle="tab" href="#PC" role="tab" aria-controls="PC" aria-selected="false"> Physique & Chimie </a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="tabContent">
 
+                    <div class="tab-pane fade show active" id="maths" role="tabpanel" aria-labelledby="maths-tab">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb" style="background-color: #F0F0F0">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item"><a href="maths.html">Maths</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Terminale S</li>
+                            </ol>
+                        </nav>
+                        <div id="contenuMaths">
 
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="PC" role="tabpanel" aria-labelledby="PC-tab">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb" style="background-color: #F0F0F0">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item"><a href="physicsandchemistry.html">Physique & Chimie</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Terminale S</li>
+                            </ol>
+                        </nav>
+                        <div id="contenuPC">
+
+                        </div>
+                    </div>
+
+                </div>
             </div>
 
 
@@ -123,7 +161,13 @@
         $.get("mustache_templates/classeTemplate.mst", function (template) {
             $.getJSON("text/terminaleS.json", function (data) {
                 var result = Mustache.render(template, data);
-                $('#contenuClasse').html(result);
+                $('#contenuMaths').html(result);
+            })
+        })
+        $.get("mustache_templates/classePCTemplate.mst", function (template) {
+            $.getJSON("text/terminaleS.json", function (data) {
+                var result = Mustache.render(template, data);
+                $('#contenuPC').html(result);
             })
         })
     })

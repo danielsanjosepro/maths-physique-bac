@@ -8,6 +8,21 @@
         "color": "danger",
         "reference": "terminaleS.html"
       }
+    ],
+    "intro": "<p>En première, on étudie uniquement certaines dérivées de base. En terminal, on ajoute des nouvelles dérivées à notre liste comme les dérivées de fonctions de la forme <img style=\"position: relative; bottom: 3px\" src='math/u^n.svg'> ou <img style=\"position: relative; bottom: 2px\" src='math/sqrt(u).svg'>.</p><p>Après avoir fait connaissance des fonctions <img src='math/cos.svg'> et <img style=\"position: relative; bottom: 2px\" src='math/sin.svg'>, on commence une étude plus approfondie des fonctions trigonométriques comme leur représentation graphique et leurs dérivées.</p>",
+    "thèmes":[
+      {
+        "difficultée": "danger",
+        "thème": "Connaître les dérivées des fonctions de la forme <img style=\"position: relative; bottom: 3px\" src='math/u^n.svg'> et <img style=\"position: relative; bottom: 2px\" src='math/sqrt(u).svg'>, en connaissant leur intervalle de définition et dérivation"
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Connaître les propriétés basiques des fonction trigonométriques et leur représentation graphique"
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Connaître les dérivées des fonctions <img src='math/cos(x).svg'> et <img src='math/sin(x).svg'>"
+      }
     ]
   },
   "Exercices I": [],
