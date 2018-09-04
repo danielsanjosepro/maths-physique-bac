@@ -124,7 +124,7 @@
                         let result = Mustache.render(template, data.Maths[i].thèmes[j]);
                         $('#cardPage' + page).append(result);
                         number_of_cards += 1;
-                        if ((number_of_cards % 6) === 0) {
+                        if ((number_of_cards % 9) === 0) {
                             page = page + 1;
                             $("#pagination").append('<button type="button" id="pageButton'+page+'" class="btn btnPage" onclick="changeCards(\'#cardPage'+page+'\')">' + page + '</button>');
                             $("#mathCards").append('<div class="row" id="cardPage' + page + '"></div>');

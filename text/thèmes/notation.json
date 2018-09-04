@@ -1,7 +1,49 @@
 {
   "thème": "Notation mathématique",
   "description": "Intervalles, et, ou...",
-  "Théorie":{},
+  "Théorie":{
+    "classes": [
+      {
+        "course": "Terminale ES",
+        "color": "dark",
+        "reference": "terminaleES.html"
+      },
+      {
+        "course": "Terminale S",
+        "color": "danger",
+        "reference": "terminaleS.html"
+      },
+      {
+        "course": "Première ES",
+        "color": "success",
+        "reference": "premiereES.html"
+      },
+      {
+        "course": "Première S",
+        "color": "warning",
+        "reference": "premiereS.html"
+      }
+    ],
+    "intro": "Dans les contrôles en mathématique, il faut savoir écrire un intervalle de défintion pour représenter les résultats. Il n'y a pas beaucoup de choses à savoir, mais il faut les dominer.",
+    "thèmes": [
+      {
+        "difficultée": "success",
+        "thème": "Notation des événements en probabilités <img style='position: relative; bottom: 2px' src='math/evenement.svg'> et l'événement contraire <img style='position: relative; bottom: 3px' src='math/contraire.svg'>"
+      },
+      {
+        "difficultée": "success",
+        "thème": "Comprendre les opérateurs logiques (et/ou) et connaître leur notation"
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Comprendre la notation des intervalles ( <i>par exemple:</i> <img src='math/intervalle.svg'> )"
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Coefficients binomiaux <i>\"k parmi n\"</i> : <img src='math/binomial.svg'>"
+      }
+    ]
+  },
   "Exercices I": [],
   "Exercices II": []
 }
