@@ -1,6 +1,50 @@
 {
   "thème": "Géométrie dans l'espace",
-  "Théorie": {},
+  "description":"orthogonalité dans l'espace, représentations paramétriques ,produit scalaire",
+  "Théorie": {
+    "classes": [
+      {
+        "course": "Terminale S",
+        "color": "danger",
+        "reference": "terminaleS.html"
+      }
+    ],
+    "intro": "<p>En terminale, on aggrandit le champs de travail en géométrie, et on passe du plan à l'espace.</p> <p>Tout d'abord on étudie les positions possibles entre les objets dans l'espace, sans utiliser des coordonnées. Comme par exemple le parallélisme et l'orthogonalité entre des droites et plans.</p><p>En suite, on commence un étude avec des coordonnées, où on revoit les mêmes conceptes que sur le plan mais dans l'espace, comme la représentation d'une droite, les vecteurs dans l'espace, définition d'un plan, produit scalaire, vecteur normal, équation cartésienne d'un plan...</p>",
+    "thèmes":[
+      {
+        "difficultée": "success",
+        "thème":"Connaître les différentes positions relatives possibles pour les objets dans l'espace (point, droite, plan)"
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Analyser l'orthogonalité graphiquement"
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Comprendre la définition vectorielle d'un plan <img src=''math/plan>"
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Comprendre la représentation paramétrique d'une droite (et plan)"
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Calculer le produit scalaire <img src=''math/scalaire>"
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Connaître l'équation cartésienne d'un plan et savoir la retrouver à l'aide du vecteur normal"
+      },
+      {
+        "difficultée": "dark",
+        "thème": "Réussir un exercice sans coordonnées d'analyse dans l'espace"
+      },
+      {
+        "difficultée": "dark",
+        "thème": "Analyse avancée et avec prise d'initiative dans l'espace"
+      }
+    ]
+  },
   "Exercices I": [],
   "Exercices II": []
 }

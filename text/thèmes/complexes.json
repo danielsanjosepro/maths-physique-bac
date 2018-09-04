@@ -1,6 +1,47 @@
 {
   "thème": "Nombres complexes",
-  "Théorie": {},
+  "description": "définition, conjuguée, plan complexe...",
+  "Théorie": {
+    "classes": [
+      {
+        "course": "Terminale S",
+        "color": "danger",
+        "reference": "terminaleS.html"
+      }
+    ],
+    "intro": "<p>Avec l'ensemble des complexes, on découvre une nouvelle façon de \"faire\" des maths. Pour construire les complexes, on définit le <i>nombre imaginaire</i> <img style='position: relative; bottom: 3px' src='math/i.svg'> tel que <img style='position: relative; bottom: 3px' src='math/i^2=-1.svg'> .</p><p>Les nombres complexes sont composés d'une partie réelle <img src='math/Re(z).svg'> et une partie imaginaire <img src='math/Im(z).svg'>, et ils s'écrivent sous la forme <img src='math/x+iy.svg'>, avec <img src='math/x.svg'> la partie réelle et <img style='postion: relative; top: 2px' src='math/y.svg'> la partie imaginaire de <img src='math/z.svg'>. Les nombres complexes peuvent être représentés sur un plan complexe, et ils ont beaucoup de propriétés intéressantes qui simplifient la résolution de problèmes géométriques sur le plan.</p>",
+    "thèmes": [
+      {
+        "difficultée":"success",
+        "thème": "Comprendre la définition des nombres complexes"
+      },
+      {
+        "difficultée":"success",
+        "thème": "Savoir représenter un complexe dans le plan complexe"
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Savoir ce qui est le conjugué d'un complexe et connaître ses propriétés algébriques et géométriques"
+      },
+      {
+        "difficultée":"danger",
+        "thème": "Comprendre ce qu'est la module <img style='position: relative; bottom: 1px' src='math/r.svg'> et l'argument <img style='position: relative; bottom: 2px' src='math/varphi.svg'> d'un complexe"
+      },
+      {
+        "difficultée":"danger",
+        "thème": "Comprendre les différentes représentations d'un complexe:<ol><li>Algébrique: <img src='math/x+iy.svg'></li><li>Trigonométrique: <img src='math/trigo.svg'></li><li>Exponentielle: <img style='position: relative; bottom: 2px' src='math/expo.svg'></li></ol>... et savoir passer d'une forme à l'autre"
+      },
+      {
+        "difficultée":"dark",
+        "thème": "Résoudre des équations complexes et donner l'ensemble de solutions de complexes sur le plan"
+      },
+      {
+        "difficultée":"dark",
+        "thème": "Réussir des exercices plus compliqués avec des suites"
+      }
+    ]
+  },
+
   "Exercices I": [],
   "Exercices II": []
 }
