@@ -2,6 +2,19 @@
   "thème": "Intervalle de fluctuation",
   "description": "intervalles de confiance et fluctuation",
   "Théorie":{
+    "classes": [
+      {
+        "course": "Terminale ES",
+        "color": "dark",
+        "reference": "terminaleES.html"
+      },
+      {
+        "course": "Terminale S",
+        "color": "danger",
+        "reference": "terminaleS.html"
+      }
+    ],
+    "intro": "On lance une pièce <b>non pipée</b> 100 fois et on obtient 60 fois pille. Est-ce que l'affirmation \"non pipée\" est-elle vraie? Grâce aux intervalles de fluctuation on peut dire si cette affirmation est vraie ou fausse avec une certaine probabilité d'avoir raison ( 95%, 99%... )"
   },
   "Exercices I": [],
   "Exercices II": []

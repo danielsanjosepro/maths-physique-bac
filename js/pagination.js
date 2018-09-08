@@ -11,7 +11,7 @@ function changeCards(id) {
             $(id).fadeIn(700);
             $("html, body").animate({
                 scrollTop: 0
-            }, 400);
+            }, 1000);
         });
     }
 }
@@ -31,7 +31,7 @@ function previous_or_next(option){
                 $("#cardPage"+(number-1).toString()).fadeIn(700);
                 $("html, body").animate({
                     scrollTop: 0
-                }, 400);
+                }, 1000);
             })
         }
     }else if(option == "next"){
@@ -48,7 +48,7 @@ function previous_or_next(option){
                 $("#cardPage"+(number+1).toString()).fadeIn(700);
                 $("html, body").animate({
                     scrollTop: 0
-                }, 400);
+                }, 1000);
             })
         }
     }

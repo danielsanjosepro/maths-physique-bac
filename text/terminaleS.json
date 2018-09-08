@@ -8,22 +8,22 @@
         "nom": "Analyse",
         "thèmes": [
           {
-            "nom": "Suites:",
+            "nom": "Suites :",
             "sous thèmes": [
               {
-                "sous thèmes": "Suites en première:",
+                "sous thèmes": "Suites en première",
                 "color": "primary",
                 "lien": "suitesI.html",
                 "nomSmall": "S1"
               },
               {
-                "sous thèmes": "Limite de suite:",
+                "sous thèmes": "Limite de suite",
                 "color": "primary",
                 "lien": "suitesII.html",
                 "nomSmall": "S2"
               },
               {
-                "sous thèmes": "Récurrence:",
+                "sous thèmes": "Récurrence",
                 "color": "primary",
                 "lien": "suitesIII.html",
                 "nomSmall": "S3"
@@ -31,28 +31,28 @@
             ]
           },
           {
-            "nom": "Fonctions:",
+            "nom": "Fonctions :",
             "sous thèmes": [
               {
-                "sous thèmes": "Fonctions en première:",
+                "sous thèmes": "Fonctions en première",
                 "color": "primary",
                 "lien": "fonctionsI.html",
                 "nomSmall": "F1"
               },
               {
-                "sous thèmes": "Exponentielle, logarithme, primitives:",
+                "sous thèmes": "Exponentielle, logarithme, primitives",
                 "color": "primary",
                 "lien": "fonctionsII.html",
                 "nomSmall": "F2"
               },
               {
-                "sous thèmes": "Approfondissement dérivées et fonctions trigonométriques:",
+                "sous thèmes": "Approfondissement dérivées et fonctions trigonométriques",
                 "color": "primary",
                 "lien": "fonctionsIIIb.html",
                 "nomSmall": "F3"
               },
               {
-                "sous thèmes": "Limite de fonctions:",
+                "sous thèmes": "Limite de fonctions",
                 "color": "primary",
                 "lien": "fonctionsIV.html",
                 "nomSmall": "F4"
@@ -67,28 +67,28 @@
         "nom": "Probabilités/Statistique",
         "thèmes": [
           {
-            "nom": "Probabilités",
+            "nom": "Probabilités :",
             "sous thèmes": [
               {
-                "sous thèmes": "Probabilités discrètes:",
+                "sous thèmes": "Probabilités discrètes",
                 "color": "danger",
                 "lien": "probaI.html",
                 "nomSmall": "P1"
               },
               {
-                "sous thèmes": "Conditionnement:",
+                "sous thèmes": "Conditionnement",
                 "color": "danger",
                 "lien": "probaII.html",
                 "nomSmall": "P2"
               },
               {
-                "sous thèmes": "Loi uniforme et normale:",
+                "sous thèmes": "Loi uniforme et normale",
                 "color": "danger",
                 "lien": "probaIII.html",
                 "nomSmall": "P3"
               },
               {
-                "sous thèmes": "Loi exponentielle:",
+                "sous thèmes": "Loi exponentielle",
                 "color": "danger",
                 "lien": "probaIV.html",
                 "nomSmall": "P4"
@@ -96,10 +96,10 @@
             ]
           },
           {
-            "nom": "Échantillonnage:",
+            "nom": "Échantillonnage :",
             "sous thèmes": [
               {
-                "sous thèmes": "Intervalles de fluctuation:",
+                "sous thèmes": "Intervalles de fluctuation",
                 "color": "danger",
                 "lien": "fluctuation.html",
                 "nomSmall": "IF"
@@ -114,10 +114,10 @@
         "nom": "Géométrie",
         "thèmes": [
           {
-            "nom": "Géométrie sur le plan:",
+            "nom": "Géométrie sur le plan :",
             "sous thèmes": [
               {
-                "sous thèmes": "Complexes:",
+                "sous thèmes": "Complexes",
                 "color": "dark",
                 "lien": "complexes.html",
                 "nomSmall": "NC"
@@ -125,10 +125,10 @@
             ]
           },
           {
-            "nom": "Géométrie dans l'espace",
+            "nom": "Géométrie dans l'espace :",
             "sous thèmes": [
               {
-                "sous thèmes": "Géométrie dans l'espace:",
+                "sous thèmes": "Géométrie dans l'espace",
                 "color": "dark",
                 "lien": "gde.html",
                 "nomSmall": "GE"
@@ -143,10 +143,10 @@
         "nom": "Algorithmique",
         "thèmes": [
           {
-            "nom": "Algorithmique",
+            "nom": "Algorithmique :",
             "sous thèmes": [
               {
-                "sous thèmes": "Variables, boucles... :",
+                "sous thèmes": "Variables, boucles... ",
                 "color": "warning",
                 "lien": "algorithmique.html",
                 "nomSmall": "AL"
@@ -154,10 +154,10 @@
             ]
           },
           {
-            "nom": "Calculette",
+            "nom": "Calculette :",
             "sous thèmes": [
               {
-                "sous thèmes": "Comprendre la \"TI\":",
+                "sous thèmes": "Comprendre la \"TI\"",
                 "color": "warning",
                 "lien": "calculette.html",
                 "nomSmall": "CA"
@@ -172,10 +172,10 @@
         "nom": "Notation Mathématique",
         "thèmes": [
           {
-            "nom": "Comprendre l'écriture mathématique:",
+            "nom": "Comprendre l'écriture mathématique :",
             "sous thèmes": [
               {
-                "sous thèmes": "Notation mathématique:",
+                "sous thèmes": "Notation mathématique",
                 "color": "success",
                 "lien": "notation.html",
                 "nomSmall": "NM"

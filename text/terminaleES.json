@@ -9,7 +9,7 @@
         "nom": "Analyse",
         "thèmes": [
           {
-            "nom": "Suites:",
+            "nom": "Suites :",
             "sous thèmes": [
               {
                 "sous thèmes": "Suites en première:",
@@ -26,7 +26,7 @@
             ]
           },
           {
-            "nom": "Fonctions:",
+            "nom": "Fonctions :",
             "sous thèmes": [
               {
                 "sous thèmes": "Fonctions en première:",
@@ -56,7 +56,7 @@
         "nom": "Probabilités/Statistique",
         "thèmes": [
           {
-            "nom": "Probabilités",
+            "nom": "Probabilités :",
             "sous thèmes": [
               {
                 "sous thèmes": "Probabilités discrètes:",
@@ -79,7 +79,7 @@
             ]
           },
           {
-            "nom": "Échantillonnage:",
+            "nom": "Échantillonnage :",
             "sous thèmes": [
               {
                 "sous thèmes": "Intervalles de fluctuation:",
@@ -97,7 +97,7 @@
         "id": "algo",
         "thèmes": [
           {
-            "nom": "Algorithmique",
+            "nom": "Algorithmique :",
             "sous thèmes": [
               {
                 "sous thèmes": "Variables, boucles... :",
@@ -108,7 +108,7 @@
             ]
           },
           {
-            "nom": "Calculette",
+            "nom": "Calculette :",
             "sous thèmes": [
               {
                 "sous thèmes": "Comprendre la \"TI\":",
@@ -126,7 +126,7 @@
         "id": "nota",
         "thèmes": [
           {
-            "nom": "Comprendre l'écriture mathématique:",
+            "nom": "Comprendre l'écriture mathématique :",
             "sous thèmes": [
               {
                 "sous thèmes": "Notation mathématique:",
