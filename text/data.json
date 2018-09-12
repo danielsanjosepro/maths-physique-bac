@@ -679,6 +679,37 @@
       "id": "autres",
       "thèmes": [
         {
+          "title": "Graphes et Matrices",
+          "tags": [
+            "matrice",
+            "matrices",
+            "graphe",
+            "graphes",
+            "spécialité",
+            "specialite",
+            "specialité",
+            "spécialite",
+            "identité",
+            "identite"
+          ],
+          "image": "matrices.png",
+          "content": "Pour les spécialités mathématique en ES, on apprend pendant l'année ce qu'est un graphe et une matrice.",
+          "thèmes": [
+            "Comprendre un graphe",
+            "Calculs avec des matrices"
+          ],
+          "badges": [
+            {
+              "course": "TES",
+              "color": "dark",
+              "reference": "terminaleES.html"
+            }
+          ],
+          "référence": "matrices.html",
+          "id": "matrices",
+          "groupe": "autres"
+        },
+        {
           "title": "Révisions 1°",
           "tags": [
             "autres",

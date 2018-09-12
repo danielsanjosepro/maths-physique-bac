@@ -1,0 +1,47 @@
+{
+  "thème": "Graphes et Matrices",
+  "description": "programme de spécialité maths en ES",
+  "Théorie": {
+    "classes": [
+      {
+        "course": "Terminale ES",
+        "color": "dark",
+        "reference": "terminaleES.html"
+      }
+    ],
+    "intro": "<p>En spécialité maths en ES on travaille deux thèmes nouveaux par rapport au tronc commun: les graphes et les matrices.</p> <p>Les graphes sont des points/sommets, reliés par des traits/arêtes. Ils sont souvents utilisés en probabilités (Graphes probabilistes).</p> <p> Les matrices sont plus utilisées. Il s'agit de tableaux avec un certains nombre de ligne et de colonne. Il existe des calculs avec les matrices, comme l'addition ou le produit matriciel.",
+    "thèmes": [
+      {
+        "difficultée": "success",
+        "thème":"Comprendre ce qu'est un graphe"
+      },
+      {
+        "difficultée": "success",
+        "thème":"Comprendre ce qu'est une matrice"
+      },
+      {
+        "difficultée": "danger",
+        "thème":"Connaître le vocabulaire d'un graphe (sommets, sommets adjacents, arêtes...)"
+      },
+      {
+        "difficultée": "danger",
+        "thème":"Problèmes comme colorier une matrice(Algoruthme de Wellsh-Powell)"
+      },
+      {
+        "difficultée": "danger",
+        "thème":"Retrouver la matrice inverse d'une matrice 2x2"
+      },
+      {
+        "difficultée": "dark",
+        "thème":"Réussir des calculs avec des matrices"
+      },
+      {
+        "difficultée": "dark",
+        "thème":"Interpréter un exercice de spécialité et le traduire en tant que graphe probabiliste, retrouver ainsi l'état initial avec la matrice de probabilités et si il existe, retrouver l'état stable."
+      }
+
+    ]
+  },
+  "Exercices I": [],
+  "Exercices II": []
+}

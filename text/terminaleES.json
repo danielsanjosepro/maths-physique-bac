@@ -142,7 +142,19 @@
         "color": "#FFFFFF",
         "nom": "Graphes et Matrices",
         "id": "matrices",
-        "thèmes": []
+        "thèmes": [
+          {
+            "nom": "Spécialité maths :",
+            "sous thèmes": [
+              {
+                "sous thèmes": "Graphes et matrices:",
+                "color": "dark",
+                "lien": "matrices.html",
+                "nomSmall": "GM"
+              }
+            ]
+          }
+        ]
       }
     ],
     "autres": [
