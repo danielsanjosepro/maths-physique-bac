@@ -64,5 +64,42 @@
       "nomPdf": "Exercice 2: Suite I | pdf"
     }
   ],
-  "Exercices II": []
+  "Exercices II": [
+    {
+      "titre": "Les Bons Profs: Suites arithmétiques - Définition",
+      "type": "<i class='fab fa-youtube'></i>",
+      "référence": "https://www.youtube.com/watch?v=Rz1GbWg0TJU&index=7&list=PL_1WVGjLTYqK4esG6Rex4AhPwBX3zFpFC",
+      "nomSite": "Suites arithmétiques définition"
+    },
+    {
+      "titre": "Les Bons Profs: Suites arithmétiques - Méthode",
+      "type": "<i class='fab fa-youtube'></i>",
+      "référence": "https://www.youtube.com/watch?v=rRhcSR3ezyc&index=6&list=PL_1WVGjLTYqK4esG6Rex4AhPwBX3zFpFC",
+      "nomSite": "Suites arithmétiques méthode"
+    },
+    {
+      "titre": "Les Bons Profs: Suites géométriques - Définition",
+      "type": "<i class='fab fa-youtube'></i>",
+      "référence": "https://www.youtube.com/watch?v=VFtzibt4VLY&index=5&list=PL_1WVGjLTYqK4esG6Rex4AhPwBX3zFpFC",
+      "nomSite": "Suites géométriques définition"
+    },
+    {
+      "titre": "Les Bons Profs: Suites géométriques - Méthode",
+      "type": "<i class='fab fa-youtube'></i>",
+      "référence": "https://www.youtube.com/watch?v=ZZLxA3Z6x8c&list=PL_1WVGjLTYqK4esG6Rex4AhPwBX3zFpFC&index=4",
+      "nomSite": "Suites géométriques méthode"
+    },
+    {
+      "titre": "Les Bons Profs: Somme de termes d'une suite - Formules",
+      "type": "<i class='fab fa-youtube'></i>",
+      "référence": "https://www.youtube.com/watch?v=GqZgUwFoDrA&list=PL_1WVGjLTYqK4esG6Rex4AhPwBX3zFpFC",
+      "nomSite": "Somme de termes d'une suite formule"
+    },
+    {
+      "titre": "Les Bons Profs: Somme de termes d'une suite - Applications",
+      "type": "<i class='fab fa-youtube'></i>",
+      "référence": "https://www.youtube.com/watch?v=DD1FfGltwoo&index=2&list=PL_1WVGjLTYqK4esG6Rex4AhPwBX3zFpFC",
+      "nomSite": "Somme de termes d'une suite application"
+    }
+  ]
 }

@@ -21,6 +21,31 @@
       }
     ]
   },
-  "Exercices I": [],
-  "Exercices II": []
+  "Exercices I": [
+    {
+      "titre": "Exercices de raisonnement par récurrence:",
+      "référence": "exercices/suites3/récurrence.pdf",
+      "nomPdf": "Exercice 1: Suite III | pdf"
+    }
+  ],
+  "Exercices II": [
+    {
+      "titre": "Les Bons Profs: Le principe du raisonnement par récurrence",
+      "type": "<i class='fab fa-youtube'></i>",
+      "référence": "https://www.youtube.com/watch?v=xR5BRvTsJk0",
+      "nomSite": "Principe"
+    },
+    {
+      "titre": "Les Bons Profs: Application 1 du raisonnement par récurrence",
+      "type": "<i class='fab fa-youtube'></i>",
+      "référence": "https://www.youtube.com/watch?v=xR5BRvTsJk0",
+      "nomSite": "Application 1"
+    },
+    {
+      "titre": "Les Bons Profs: Application 2 du raisonnement par récurrence",
+      "type": "<i class='fab fa-youtube'></i>",
+      "référence": "https://www.youtube.com/watch?v=f1pAC_9a6PY",
+      "nomSite": "Application 2"
+    }
+  ]
 }
