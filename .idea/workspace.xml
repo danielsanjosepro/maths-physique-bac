@@ -15,28 +15,28 @@
     <session id="-1665187604">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="113" />
+          <entry key="project.closed" value="115" />
           <entry key="project.open.time.0" value="8" />
           <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.3" value="5" />
           <entry key="project.open.time.4" value="7" />
-          <entry key="project.open.time.5" value="22" />
-          <entry key="project.open.time.6" value="41" />
+          <entry key="project.open.time.5" value="23" />
+          <entry key="project.open.time.6" value="42" />
           <entry key="project.open.time.7" value="17" />
           <entry key="project.open.time.8" value="8" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="113" />
+          <entry key="project.opened" value="115" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="18" />
-          <entry key="html" value="405" />
+          <entry key="html" value="413" />
           <entry key="http" value="1" />
           <entry key="js" value="27" />
-          <entry key="json" value="153" />
-          <entry key="mst" value="65" />
+          <entry key="json" value="156" />
+          <entry key="mst" value="78" />
           <entry key="png" value="1" />
           <entry key="txt" value="8" />
         </counts>
@@ -44,42 +44,78 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="18" />
-          <entry key="HTML" value="405" />
+          <entry key="HTML" value="413" />
           <entry key="Image" value="1" />
-          <entry key="JSON" value="153" />
+          <entry key="JSON" value="156" />
           <entry key="JavaScript" value="27" />
-          <entry key="PLAIN_TEXT" value="73" />
+          <entry key="PLAIN_TEXT" value="86" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="438" />
-          <entry key="html" value="10798" />
+          <entry key="html" value="10871" />
           <entry key="js" value="1189" />
-          <entry key="json" value="32836" />
-          <entry key="mst" value="1447" />
+          <entry key="json" value="38669" />
+          <entry key="mst" value="1593" />
           <entry key="txt" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="438" />
-          <entry key="HTML" value="10798" />
-          <entry key="JSON" value="32836" />
+          <entry key="HTML" value="10871" />
+          <entry key="JSON" value="38669" />
           <entry key="JavaScript" value="1189" />
-          <entry key="PLAIN_TEXT" value="1474" />
+          <entry key="PLAIN_TEXT" value="1620" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/text/thèmes/matrices.json">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/text/data.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+            <state relative-caret-position="136">
+              <caret line="909" column="21" lean-forward="true" selection-start-line="909" selection-start-column="21" selection-end-line="909" selection-end-column="21" />
+              <folding>
+                <element signature="e#19#3337#0" />
+                <element signature="e#768#1330#0" />
+                <element signature="e#3343#9199#0" />
+                <element signature="e#9205#15982#0" />
+                <element signature="e#15988#18339#0" />
+                <element signature="e#18345#24583#0" />
+                <element signature="e#24615#24700#0" />
+                <element signature="e#24678#24696#0" />
+                <element signature="e#25339#25980#0" />
+                <element signature="e#25389#25415#0" />
+                <element signature="e#25990#26632#0" />
+                <element signature="e#26651#27536#0" />
+                <element signature="e#27183#27555#0" />
+                <element signature="e#27667#30705#0" />
+                <element signature="e#27748#28622#0" />
+                <element signature="e#28941#29849#0" />
+                <element signature="e#29886#30873#0" />
+                <element signature="e#29766#30100#0" />
+                <element signature="e#30887#31915#0" />
+                <element signature="e#30949#31184#0" />
+                <element signature="e#31925#33028#0" />
+                <element signature="e#24791#24874#0" />
+                <element signature="e#33123#34136#0" />
+                <element signature="e#34042#35385#0" />
+                <element signature="e#24880#26133#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/physicsandchemistry.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-26">
+              <caret line="160" column="39" selection-start-line="160" selection-start-column="39" selection-end-line="160" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -97,9 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/text/probaIV.html" />
-        <option value="$PROJECT_DIR$/text/thèmes/calculette.json" />
-        <option value="$PROJECT_DIR$/text/thèmes/fonctionsIIIb.json" />
         <option value="$PROJECT_DIR$/text/thèmes/suitesII.json" />
         <option value="$PROJECT_DIR$/text/thèmes/fonctionsIV.json" />
         <option value="$PROJECT_DIR$/mustache_templates/classeTemplate.mst" />
@@ -130,9 +163,7 @@
         <option value="$PROJECT_DIR$/fonctionsIV.html" />
         <option value="$PROJECT_DIR$/gde.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/maths.html" />
         <option value="$PROJECT_DIR$/notation.html" />
-        <option value="$PROJECT_DIR$/physicsandchemistry.html" />
         <option value="$PROJECT_DIR$/probaI.html" />
         <option value="$PROJECT_DIR$/probaII.html" />
         <option value="$PROJECT_DIR$/probaIII.html" />
@@ -146,8 +177,13 @@
         <option value="$PROJECT_DIR$/terminaleS.html" />
         <option value="$PROJECT_DIR$/text/terminaleES.json" />
         <option value="$PROJECT_DIR$/matrices.html" />
-        <option value="$PROJECT_DIR$/text/data.json" />
         <option value="$PROJECT_DIR$/text/thèmes/matrices.json" />
+        <option value="$PROJECT_DIR$/apprendre.html" />
+        <option value="$PROJECT_DIR$/maths.html" />
+        <option value="$PROJECT_DIR$/mustache_templates/pcCardsTemplate.mst" />
+        <option value="$PROJECT_DIR$/mustache_templates/pcNavAsideTemplate.mst" />
+        <option value="$PROJECT_DIR$/physicsandchemistry.html" />
+        <option value="$PROJECT_DIR$/text/data.json" />
       </list>
     </option>
   </component>
@@ -167,7 +203,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -177,27 +212,18 @@
             </path>
             <path>
               <item name="Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="text" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="text" type="462c0819:PsiDirectoryNode" />
-              <item name="thèmes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Website" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/sanjo/Desktop/Website/physicsandchemistry.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTTP Request" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -206,17 +232,17 @@
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sanjo\Desktop\Website" />
+      <recent name="C:\Users\sanjo\Desktop\Website\js" />
+      <recent name="C:\Users\sanjo\Desktop\Website\html\thèmes_maths" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\sanjo\Desktop\Website" />
       <recent name="C:\Users\sanjo\Desktop\Website\text\thèmes" />
       <recent name="C:\Users\sanjo\Desktop\Website\mustache_templates" />
       <recent name="C:\Users\sanjo\Desktop\Website\text" />
       <recent name="C:\Users\sanjo\Desktop\Website\js" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\sanjo\Desktop\Website" />
-      <recent name="C:\Users\sanjo\Desktop\Website\js" />
-      <recent name="C:\Users\sanjo\Desktop\Website\html\thèmes_maths" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -364,11 +390,13 @@
       <workItem from="1536141785923" duration="1425000" />
       <workItem from="1536408208897" duration="541000" />
       <workItem from="1536560650293" duration="3775000" />
+      <workItem from="1536923463340" duration="1931000" />
+      <workItem from="1536944399430" duration="9280000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207173000" />
+    <option name="totallyTimeSpent" value="218384000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -420,48 +448,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/text/thèmes/fonctionsIIIb.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="72" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mustache_templates/classePCTemplate.mst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="70" selection-start-line="1" selection-start-column="70" selection-end-line="1" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/text/thèmes/fonctionsIV.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="212" selection-start-line="31" selection-start-column="212" selection-end-line="31" selection-end-column="212" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mustache_templates/thèmeTemplate.mst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-599">
-          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/text/thèmes/probaII.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/text/thèmes/probaIV.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="82" lean-forward="true" selection-start-line="23" selection-start-column="82" selection-end-line="23" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/text/thèmes/probaI.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -494,13 +480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
           <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mustache_templates/classeTemplate.mst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -557,13 +536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
           <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithmique.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -637,21 +609,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/maths.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/notation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/physicsandchemistry.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
@@ -756,20 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/text/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="695" column="125" selection-start-line="695" selection-start-column="125" selection-end-line="695" selection-end-column="125" />
-          <folding>
-            <element signature="e#19#3337#0" />
-            <element signature="e#3343#9199#0" />
-            <element signature="e#9205#15982#0" />
-            <element signature="e#15988#18339#0" />
-            <element signature="e#23729#24051#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/text/thèmes/fonctionsII.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -780,7 +724,114 @@
     <entry file="file://$PROJECT_DIR$/text/thèmes/matrices.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
-          <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mustache_templates/classePCTemplate.mst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="70" selection-start-line="1" selection-start-column="70" selection-end-line="1" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mustache_templates/classeTemplate.mst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mustache_templates/mathCardsTemplate.mst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithmique.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-end-line="176" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apprendre.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="109" column="20" selection-start-line="109" selection-start-column="20" selection-end-line="109" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mustache_templates/navAsideTemplate.mst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="24" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maths.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="146" column="35" selection-start-line="146" selection-start-column="35" selection-end-line="146" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mustache_templates/pcNavAsideTemplate.mst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mustache_templates/pcCardsTemplate.mst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="909" column="21" lean-forward="true" selection-start-line="909" selection-start-column="21" selection-end-line="909" selection-end-column="21" />
+          <folding>
+            <element signature="e#19#3337#0" />
+            <element signature="e#768#1330#0" />
+            <element signature="e#3343#9199#0" />
+            <element signature="e#9205#15982#0" />
+            <element signature="e#15988#18339#0" />
+            <element signature="e#18345#24583#0" />
+            <element signature="e#24615#24700#0" />
+            <element signature="e#24678#24696#0" />
+            <element signature="e#25339#25980#0" />
+            <element signature="e#25389#25415#0" />
+            <element signature="e#25990#26632#0" />
+            <element signature="e#26651#27536#0" />
+            <element signature="e#27183#27555#0" />
+            <element signature="e#27667#30705#0" />
+            <element signature="e#27748#28622#0" />
+            <element signature="e#28941#29849#0" />
+            <element signature="e#29886#30873#0" />
+            <element signature="e#29766#30100#0" />
+            <element signature="e#30887#31915#0" />
+            <element signature="e#30949#31184#0" />
+            <element signature="e#31925#33028#0" />
+            <element signature="e#24791#24874#0" />
+            <element signature="e#33123#34136#0" />
+            <element signature="e#34042#35385#0" />
+            <element signature="e#24880#26133#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/physicsandchemistry.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26">
+          <caret line="160" column="39" selection-start-line="160" selection-start-column="39" selection-end-line="160" selection-end-column="39" />
         </state>
       </provider>
     </entry>

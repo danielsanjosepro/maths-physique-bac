@@ -57,7 +57,7 @@
 
     <header></header>
 
-    <div class="container" style="margin-top: 70px">
+    <div class="container-fluid" style="margin-top: 70px">
         <div class="row">
             <!-- "Navbar" aside -->
             <div class="col-sm-4 col-md-4 col-lg-2" style="margin-bottom: 20px;">
@@ -76,8 +76,15 @@
                         <li class="breadcrumb-item active" aria-current="page">Physique & Chimie</li>
                     </ol>
                 </nav>
-                <div class="row" id="pcCards">
+                <div id="pcCards">
+                    <div class="row activeCards" id="cardPage1"></div>
+                </div>
 
+                <div class="row justify-content-center mt-4">
+                    <div class="btn-group" role="group" id="pagination">
+                        <button type="button" id="pageButtonPrevious" onclick="previous_or_next('previous')" class="btn btnPage"><i class="fas fa-angle-double-left"></i></button>
+                        <button type="button" id="pageButton1" onclick="changeCards('#cardPage1')" class="btn activePage">1</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -139,11 +146,26 @@
     $(function () {
         $.get("mustache_templates/pcCardsTemplate.mst", function (template) {
             $.getJSON("text/data.json", function (data) {
-                let renderedCards = Mustache.render(template, data);
-                $('#pcCards').html(renderedCards);
+                let i;
+                let j;
+                let page = 1;
+                let number_of_cards = 0;
+                for (i in data.PhysiqueChimie) {
+                    for (j in data.PhysiqueChimie[i].thèmes) {
+                        let result = Mustache.render(template, data.PhysiqueChimie[i].thèmes[j]);
+                        $('#cardPage' + page).append(result);
+                        number_of_cards += 1;
+                        if ((number_of_cards % 9) === 0) {
+                            page = page + 1;
+                            $("#pagination").append('<button type="button" id="pageButton'+page+'" class="btn btnPage" onclick="changeCards(\'#cardPage'+page+'\')">' + page + '</button>');
+                            $("#pcCards").append('<div class="row" id="cardPage' + page + '"></div>');
+                            $("#cardPage" + page).hide();
+                        }
+                    }
+                }
+                $("#pagination").append('<button type="button" id="pageButtonNext" onclick="previous_or_next(\'next\')" class="btn btnPage"><i class="fas fa-angle-double-right"></i></button>')
             })
         })
-
         $.get("mustache_templates/pcNavAsideTemplate.mst", function (template) {
             $.getJSON("text/data.json", function (data) {
                 let result = Mustache.render(template, data);
@@ -156,6 +178,9 @@
 
 <!-- Header -->
 <script src="js/navbar.js"></script>
+
+<!--Pagination -->
+<script src="js/pagination.js"></script>
 
 </body>
 </html>

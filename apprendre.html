@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Apprendre à apprendre</title>
+    <link rel="icon" href="images/logo.png">
+    <meta charset="utf-8"/>
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#004f98">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#004f98">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#004f98">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="main.css" rel="stylesheet">
+
+    <!-- For icons https://fontawesome.com/icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+          integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
+    <!-- For Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css"
+          integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+
+    <!--JQuery-->
+    <script src="js/jquery.js"></script>
+
+    <!-- Mustache -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.js"></script>
+
+    <!--load page-->
+    <script>
+        $(function () {
+            $("#load_screen").fadeOut(1000, function () {
+                $("#content").fadeIn(1000);
+            })
+        })
+    </script>
+</head>
+
+<body>
+
+<div id="load_screen" class="centered display-4 text-center">
+    <img id="chargingLogo" style="height: 80px" src="images/charging.png" class="image-fluid rounded mh-100">
+    Chargement...
+</div>
+
+<div id="content">
+    <header></header>
+
+    <!-- Header -->
+    <script src="js/navbar.js"></script>
+
+    <div class="container-fluid" style="margin-top: 70px">
+
+    </div>
+
+    <footer></footer>
+
+</div>
+    <!-- Footer -->
+    <script src="js/footer.js"></script>
+
+    <div class="modal fade" id="aboutMeModal" tabindex="-1" role="dialog" aria-labelledby="aboutMeModalLabel"
+         aria-hidden="true">
+
+    </div>
+
+    <!-- Modal about me -->
+    <script>
+        $(function () {
+            $("#aboutMeModal").load("html/about_me.html");
+        })
+    </script>
+
+    <!-- Jquery & Javascript for Bootstrap -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"
+            integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+            crossorigin="anonymous"></script>
+
+
+    <!-- for Poopers and Tooltips -->
+
+    <script src="https://unpkg.com/popper.js"></script>
+    <script src="https://unpkg.com/tooltip.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/javascript.util/0.12.12/javascript.util.min.js"></script>
+    <script>
+        $(function () {
+            $('[data-toggle="popover"]').popover()
+        })
+
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+
+    <!-- JavaScript for the Template -->
+
+    <script type="text/javascript">
+    </script>
+
+
+    <script src="js/email_icon.js"></script>
+
+</body>
+
+</html>

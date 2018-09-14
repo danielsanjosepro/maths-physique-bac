@@ -907,13 +907,477 @@
       ]
     }
   ],
-  "Physique Chimie": [
+  "PhysiqueChimie": [
     {
-      "title": "Étudier en Allemagne",
-      "image": "allemagne.png",
-      "content": "Avant de commencer mes études en Allemagne, je me suis préparé aux mots techniques en physique et chimie. Ici vous retrouvez un document que j'ai écrit.",
-      "référence": "allemagne.html",
-      "id": "allemagne"
+      "groupe": "Ondes",
+      "id": "ondes",
+      "thèmes":[
+        {
+          "title": "Ondes I",
+          "tags": [
+            "onde",
+            "ondes",
+            "lumière",
+            "magnétique",
+            "magnetique",
+            "fréquence",
+            "frequence",
+            "célérité",
+            "celerite",
+            "longueur",
+            "wien",
+            "loi",
+            "planck",
+            "niveaux"
+          ],
+          "image": "ondesI.png",
+          "content": "Il faut comprendre les propriétés basiques des ondes pour comprendre les chapitres suivants en physique.",
+          "thèmes": [
+            "Fréquence/Longueur d'onde",
+            "Types d'ondes",
+            "Niveaux d'energies, Loi de Wien..."
+          ],
+          "badges": [
+            {
+              "course": "TS",
+              "color": "danger",
+              "reference": "terminaleS.html"
+            }
+          ],
+          "référence": "ondesI.html",
+          "id": "ondes1",
+          "groupe": "ondes"
+        },
+        {
+          "title": "Ondes II",
+          "tags": [
+            "onde",
+            "ondes",
+            "diffraction",
+            "obstacle",
+            "franche",
+            "fente",
+            "young",
+            "double",
+            "interférences",
+            "interferences",
+            "interférence",
+            "interference",
+            "dopler",
+            "doppler",
+            "effect"
+          ],
+          "image": "ondes2.png",
+          "content": "Les ondes sont plus complexes de ce qu'on pense, et les maths rentrent en jeu dans ce chapitre.",
+          "thèmes": [
+            "Diffraction",
+            "Interférences",
+            "Effet Doppler"
+          ],
+          "badges": [
+            {
+              "course": "TS",
+              "color": "danger",
+              "reference": "terminaleS.html"
+            }
+          ],
+          "référence": "ondes2.html",
+          "id": "ondes2",
+          "groupe": "ondes"
+        },
+        {
+          "title": "Mécanique Quantique",
+          "tags": [
+            "quant",
+            "quantique",
+            "mécanique",
+            "dualisme",
+            "particule",
+            "ondes",
+            "onde",
+            "young",
+            "probabilité",
+            "corp",
+            "heisenberg",
+            "broglie",
+            "planck",
+            "lumière",
+            "photon"
+          ],
+          "image": "quantique.png",
+          "content": "La lumière peut être une onde ou une particule... mais également tout objet quantique, il s'agit du dualisme.",
+          "thèmes": [
+            "Dualisme",
+            "Aspect probabiliste",
+            "Équation de Broglie"
+          ],
+          "badges": [
+            {
+              "course": "TS",
+              "color": "danger",
+              "reference": "terminaleS.html"
+            }
+          ],
+          "référence": "quantique.html",
+          "id": "quantique",
+          "groupe": "ondes"
+        }
+      ]
+    },
+    {
+      "groupe": "Mécanique",
+      "id": "mecanique",
+      "thèmes":[
+        {
+          "title": "Lois de Newton",
+          "tags": [
+            "newton",
+            "dérivée",
+            "derivee",
+            "dériver",
+            "quantité",
+            "matière",
+            "masse",
+            "force",
+            "accélération",
+            "acceleration",
+            "classique",
+            "seconde",
+            "intégration",
+            "mouvement",
+            "uniforme",
+            "rectiligne",
+            "équation",
+            "equation",
+            "horaire"
+          ],
+          "image": "newton.png",
+          "content": "Les lois de Newton on change l'humanité, la mécanique classique est fondé sur celles-ci.",
+          "thèmes": [
+            "Relation entre accélération, vitesse et position",
+            "Dominer les calculs de dérivées (nouvelle notation) et vecteurs",
+            "Lois de Newton (en particulier la 2nde)"
+          ],
+          "badges": [
+            {
+              "course": "TS",
+              "color": "danger",
+              "reference": "terminaleS.html"
+            }
+          ],
+          "référence": "newton.html",
+          "id": "newton",
+          "groupe": "mecanique"
+        },
+        {
+          "title": "Champs de pesanteur",
+          "tags": [
+            "pesanteur",
+            "gravité",
+            "gravite",
+            "g",
+            "P",
+            "poids",
+            "mouvement",
+            "uniforme",
+            "rectiligne",
+            "champs"
+          ],
+          "image": "pesanteur.png",
+          "content": "La pomme qui tombe dans le champs de pesanteur est un exemple classique. Ce cas peut être décrit grâce aux lois de Newton...",
+          "thèmes": [
+            "Champs de pesanteur",
+            "Accéleration terrestre <img src='math/g.svg'>",
+            "Trajectoire parabolique"
+          ],
+          "badges": [
+            {
+              "course": "TS",
+              "color": "danger",
+              "reference": "terminaleS.html"
+            }
+          ],
+          "référence": "pesanteur.html",
+          "id": "pesanteur",
+          "groupe": "mecanique"
+        },
+        {
+          "title": "Champ électrostatique",
+          "tags": [
+            "champs",
+            "champ",
+            "electrique",
+            "électrique",
+            "électrostatique",
+            "electrostatique",
+            "électron",
+            "electron",
+            "chargée",
+            "charge",
+            "chargé",
+            "tension"
+          ],
+          "image": "electrostatique.png",
+          "content": "Les champs électrostatique sont utilisés pour accélerer des particules chargées comme par exemple des électrons.",
+          "thèmes": [
+            "Déviation de particules",
+            "Accéleration de particules",
+            "Loi de Coulomb"
+          ],
+          "badges": [
+            {
+              "course": "TS",
+              "color": "danger",
+              "reference": "terminaleS.html"
+            }
+          ],
+          "référence": "electrostatique.html",
+          "id": "electrostatique",
+          "groupe": "mecanique"
+        },
+        {
+          "title": "Mécanique Céleste",
+          "tags": [
+            "céleste",
+            "celeste",
+            "mécanique",
+            "mecanique",
+            "planètes",
+            "astres",
+            "étoiles",
+            "étoile",
+            "etoile",
+            "etoiles",
+            "gravité",
+            "satélite",
+            "satelite",
+            "kepler"
+          ],
+          "image": "celeste.png",
+          "content": "Les mouvements des astres peuvent être étudiés grâce aux lois de Kepler. En Mécanique céleste on étudie le mouvement d'objets plus grands...",
+          "thèmes": [
+            "Repère de Frenet",
+            "Lois de Kepler",
+            "Mouvement circulaire ou elliptique"
+          ],
+          "badges": [
+            {
+              "course": "TS",
+              "color": "danger",
+              "reference": "terminaleS.html"
+            }
+          ],
+          "référence": "elliptique.html",
+          "id": "elliptique",
+          "groupe": "mecanique"
+        },
+        {
+          "title": "Temps et Relativité",
+          "tags": [
+            "relativité",
+            "temps",
+            "relativite",
+            "relativiste",
+            "propre",
+            "mesurée",
+            "mesuree",
+            "einstein",
+            "lorentz",
+            "coefficient",
+            "coéfficient",
+            "relatif",
+            "pendule",
+            "oscilation",
+            "oscillation"
+          ],
+          "image": "relativité.png",
+          "content": "Le temps est relatif. Lorsque la vitesse d'un objet augmente, le temps se dilate: il 's'agit de la théorie de la relativité restreinte élaborée par Einstein.",
+          "thèmes": [
+            "Pendules et oscillations",
+            "Temps propre et temps mesuré",
+            "Coefficient de Lorentz"
+          ],
+          "badges": [
+            {
+              "course": "TS",
+              "color": "danger",
+              "reference": "terminaleS.html"
+            }
+          ],
+          "référence": "relativite.html",
+          "id": "relativite",
+          "groupe": "mecanique"
+        }
+      ]
+    },
+    {
+      "groupe": "Chimie",
+      "id": "chimie",
+      "thèmes":[
+        {
+          "title": "Acide et Base",
+          "tags": [
+            "réaction",
+            "acide",
+            "base",
+            "basique",
+            "réaction",
+            "reaction",
+            "fort",
+            "faible",
+            "ph",
+            "pka",
+            "ka",
+            "h3o+",
+            "ho-",
+            "hydroxile",
+            "oxonium",
+            "conjuguée",
+            "conjugué",
+            "tampon"
+          ],
+          "image": "acide.png",
+          "content": "Grâce aux titrages on peut réaliser des contrôles de qualité pour des produits. On peut vérifier la concentration d'un certain élément en solution.",
+          "thèmes": [
+            "Réaction acido-basique",
+            "Acide/Base forte/faible",
+            "<img src='math/pH.svg'>"
+          ],
+          "badges": [
+            {
+              "course": "TS",
+              "color": "danger",
+              "reference": "terminaleS.html"
+            }
+          ],
+          "référence": "acide.html",
+          "id": "acide",
+          "groupe": "chimie"
+        },
+        {
+          "title": "Titrage",
+          "tags": [
+            "titrage",
+            "titrant",
+            "titrer",
+            "équivalence",
+            "equivalence",
+            "titrée",
+            "titree",
+            "jaugée",
+            "jaugee",
+            "pipette",
+            "becher"
+          ],
+          "image": "titrage.png",
+          "content": "Grâce aux titrages on peut réaliser des contrôles de qualité pour des produits. On peut vérifier la concentration d'un certain élément en solution.",
+          "thèmes": [
+            "Volume d'équivalence",
+            "Équation de la réaction"
+          ],
+          "badges": [
+            {
+              "course": "TS",
+              "color": "danger",
+              "reference": "terminaleS.html"
+            }
+          ],
+          "référence": "titrage.html",
+          "id": "titrage",
+          "groupe": "chimie"
+        },
+        {
+          "title": "Stéréoisomérie",
+          "tags": [
+            "stereoisomere",
+            "stéréoisomère",
+            "isomérie",
+            "isomère",
+            "stéréoisomérie",
+            "stereoisomerie",
+            "espace",
+            "molécules",
+            "molécule",
+            "molecules",
+            "molecule",
+            "mirroir",
+            "diastéréoisomère",
+            "diastereoisomere",
+            "diastéréoisomérie",
+            "diastereoisomerie",
+            "chiral",
+            "asymétrique",
+            "chiralité",
+            "énantiomères",
+            "enantiomeres",
+            "énantiomère",
+            "enantiomere"
+          ],
+          "image": "isomerie.png",
+          "content": "Il existe également des isomères dans l'espace, étant donné que les molécules ne sont pas en 2 dimensions comme sur notre feuille.",
+          "thèmes": [
+            "Représentation de Cram/Chiralité...",
+            "Isomère de constitution/conformation",
+            "Énantiomères/Diastéréoisomères"
+          ],
+          "badges": [
+            {
+              "course": "TS",
+              "color": "danger",
+              "reference": "terminaleS.html"
+            }
+          ],
+          "référence": "isomeres.html",
+          "id": "isomeres",
+          "groupe": "chimie"
+        }
+      ]
+    },
+    {
+      "groupe": "Autres",
+      "id": "autres",
+      "thèmes":[
+        {
+          "title": "Étudier en Allemagne",
+          "image": "allemagne.png",
+          "badges": [
+            {
+              "course": "TES",
+              "color": "dark",
+              "reference": "terminaleES.html"
+            },
+            {
+              "course": "TS",
+              "color": "danger",
+              "reference": "terminaleS.html"
+            },
+            {
+              "course": "1ES",
+              "color": "success",
+              "reference": "premiereES.html"
+            },
+            {
+              "course": "1S",
+              "color": "warning",
+              "reference": "premiereS.html"
+            }
+          ],
+          "content": "Avant de commencer mes études en Allemagne, je me suis préparé aux mots techniques en physique et chimie. Ici vous retrouvez un document que j'ai écrit.",
+          "référence": "allemagne.html",
+          "id": "allemagne",
+          "tags": [
+            "allemagne",
+            "france",
+            "dictionnaire",
+            "livre",
+            "france",
+            "allemand",
+            "francais",
+            "étudier",
+            "etudier"
+          ]
+        }
+      ]
     }
   ]
 }
