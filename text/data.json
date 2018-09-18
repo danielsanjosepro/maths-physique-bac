@@ -953,6 +953,44 @@
           "tags": [
             "onde",
             "ondes",
+            "son",
+            "sonore",
+            "fréquence",
+            "frequence",
+            "longueur",
+            "périodique",
+            "periodique",
+            "acoustique",
+            "période",
+            "periode",
+            "niveau",
+            "harmonique",
+            "hateur",
+            "timbre"
+          ],
+          "image": "ondes2.png",
+          "content": "Les ondes sont très importantes en acoustique, car le son est une onde progressive périodique.",
+          "thèmes": [
+            "Ondes progressives périodiques",
+            "Niveau d'intensité sonore",
+            "Atténuation"
+          ],
+          "badges": [
+            {
+              "course": "TS",
+              "color": "danger",
+              "reference": "terminaleS.html"
+            }
+          ],
+          "référence": "ondes2.html",
+          "id": "ondes2",
+          "groupe": "ondes"
+        },
+        {
+          "title": "Ondes III",
+          "tags": [
+            "onde",
+            "ondes",
             "diffraction",
             "obstacle",
             "franche",
@@ -967,7 +1005,7 @@
             "doppler",
             "effect"
           ],
-          "image": "ondes2.png",
+          "image": "ondes3.png",
           "content": "Les ondes sont plus complexes de ce qu'on pense, et les maths rentrent en jeu dans ce chapitre.",
           "thèmes": [
             "Diffraction",
@@ -981,8 +1019,8 @@
               "reference": "terminaleS.html"
             }
           ],
-          "référence": "ondes2.html",
-          "id": "ondes2",
+          "référence": "ondes3.html",
+          "id": "ondes3",
           "groupe": "ondes"
         },
         {

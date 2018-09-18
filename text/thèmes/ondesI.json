@@ -21,7 +21,7 @@
       },
       {
         "difficultée": "dark",
-        "thème": "Savoir utiliser les formules pour étudier les ondes (électromagnétiques):"
+        "thème": "<span style=\"margin-bottom: 20px\"> Savoir utiliser les formules pour étudier les ondes (électromagnétiques): </span> <div><ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">&#8226; <img src='math/lambda_nu.svg'></li><li class=\"list-group-item\">&#8226; <img src='math/energie.svg'></li><li class=\"list-group-item\">&#8226; Loi de Wien: <img src='math/wien.svg'> en SI</li></ul></div>"
       }
     ]
   },
