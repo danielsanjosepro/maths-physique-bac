@@ -1,0 +1,30 @@
+{
+  "thème": "Ondes I",
+  "description": "ondes électromagnétiques, ondes mécaniques...",
+  "Théorie":{
+    "classes":[
+      {
+        "course": "Terminale S",
+        "color": "danger",
+        "reference": "terminaleS.html"
+      }
+    ],
+    "intro": "<p>Les ondes sont un phénomène très étudié dans la physique, du à son vaste domaine d'étude. Il existe 2 types d'ondes très importants: les ondes mécaniques et les ondes électromagnétiques.</p><p> D'une part les ondes mécaniques se déplacent uniquement dans la matière, comme par exemple les ondes sonores, ou les ondes sismiques.</p><p>D'autre part les ondes électromagnétiques qui se déplacent dans le vide également, comme la lumière. Les électromagnétiques ont des sources naturelles dans l'univers, comme les étoiles, et selon la longueur d'onde ou la fréquence on peut catégoriser celles-ci. Comme par exemple le visible, UV, micro-ondes ...</p>",
+    "thèmes": [
+      {
+        "difficultée": "danger",
+        "thème": "Connaître la définition de: <ul><li> onde progressive</li><li> le retard</li><li> célérité</li><li> onde transversale/longitudinale</li></ul>"
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Connaître les catégories des ondes électromagnétiques: <ul><li> ondes radio</li><li> micro-ondes</li><li> IR</li><li> visible</li><li> UV</li><li> rayons X</li><li> rayons gamma</li></ul>"
+      },
+      {
+        "difficultée": "dark",
+        "thème": "Savoir utiliser les formules pour étudier les ondes (électromagnétiques):"
+      }
+    ]
+  },
+  "Exercices I": [],
+  "Exercices II": []
+}

@@ -1118,7 +1118,7 @@
             "tension"
           ],
           "image": "electrostatique.png",
-          "content": "Les champs électrostatique sont utilisés pour accélerer des particules chargées comme par exemple des électrons.",
+          "content": "Les champs électrostatiques sont utilisés pour accélerer des particules chargées comme par exemple des électrons.",
           "thèmes": [
             "Déviation de particules",
             "Accéleration de particules",
@@ -1167,8 +1167,8 @@
               "reference": "terminaleS.html"
             }
           ],
-          "référence": "elliptique.html",
-          "id": "elliptique",
+          "référence": "celeste.html",
+          "id": "celeste",
           "groupe": "mecanique"
         },
         {
