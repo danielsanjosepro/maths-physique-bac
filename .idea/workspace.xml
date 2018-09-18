@@ -15,18 +15,18 @@
     <session id="-1665187604">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="119" />
+          <entry key="project.closed" value="121" />
           <entry key="project.open.time.0" value="8" />
           <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.3" value="5" />
           <entry key="project.open.time.4" value="8" />
           <entry key="project.open.time.5" value="24" />
-          <entry key="project.open.time.6" value="43" />
-          <entry key="project.open.time.7" value="18" />
+          <entry key="project.open.time.6" value="44" />
+          <entry key="project.open.time.7" value="19" />
           <entry key="project.open.time.8" value="8" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="119" />
+          <entry key="project.opened" value="121" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -36,7 +36,7 @@
           <entry key="http" value="1" />
           <entry key="js" value="27" />
           <entry key="json" value="172" />
-          <entry key="mst" value="81" />
+          <entry key="mst" value="82" />
           <entry key="png" value="1" />
           <entry key="txt" value="8" />
         </counts>
@@ -48,60 +48,56 @@
           <entry key="Image" value="1" />
           <entry key="JSON" value="172" />
           <entry key="JavaScript" value="27" />
-          <entry key="PLAIN_TEXT" value="89" />
+          <entry key="PLAIN_TEXT" value="90" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="438" />
-          <entry key="html" value="11155" />
+          <entry key="html" value="11161" />
           <entry key="js" value="1189" />
-          <entry key="json" value="41061" />
-          <entry key="mst" value="1646" />
+          <entry key="json" value="41866" />
+          <entry key="mst" value="1710" />
           <entry key="txt" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="438" />
-          <entry key="HTML" value="11155" />
-          <entry key="JSON" value="41061" />
+          <entry key="HTML" value="11161" />
+          <entry key="JSON" value="41866" />
           <entry key="JavaScript" value="1189" />
-          <entry key="PLAIN_TEXT" value="1673" />
+          <entry key="PLAIN_TEXT" value="1737" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ondesI.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="144" column="41" selection-start-line="144" selection-start-column="41" selection-end-line="144" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/text/thèmes/ondesI.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="91" selection-start-line="23" selection-start-column="91" selection-end-line="23" selection-end-column="91" />
+            <state relative-caret-position="-9">
+              <caret line="79" column="10" lean-forward="true" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/text/thèmes/fonctionsI.json">
+        <entry file="file://$PROJECT_DIR$/text/thèmes/ondesI.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="27" column="4" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="31" selection-end-column="8" />
-              <folding>
-                <element signature="e#142#612#0" />
-                <element signature="e#150#258#0" />
-              </folding>
+            <state relative-caret-position="385">
+              <caret line="30" column="829" selection-start-line="30" selection-start-column="829" selection-end-line="30" selection-end-column="829" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mustache_templates/pcThèmeTemplate.mst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="125" column="33" selection-start-line="125" selection-start-column="33" selection-end-line="125" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -161,14 +157,14 @@
         <option value="$PROJECT_DIR$/text/thèmes/electrostatique.json" />
         <option value="$PROJECT_DIR$/text/thèmes/celeste.json" />
         <option value="$PROJECT_DIR$/text/data.json" />
-        <option value="$PROJECT_DIR$/mustache_templates/pcThèmeTemplate.mst" />
         <option value="$PROJECT_DIR$/celeste.html" />
         <option value="$PROJECT_DIR$/electrostatique.html" />
         <option value="$PROJECT_DIR$/newton.html" />
-        <option value="$PROJECT_DIR$/ondesI.html" />
         <option value="$PROJECT_DIR$/ondesII.html" />
         <option value="$PROJECT_DIR$/pesanteur.html" />
         <option value="$PROJECT_DIR$/quantique.html" />
+        <option value="$PROJECT_DIR$/ondesI.html" />
+        <option value="$PROJECT_DIR$/mustache_templates/pcThèmeTemplate.mst" />
         <option value="$PROJECT_DIR$/text/thèmes/ondesI.json" />
       </list>
     </option>
@@ -189,7 +185,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -200,13 +195,7 @@
             <path>
               <item name="Website" type="b2602c69:ProjectViewProjectNode" />
               <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="text" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="text" type="462c0819:PsiDirectoryNode" />
-              <item name="thèmes" type="462c0819:PsiDirectoryNode" />
+              <item name="mustache_templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Website" type="b2602c69:ProjectViewProjectNode" />
@@ -216,6 +205,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -393,11 +383,13 @@
       <workItem from="1537203648811" duration="1499000" />
       <workItem from="1537206435287" duration="441000" />
       <workItem from="1537213745447" duration="1381000" />
+      <workItem from="1537270910647" duration="530000" />
+      <workItem from="1537275013585" duration="2565000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="223856000" />
+    <option name="totallyTimeSpent" value="226951000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -736,13 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mustache_templates/pcThèmeTemplate.mst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="101" column="121" selection-start-line="101" selection-start-column="121" selection-end-line="101" selection-end-column="121" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/celeste.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -789,24 +774,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="27" column="4" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="31" selection-end-column="8" />
-          <folding>
-            <element signature="e#142#612#0" />
-            <element signature="e#150#258#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ondesI.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="144" column="41" selection-start-line="144" selection-start-column="41" selection-end-line="144" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/text/thèmes/ondesI.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="91" selection-start-line="23" selection-start-column="91" selection-end-line="23" selection-end-column="91" />
+        <state relative-caret-position="385">
+          <caret line="30" column="829" selection-start-line="30" selection-start-column="829" selection-end-line="30" selection-end-column="829" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mustache_templates/pcThèmeTemplate.mst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="125" column="33" selection-start-line="125" selection-start-column="33" selection-end-line="125" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ondesI.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="79" column="10" lean-forward="true" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
         </state>
       </provider>
     </entry>

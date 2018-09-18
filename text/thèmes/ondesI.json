@@ -17,7 +17,7 @@
       },
       {
         "difficultée": "danger",
-        "thème": "Connaître les catégories des ondes électromagnétiques: <ul><li> ondes radio</li><li> micro-ondes</li><li> IR</li><li> visible</li><li> UV</li><li> rayons X</li><li> rayons gamma</li></ul>"
+        "thème": "Connaître les catégories des ondes électromagnétiques: <!-- Button trigger modal --> <button type='button' class='btn btn-outline-dark' data-toggle='modal' data-target='#electro'> Spectre <i class=\"far fa-lightbulb\"></i> </button>"
       },
       {
         "difficultée": "dark",
@@ -26,5 +26,8 @@
     ]
   },
   "Exercices I": [],
-  "Exercices II": []
+  "Exercices II": [],
+  "others": [
+    "<!-- Modal --> <div class='modal fade' id='electro' tabindex='-1' role='dialog' aria-labelledby='Electromagnétique' aria-hidden='true'>   <div class='modal-dialog' role='document'>     <div class='modal-content'>       <div class='modal-header'>         <h5 class='modal-title' id='Electromagnétique'>Ondes Électromagnétiques</h5>         <button type='button' class='close' data-dismiss='modal' aria-label='Close'>           <span aria-hidden='true'>&times;</span>         </button>       </div>       <div class='modal-body'>         <img class='img-fluid' src='documents/Spectre_électromagnétique.png'>   <footer class='blockquote-footer'><cite title='Source Title'>Wikiversity</cite> : <a href='https://fr.wikiversity.org/wiki/Notions_de_base_d%27optique_ondulatoire/La_lumi%C3%A8re,_une_onde_%C3%A9lectromagn%C3%A9tique'>Ondes Électromagnétique</a></footer>     </div>     </div>   </div> </div>"
+  ]
 }
