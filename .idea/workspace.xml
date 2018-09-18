@@ -15,27 +15,27 @@
     <session id="-1665187604">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="122" />
+          <entry key="project.closed" value="123" />
           <entry key="project.open.time.0" value="8" />
           <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.3" value="5" />
           <entry key="project.open.time.4" value="8" />
           <entry key="project.open.time.5" value="24" />
-          <entry key="project.open.time.6" value="45" />
+          <entry key="project.open.time.6" value="46" />
           <entry key="project.open.time.7" value="20" />
           <entry key="project.open.time.8" value="8" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="123" />
+          <entry key="project.opened" value="124" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="20" />
-          <entry key="html" value="443" />
+          <entry key="css" value="21" />
+          <entry key="html" value="444" />
           <entry key="http" value="1" />
           <entry key="js" value="27" />
-          <entry key="json" value="176" />
+          <entry key="json" value="177" />
           <entry key="mst" value="82" />
           <entry key="png" value="1" />
           <entry key="txt" value="8" />
@@ -43,10 +43,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="20" />
-          <entry key="HTML" value="443" />
+          <entry key="CSS" value="21" />
+          <entry key="HTML" value="444" />
           <entry key="Image" value="1" />
-          <entry key="JSON" value="176" />
+          <entry key="JSON" value="177" />
           <entry key="JavaScript" value="27" />
           <entry key="PLAIN_TEXT" value="90" />
           <entry key="Scratch" value="1" />
@@ -54,19 +54,19 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="440" />
-          <entry key="html" value="11162" />
+          <entry key="css" value="451" />
+          <entry key="html" value="11166" />
           <entry key="js" value="1189" />
-          <entry key="json" value="42534" />
+          <entry key="json" value="42539" />
           <entry key="mst" value="1710" />
           <entry key="txt" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="440" />
-          <entry key="HTML" value="11162" />
-          <entry key="JSON" value="42534" />
+          <entry key="CSS" value="451" />
+          <entry key="HTML" value="11166" />
+          <entry key="JSON" value="42539" />
           <entry key="JavaScript" value="1189" />
           <entry key="PLAIN_TEXT" value="1737" />
         </counts>
@@ -75,35 +75,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/text/data.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-416">
-              <caret line="971" column="115" selection-start-line="971" selection-start-column="115" selection-end-line="971" selection-end-column="115" />
-              <folding>
-                <element signature="e#26651#27621#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ondesII.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/text/thèmes/ondesIII.json">
+        <entry file="file://$PROJECT_DIR$/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+            <state relative-caret-position="331">
+              <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -121,7 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/calculette.html" />
         <option value="$PROJECT_DIR$/complexes.html" />
         <option value="$PROJECT_DIR$/fluctuation.html" />
         <option value="$PROJECT_DIR$/fonctionsI.html" />
@@ -161,7 +136,6 @@
         <option value="$PROJECT_DIR$/text/thèmes/celeste.json" />
         <option value="$PROJECT_DIR$/mustache_templates/pcThèmeTemplate.mst" />
         <option value="$PROJECT_DIR$/ondesI.html" />
-        <option value="$PROJECT_DIR$/main.css" />
         <option value="$PROJECT_DIR$/celeste.html" />
         <option value="$PROJECT_DIR$/electrostatique.html" />
         <option value="$PROJECT_DIR$/newton.html" />
@@ -169,9 +143,11 @@
         <option value="$PROJECT_DIR$/pesanteur.html" />
         <option value="$PROJECT_DIR$/quantique.html" />
         <option value="$PROJECT_DIR$/text/thèmes/ondesI.json" />
-        <option value="$PROJECT_DIR$/text/data.json" />
         <option value="$PROJECT_DIR$/text/thèmes/ondesIII.json" />
         <option value="$PROJECT_DIR$/text/thèmes/ondesII.json" />
+        <option value="$PROJECT_DIR$/text/data.json" />
+        <option value="$PROJECT_DIR$/ondesIII.html" />
+        <option value="$PROJECT_DIR$/main.css" />
       </list>
     </option>
   </component>
@@ -191,6 +167,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -200,24 +177,12 @@
             </path>
             <path>
               <item name="Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="text" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Website" type="462c0819:PsiDirectoryNode" />
-              <item name="text" type="462c0819:PsiDirectoryNode" />
-              <item name="thèmes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Website" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -231,17 +196,17 @@
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\sanjo\Desktop\Website\text\thèmes" />
-      <recent name="C:\Users\sanjo\Desktop\Website\mustache_templates" />
-      <recent name="C:\Users\sanjo\Desktop\Website" />
-      <recent name="C:\Users\sanjo\Desktop\Website\text" />
-      <recent name="C:\Users\sanjo\Desktop\Website\js" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\sanjo\Desktop\Website" />
       <recent name="C:\Users\sanjo\Desktop\Website\js" />
       <recent name="C:\Users\sanjo\Desktop\Website\html\thèmes_maths" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sanjo\Desktop\Website" />
+      <recent name="C:\Users\sanjo\Desktop\Website\text\thèmes" />
+      <recent name="C:\Users\sanjo\Desktop\Website\mustache_templates" />
+      <recent name="C:\Users\sanjo\Desktop\Website\text" />
+      <recent name="C:\Users\sanjo\Desktop\Website\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -399,11 +364,12 @@
       <workItem from="1537275013585" duration="2565000" />
       <workItem from="1537277698749" duration="2997000" />
       <workItem from="1537281622141" duration="1346000" />
+      <workItem from="1537285003507" duration="170000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="231294000" />
+    <option name="totallyTimeSpent" value="231464000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -455,13 +421,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gde.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/notation.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -767,16 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -784,26 +733,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
           <caret line="23" column="221" selection-start-line="23" selection-start-column="221" selection-end-line="23" selection-end-column="221" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/text/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-416">
-          <caret line="971" column="115" selection-start-line="971" selection-start-column="115" selection-end-line="971" selection-end-column="115" />
-          <folding>
-            <element signature="e#26651#27621#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ondesII.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -818,6 +747,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ondesII.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ondesIII.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="164" column="41" selection-start-line="164" selection-start-column="41" selection-end-line="164" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="1021" column="32" selection-start-line="1021" selection-start-column="32" selection-end-line="1021" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
         </state>
       </provider>
     </entry>
