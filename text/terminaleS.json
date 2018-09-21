@@ -1,7 +1,7 @@
 {
   "Maths": {
     "classe": "Terminale S",
-    "description": "<p>Ici vous\npouvez retrouver les thèmes à savoir pour le bac en maths pour la section\nscientifique et les liens aux exercices.</p><p>Les maths pour cette\nsection sont généralisées. Certaines connaissances sont utilisées pour décrire\ndes phénomènes des sciences naturelles grâce à des fonctions ou des suites, la\ngéométrie pour représenter des objets sur le plan ou l’espace et finalement les\nprobabilités qui sont importantes pour la production en masse de produits. Dans\nles exercices type bac, les exercices seront souvent thématisés, ce qui montre\nl’aspect appliqué des maths.</p><ul><li>Pour <b>l'enseignement obligatoire</b> (non-spé\nmaths) la matière peut se diviser en <b>3 grandes parties</b>. D'une part la partie <b>Analyse</b>, qui consiste en\nl'étude de fonctions et de suites, d'autre part <b>Statistique et Probabilités</b>, et\nfinalement<b> Géométrie</b> sur le plan et dans l’espace.</li><li>Pour <b>l'enseignement spécialité</b> (spé\nmaths), en plus de l'enseignement obligatoire, il y a encore une introduction à\nl’arithmétique et aux matrices. <div class=\"alert alert-primary\"><i\nclass=\"fas fa-info-circle\"></i> \t Dans ce site, vous  ne trouverez aucun document pour la <i>spécialité\nmaths</i>. Si vous avez besoin d’aide par rapport à un thème de spé, ne\ndoutez pas en m’envoyer un <a href=\"#iconEmail\">mail</a> !</div></li>",
+    "description": "<p>Ici vous\npouvez retrouver les thèmes à savoir pour le bac en <i>Mathématiques</i> pour la section\nscientifique et les liens aux exercices.</p><p>Les maths pour cette\nsection sont généralisées. Certaines connaissances sont utilisées pour décrire\ndes phénomènes des sciences naturelles grâce à des fonctions ou des suites, la\ngéométrie pour représenter des objets sur le plan ou l’espace et finalement les\nprobabilités qui sont importantes pour la production en masse de produits. Dans\nles exercices type bac, les exercices seront souvent thématisés, ce qui montre\nl’aspect appliqué des maths.</p><ul><li>Pour <b>l'enseignement obligatoire</b> (non-spé\nmaths) la matière peut se diviser en <b>3 grandes parties</b>. D'une part la partie <b>Analyse</b>, qui consiste en\nl'étude de fonctions et de suites, d'autre part <b>Statistique et Probabilités</b>, et\nfinalement<b> Géométrie</b> sur le plan et dans l’espace.</li><li>Pour <b>l'enseignement spécialité</b> (spé\nmaths), en plus de l'enseignement obligatoire, il y a encore une introduction à\nl’arithmétique et aux matrices. <div class=\"alert alert-primary\"><i\nclass=\"fas fa-info-circle\"></i> \t Dans ce site, vous  ne trouverez aucun document pour la <i>spécialité\nmaths</i>. Si vous avez besoin d’aide par rapport à un thème de spé, ne\ndoutez pas en m’envoyer un <a href=\"#iconEmail\">mail</a> !</div></li>",
     "chapitres": [
       {
         "color": "#E4F9FF",
@@ -189,5 +189,37 @@
     "autres": []
   },
   "PC": {
+    "description": "<p>Ici vous pouvez retrouver les chapitres importants pour le bac en <i>Physique Chimie</i> pour les Terminales S.</p> <p> Dans cette matière, on atteint des connaissances basiques sur la nature de l’univers dans le domaine de la physique et de la chimie. La matière est composée de <b>3 grandes parties</b> : </p> <p> <b>Les Ondes et la Matière</b>, pour comprendre le phénomènes des ondes avec les propriétés de celles-ci et également comprendre les particules et son lien avec les ondes. <b>La Mécanique Newtonienne et le Temps</b>, pour décrire les mouvements des objets par rapport aux types d’attractions qui existent dans l’univers et également comprendre la mesure du temps avec une introduction à la relativité. Et finalement <b>la Chimie Organique </b>, pour comprendre les réactions chimiques avec les enjeux environnementaux et la matière composée de molécules avec toutes les propriétés qu’elles ont.<p> Il y a également d’autres chapitres qui n’appartiennent pas complétement aux grandes parties énoncées précédemment, comme la transmission d’information analogique et numérique.</p> </p> <p>L’épreuve se divise en <b>2 sous-épreuves</b> : <ul> <li> D’une part, <b>une épreuve en laboratoire</b>, qu’on appelle les TP. L’épreuve dure 1 heure, pendant laquelle on doit réaliser une expérience (normalement un titrage, ou une étude de mécanique avec <i>Regressi</i>…) et on est supervisé par un professeur, qui est là pour aider pendant le TP. Cette épreuve rapporte <b>4 points</b> à la note finale. </li> <li> D’autre part, <b>une épreuve écrite</b>, qui dure <b>3,5 heures</b>. L’épreuve est normalement composée de 3 exercices, un grand exercice sur 9-10 points sur la mécanique/les ondes ou chimie, un deuxième exercice plus court sur 5-6 points sur chimie(si le premier exercice était sur la mécanique/les ondes) ou mécanique/ondes(si le premier exercice était sur la chimie), et un dernier exercice sur 5 points qui dépend de ta spécialité. Le barème est sur 20 points mais cette épreuve rapporte <b>16 points</b> à la note finale. <div class=\"alert alert-primary\"><i\nclass=\"fas fa-info-circle\"></i> \t Dans ce site, vous ne trouverez aucun document pour la <i>spécialité\nphysique</i>. Si vous avez besoin d’aide par rapport à un thème de spé, ne\ndoutez pas en m’envoyer un <a href=\"#iconEmail\">mail</a> !</div> </li> </ul> </p> <p>La structure proposée de l'épreuve est uniquement une supposition, qui est très commune dans la plupart des sujets.</p> <p> Pour étudier en <i>Physique Chimie</i>, il faut comprendre les points importants du cours, et en suite s’exercer, car dans les DST le plus important est de comprendre les documents sur un thème (peut-être inconnu) pour répondre à des questions en mobilisant les connaissances personnels. </p> ",
+    "chapitres":[
+      {
+        "color": "#E4F9FF",
+        "nom": "Ondes et Matière",
+        "thèmes": [
+
+        ],
+        "id": "ondes"
+      },
+      {
+        "color": "#FFE4E4",
+        "nom": "Mécanique Classique",
+        "thèmes": [
+        ],
+        "id": "mecanique"
+      },
+      {
+        "color": "#E4FFE4",
+        "nom": "Chimie Organique",
+        "thèmes": [
+        ],
+        "id": "chimie"
+      },
+      {
+        "color": "#FCFFE4",
+        "nom": "Autres",
+        "thèmes": [
+        ],
+        "id": "autres"
+      }
+    ]
   }
 }

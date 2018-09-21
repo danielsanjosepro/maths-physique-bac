@@ -21,6 +21,16 @@ function search() {
                 }
             }
         }
+        for (i in data.PhysiqueChimie) {
+            for (j in data.PhysiqueChimie[i].thèmes) {
+                for (h in data.PhysiqueChimie[i].thèmes[j].tags) {
+                    if (searched.includes(data.PhysiqueChimie[i].thèmes[j].tags[h])) {
+                        result.push(data.PhysiqueChimie [i].thèmes[j].title)
+                        break;
+                    }
+                }
+            }
+        }
         let x;
         for (x in result) {
             sessionStorage.setItem(x, result[x]);
