@@ -63,7 +63,7 @@
     <header></header>
     <div id="found" style="margin-top: 55px">
         <h4 class="text-center font-weight-light" style="font-size: 40px; margin-bottom: 30px; margin-top: 80px">Aucun résultat <i class="fas fa-frown"></i></h4>
-        <div class="col-lg-8 offset-lg-2 text-center alert alert-primary" style="margin-bottom: 375px"><i class="fas fa-info-circle"></i> Si vous ne retrouvez pas ce que vous cherchez, ne doutez pas en m'envoyer un mail!</div>
+        <div class="col-lg-8 offset-lg-2 text-center alert alert-primary" style="margin-bottom: 375px"><i class="fas fa-info-circle"></i> Si vous ne trouvez pas ce que vous cherchez, ne doutez pas en m'envoyer un mail!</div>
     </div>
 
     <div class="container" id="foundCards">
@@ -82,9 +82,9 @@
     $(function () {
         if (sessionStorage.length !== 0) {
             if (sessionStorage.length == 1) {
-                $("#found").html('<div class="jumbotron jumbotron-fluid" style="padding-top: 60px; padding-bottom: 60px; "> <div class="container"> <h4 class="text-center font-weight-light" style="font-size: 50px">1 résultat retrouvé:</h4> </div> </div>');
+                $("#found").html('<div class="jumbotron jumbotron-fluid" style="padding-top: 60px; padding-bottom: 60px; "> <div class="container"> <h4 class="text-center font-weight-light" style="font-size: 50px">1 résultat trouvé:</h4> </div> </div>');
             } else {
-                $("#found").html('<div class="jumbotron jumbotron-fluid" style="padding-top: 60px; padding-bottom: 60px; "> <div class="container"> <h4 class="text-center font-weight-light" style="font-size: 45px">'+ sessionStorage.length + ' résultats retrouvés:</h4> </div> </div>')
+                $("#found").html('<div class="jumbotron jumbotron-fluid" style="padding-top: 60px; padding-bottom: 60px; "> <div class="container"> <h4 class="text-center font-weight-light" style="font-size: 45px">'+ sessionStorage.length + ' résultats trouvés:</h4> </div> </div>')
             }
             $("#foundCards").append("<div class='row' id='searchedCards'></div>");
             $.getJSON("text/data.json", function (data) {

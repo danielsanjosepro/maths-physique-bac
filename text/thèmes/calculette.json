@@ -1,6 +1,6 @@
 {
   "thème": "Calculette",
-  "description": "tracer des courbes, des tableaux, fonctions importantes...",
+  "description": "tracer des courbes, des tableaux...",
   "Théorie":{
     "classes": [
       {
@@ -24,9 +24,29 @@
         "reference": "premiereS.html"
       }
     ],
-    "intro": "Aide pour utiliser la calculette: <button type='button' class='btn btnForThem' data-toggle='modal' data-target='#aideTI'>Touches importantes</button>"
+    "intro": "Aide pour utiliser la calculette: <button type='button' class='btn btn-sm btnForThem' data-toggle='modal' data-target='#aideTI'>Touches importantes</button><p>Il est important de savoir utiliser correctement la calculatrice, car dans tous les sujets du bac il y a certains exercices qui nécessitent la calculette.</p>",
+    "thèmes": [
+      {
+        "difficultée": "success",
+        "thème": "Faire des calculs simples avec la calculette, en faisant attention à la syntaxe"
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Savoir tracer une fonction sur un graphique, en choisissant la bonne fenêtre"
+      },{
+        "difficultée": "danger",
+        "thème": "Faire un tableau de valeurs d'une ou plusieurs fonctions"
+      },{
+        "difficultée": "danger",
+        "thème": "Calculer des probabilités d'une loi binomiale ou normale en s'aidant de la calculette"
+      },
+      {
+        "difficultée": "dark",
+        "thème": "<p>Connaître la syntaxe du language <i>TI-Basic</i> de programmation pour écrire des programmes courts sur la calculette avec de fonctions basiques.</p><p> Dans ce <a href='http://tibasicdev.wikidot.com/starter-kit'>site</a> on explique des conceptes basiques mais également avancés, je suis en train de preparer un résumé assez court pour écrire des petits programmes pour l'épreuve du bac...<i class=\"fas fa-laugh-wink\"></i> </p>"
+      }
+    ]
   },
   "Exercices I": [],
   "Exercices II": [],
-  "others": "<!-- Modal --> <div class='modal fade' id='aideTI' tabindex='-1' role='dialog' aria-labelledby='aideTI' aria-hidden='true'>   <div class='modal-dialog modal-lg' role='document'>     <div class='modal-content'>       <div class='modal-header'>         <h5 class='modal-title' id='aideTI'>Comment utiliser la TI</h5>         <button type='button' class='close' data-dismiss='modal' aria-label='Close'>           <span aria-hidden='true'>&times;</span>         </button>       </div>       <div class='modal-body'>         <img class='img-fluid' src='documents/aideTI.jpg'>      </div>     </div>   </div> </div>"
+  "others": "<!-- Modal --> <div class='modal fade' id='aideTI' tabindex='-1' role='dialog' aria-labelledby='aideTI' aria-hidden='true'>   <div class='modal-dialog modal-lg' role='document'>     <div class='modal-content'>       <div class='modal-header'>         <h5 class='modal-title' id='aideTI'>Comment utiliser la TI</h5>         <button type='button' class='close' data-dismiss='modal' aria-label='Close'>           <span aria-hidden='true'>&times;</span>         </button>       </div>       <div class='modal-body'>         <img class='img-fluid' src='documents/aideTI.jpg'>  <p style='margin-top: 30px'>Pour télécharger: <a href='documents/aideTI.jpg' download><i class=\"fas fa-download\"></i> Aide TI</a></p>    </div>     </div>   </div> </div>"
 }
