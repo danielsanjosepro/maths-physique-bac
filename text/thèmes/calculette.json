@@ -42,7 +42,7 @@
       },
       {
         "difficultée": "dark",
-        "thème": "<p>Connaître la syntaxe du language <i>TI-Basic</i> de programmation pour écrire des programmes courts sur la calculette avec de fonctions basiques.</p><p> Dans ce <a href='http://tibasicdev.wikidot.com/starter-kit'>site</a> on explique des conceptes basiques mais également avancés, je suis en train de preparer un résumé assez court pour écrire des petits programmes pour l'épreuve du bac...<i class=\"fas fa-laugh-wink\"></i> </p>"
+        "thème": "<p>Connaître la syntaxe du language <i>TI-Basic</i> de programmation pour écrire des programmes courts sur la calculette avec de fonctions basiques.</p><p>Dans ce document <a class='btn btn-sm btnForThem' href='documents/Programmer_en_TI.pdf'><i class=\"fas fa-file-pdf\"></i> Programmer en TI</a> vous pouvez appredre les conceptes basiques <b>nécessaires</b> pour le bac, et je vous conseille d'imprimer la <i>page 2</i> pour vous aider. Dans ce <a href='http://tibasicdev.wikidot.com/starter-kit'>site</a> on explique des conceptes avancés, pour ceux qui sont plus intéressés...</p>"
       }
     ]
   },
