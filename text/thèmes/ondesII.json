@@ -1,7 +1,30 @@
 {
   "thème": "Ondes II",
-  "description": "acoustique, niveau d'intensité sonore, atténuation...",
+  "description": "ondes progressives périodiques, acoustique, atténuation...",
   "Théorie":{
+    "classes":[
+      {
+        "course": "Terminale S",
+        "color": "danger",
+        "reference": "terminaleS.html"
+      }
+    ],
+    "intro": "<p>Dans ce chapitre, on s'interesse plus particulièrement aux caractéristiques des ondes progressives périodiques. D'une part l'aspect temporaire: période, fréquence, retard... et d'autre part l'aspect spaciale: longueur d'onde...</p><p>Un type d'onde progressive périodique est le son, qui est caractérisé par l'intensité sonore, l'hauteur, et le timbre.</p>",
+    "thèmes":[
+      {
+        "difficultée": "danger",
+        "thème": "Connaître la définition et comprendre ce qu'est:<ul><li>Période <img style='position: relative; bottom: 2px' src='math/T.svg'></li><li>Fréquence <img style='position: relative; bottom: 2px' src='math/f.svg'></li><li>Longueur d'onde <img style='position: relative; bottom: 2px' src='math/lambda.svg'></li></ul>"
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Connaître les caractéristiques des ondes sonores: <ul><li>L'hauteur</li><li>Le timbre</li><li>Niveau sonore et intensité sonore (et formules <img style='position: relative; bottom: 2px' src='math/niveauSonore.svg'>)</li></ul>"
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Connaître les formules du rapport entre <img style='position: relative; bottom: 2px' src='math/f.svg'> et <img style='position: relative; bottom: 2px' src='math/T.svg'> et le rapport entre l'aspect temporaire et spaciale <img style='position: relative; bottom: 2px' src='math/ondeProg.svg'>"
+
+      }
+    ]
   },
   "Exercices I": [],
   "Exercices II": []
