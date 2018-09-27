@@ -1024,6 +1024,41 @@
           "groupe": "ondes"
         },
         {
+          "title": "Analyse spéctrale",
+          "tags": [
+            "onde",
+            "ondes",
+            "spectrale",
+            "analyse",
+            "rmn",
+            "infra",
+            "infrarouge",
+            "infrarouges",
+            "visible",
+            "uv",
+            "ultraviolets",
+            "espèce",
+            "chimique"
+          ],
+          "image": "spectrale.png",
+          "content": "Grâce avec des analyses spéctrales, on peut différencier des espèces chimiques, en analysant les groupes caractéristiques",
+          "thèmes": [
+            "Analyse UV-visible",
+            "Analyse infrarouge",
+            "Analyse RMN"
+          ],
+          "badges": [
+            {
+              "course": "TS",
+              "color": "danger",
+              "reference": "terminaleS.html"
+            }
+          ],
+          "référence": "spectrale.html",
+          "id": "spectrale",
+          "groupe": "ondes"
+        },
+        {
           "title": "Mécanique Quantique",
           "tags": [
             "quant",

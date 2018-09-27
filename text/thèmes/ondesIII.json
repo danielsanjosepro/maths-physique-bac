@@ -2,7 +2,42 @@
   "thème": "Ondes III",
   "description": "diffraction, interférences, effet doppler...",
   "Théorie":{
+    "classes":[
+      {
+        "course": "Terminale S",
+        "color": "danger",
+        "reference": "terminaleS.html"
+      }
+    ],
+    "intro":"<p>Dans ce chapitre on voit les propriétés des ondes. Il s'agit des phénomènes de diffraction, interférences et l'effet doppler. Plus en detail:</p><ul><li><b>Diffraction:</b> lorsqu'une onde retrouve un obstacle ou une fente, la longueur d'onde reste pareil mais la direction de propagation de l'onde change. L'expérience représentative de la diffraction est celle de la fente simple: <button type='button' class='btn btn-sm btnForThem' data-toggle='modal' data-target='#diffraction'> Diffraction  </button></li><li><b>Interférences:</b> lorsque deux ondes provenant de deux sources synchrones (même fréquence/longueur d'onde et amplitude) se superposent dans un endroit de l'espace, on obtient un phénomène d'inteférence, qui dépend de la <i>différence de marche</i>. On obtient alors des <i>interférences destructives ou constructives</i>. Une expérience qui permet d'obtenir des interférences est l'expérience des <i>Fentes de Young</i>: <button type='button' class='btn btn-sm btnForThem' data-toggle='modal' data-target='#inter'>Interférences</button></li><li><b>Effet Doppler:</b> Lorsqu'une source est en mouvement, selon la position de l'observateur (si la source se rapproche ou éloigne) la fréquence perçue est différente à celle de la source. Cet effet est utilisé pour les radars et en astrologie, pour déterminer si une étoile s'éloigne ou se rapproche, on appelle cette effet <i>l'effet Doppler-Fizeau</i>. <button type='button' class='btn btn-sm btnForThem' data-toggle='modal' data-target='#doppler'>Effet Doppler</button></li></ul>",
+    "thèmes": [
+      {
+        "difficultée": "success",
+        "thème": "Comprendre le phénomène de la diffraction et savoir reconnaître en quelle situation une onde est diffractée à l'aide de la formule <img src='math/diffraction.svg'>"
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Retrouver le rapport mathématique entre la taille de la tâche, la distance à l'écran et l'angle de diffraction <img style='position: relative; bottom: 2px' src='math/diffraction2.svg'> <b>(pas besoin de connaître par coeur!)</b>"
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Comprendre le phénomène d'interférences et certains termes importants:<ul><li>Différence de marche <img src='math/differencedemarche.svg'></li><li>Interférences constructives si <img src='math/constructive.svg'></li><li>Interférences destructives si <img  src='math/destructive.svg'></li></ul>"
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Comprendre le phénomène de l'effet doppler et savoir appliquer les formules dans des exercices avec radar...<ul><li>Décalage Doppler: <img src='math/doppler.svg'></li><li>Fréquence perçue: <img src='math/eloignant.svg'> ou <img src='math/rapprochant.svg'></li></ul>"
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Résoudre des exercices sur l'effet Doppler-Fizeau, connaître les termes <i>redshift</i> et <i>blueshift</i>"
+      }
+    ]
   },
   "Exercices I": [],
-  "Exercices II": []
+  "Exercices II": [],
+  "others":[
+    "<!-- Modal --> <div class='modal fade' id='diffraction' tabindex='-1' role='dialog' aria-labelledby='diffraction' aria-hidden='true'>   <div class='modal-dialog modal-lg' role='document'>     <div class='modal-content'>       <div class='modal-header'>         <h5 class='modal-title' id='diffraction'>Diffraction</h5>         <button type='button' class='close' data-dismiss='modal' aria-label='Close'>           <span aria-hidden='true'>&times;</span>         </button>       </div>       <div class='modal-body'>         <img class='img-fluid' src='documents/diffraction.png'>    </div>     </div>   </div> </div>",
+    "<!-- Modal --> <div class='modal fade' id='inter' tabindex='-1' role='dialog' aria-labelledby='inter' aria-hidden='true'>   <div class='modal-dialog modal-lg' role='document'>     <div class='modal-content'>       <div class='modal-header'>         <h5 class='modal-title' id='inter'>Interférences</h5>         <button type='button' class='close' data-dismiss='modal' aria-label='Close'>           <span aria-hidden='true'>&times;</span>         </button>       </div>       <div class='modal-body'><img class='img-fluid' src='documents/interferences.png'> <hr> <img class='img-fluid' src='images/ondes3.png'>  <footer class='blockquote-footer'><cite title='Source Title'>Première Image, Science-Questions</cite> : <a href='https://fr.science-questions.org/comment_ca_marche/155/Interferences_et_diffraction_d_une_onde/'>Interférences et Diffraction</a></footer>     </div>     </div>   </div> </div>",
+    "<!-- Modal --> <div class='modal fade' id='doppler' tabindex='-1' role='dialog' aria-labelledby='doppler' aria-hidden='true'>   <div class='modal-dialog modal-lg' role='document'>     <div class='modal-content'>       <div class='modal-header'>         <h5 class='modal-title' id='diffraction'>Effet Doppler</h5>         <button type='button' class='close' data-dismiss='modal' aria-label='Close'>           <span aria-hidden='true'>&times;</span>         </button>       </div>       <div class='modal-body'>         <img class='img-fluid' src='documents/doppler.png'>    </div>     </div>   </div> </div>"
+  ]
 }
