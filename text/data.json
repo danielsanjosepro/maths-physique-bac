@@ -1411,6 +1411,70 @@
       "id": "autres",
       "thèmes":[
         {
+          "title": "Signaux analogiques/numériques",
+          "tags": [
+            "binaire",
+            "analgique",
+            "analogue",
+            "numerique",
+            "numérique",
+            "information",
+            "transmission",
+            "archives"
+          ],
+          "image": "numérique.png",
+          "content": "Dans ce chapitre on apprend l'essentiel sur l'information numérique et analogique et sur leur mode de transmission",
+          "thèmes": [
+            "Types de signaux",
+            "Binaire: images numériques, disque optique...",
+            "Transmission, atténuation..."
+          ],
+          "badges": [
+            {
+              "course": "TS",
+              "color": "danger",
+              "reference": "terminaleS.html"
+            }
+          ],
+          "référence": "signaux.html",
+          "id": "signaux",
+          "groupe": "autres"
+        },
+        {
+          "title": "Bilans Thermiques",
+          "tags": [
+            "thermodynamique",
+            "bilan",
+            "thermique",
+            "chaud",
+            "froid",
+            "interne",
+            "capacité",
+            "résistance",
+            "température",
+            "temperature",
+            "flux",
+            "energie"
+          ],
+          "image": "thermodynamique.png",
+          "content": "Qu'est ce que la chaleur? et pourquoi un café chaud devient froid avec le temps?",
+          "thèmes": [
+            "Energie Interne",
+            "Transferts thermiques",
+            "Bilan énergétique (gains/pertes d'energie)"
+          ],
+          "badges": [
+            {
+              "course": "TS",
+              "color": "danger",
+              "reference": "terminaleS.html"
+            }
+          ],
+          "référence": "thermodynamique.html",
+          "id": "thermodynamique",
+          "groupe": "autres"
+        },
+        {
           "title": "Étudier en Allemagne",
           "image": "allemagne.png",
           "badges": [

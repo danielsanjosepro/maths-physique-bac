@@ -15,27 +15,27 @@
     <session id="-1665187604">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="138" />
+          <entry key="project.closed" value="139" />
           <entry key="project.open.time.0" value="8" />
           <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.3" value="5" />
           <entry key="project.open.time.4" value="8" />
-          <entry key="project.open.time.5" value="26" />
+          <entry key="project.open.time.5" value="27" />
           <entry key="project.open.time.6" value="50" />
           <entry key="project.open.time.7" value="24" />
           <entry key="project.open.time.8" value="12" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="139" />
+          <entry key="project.opened" value="140" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="22" />
-          <entry key="html" value="457" />
+          <entry key="html" value="459" />
           <entry key="http" value="1" />
           <entry key="js" value="28" />
-          <entry key="json" value="195" />
+          <entry key="json" value="200" />
           <entry key="mst" value="86" />
           <entry key="png" value="1" />
           <entry key="txt" value="8" />
@@ -44,9 +44,9 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="22" />
-          <entry key="HTML" value="457" />
+          <entry key="HTML" value="459" />
           <entry key="Image" value="1" />
-          <entry key="JSON" value="195" />
+          <entry key="JSON" value="200" />
           <entry key="JavaScript" value="28" />
           <entry key="PLAIN_TEXT" value="94" />
           <entry key="Scratch" value="1" />
@@ -55,9 +55,9 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="451" />
-          <entry key="html" value="11840" />
+          <entry key="html" value="11903" />
           <entry key="js" value="1210" />
-          <entry key="json" value="50743" />
+          <entry key="json" value="54037" />
           <entry key="mst" value="1880" />
           <entry key="txt" value="27" />
         </counts>
@@ -65,8 +65,8 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="451" />
-          <entry key="HTML" value="11840" />
-          <entry key="JSON" value="50743" />
+          <entry key="HTML" value="11903" />
+          <entry key="JSON" value="54037" />
           <entry key="JavaScript" value="1210" />
           <entry key="PLAIN_TEXT" value="1907" />
         </counts>
@@ -78,8 +78,40 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/text/data.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="1043" column="143" selection-start-line="1043" selection-start-column="143" selection-end-line="1043" selection-end-column="143" />
+            <state relative-caret-position="212">
+              <caret line="1424" column="29" selection-start-line="1424" selection-start-column="29" selection-end-line="1424" selection-end-column="29" />
+              <folding>
+                <element signature="e#24615#29655#0" />
+                <element signature="e#24678#29649#0" />
+                <element signature="e#24688#25662#0" />
+                <element signature="e#25672#26682#0" />
+                <element signature="e#26692#27664#0" />
+                <element signature="e#27674#28634#0" />
+                <element signature="e#28644#29641#0" />
+                <element signature="e#29661#35030#0" />
+                <element signature="e#35101#38477#0" />
+                <element signature="e#35111#36197#0" />
+                <element signature="e#38564#39525#0" />
+                <element signature="e#38564#39728#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thermodynamique.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="164" column="50" selection-start-line="164" selection-start-column="50" selection-end-line="164" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/text/thèmes/thermodynamique.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="59" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -97,8 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gde.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/notation.html" />
         <option value="$PROJECT_DIR$/probaI.html" />
         <option value="$PROJECT_DIR$/probaII.html" />
@@ -145,8 +175,10 @@
         <option value="$PROJECT_DIR$/text/thèmes/calculette.json" />
         <option value="$PROJECT_DIR$/text/thèmes/ondesII.json" />
         <option value="$PROJECT_DIR$/text/thèmes/ondesIII.json" />
-        <option value="$PROJECT_DIR$/text/thèmes/spectrale.json" />
         <option value="$PROJECT_DIR$/spectrale.html" />
+        <option value="$PROJECT_DIR$/text/thèmes/spectrale.json" />
+        <option value="$PROJECT_DIR$/thermodynamique.html" />
+        <option value="$PROJECT_DIR$/text/thèmes/thermodynamique.json" />
         <option value="$PROJECT_DIR$/text/data.json" />
       </list>
     </option>
@@ -167,6 +199,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,13 +214,18 @@
             </path>
             <path>
               <item name="Website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Website" type="462c0819:PsiDirectoryNode" />
+              <item name="text" type="462c0819:PsiDirectoryNode" />
+              <item name="thèmes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Website" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -201,17 +239,17 @@
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\sanjo\Desktop\Website" />
-      <recent name="C:\Users\sanjo\Desktop\Website\text\thèmes" />
-      <recent name="C:\Users\sanjo\Desktop\Website\mustache_templates" />
-      <recent name="C:\Users\sanjo\Desktop\Website\text" />
-      <recent name="C:\Users\sanjo\Desktop\Website\js" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\sanjo\Desktop\Website" />
       <recent name="C:\Users\sanjo\Desktop\Website\js" />
       <recent name="C:\Users\sanjo\Desktop\Website\html\thèmes_maths" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sanjo\Desktop\Website\text\thèmes" />
+      <recent name="C:\Users\sanjo\Desktop\Website" />
+      <recent name="C:\Users\sanjo\Desktop\Website\mustache_templates" />
+      <recent name="C:\Users\sanjo\Desktop\Website\text" />
+      <recent name="C:\Users\sanjo\Desktop\Website\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -385,11 +423,12 @@
       <workItem from="1537951910278" duration="3724000" />
       <workItem from="1538053280328" duration="6539000" />
       <workItem from="1538063261030" duration="422000" />
+      <workItem from="1538121791065" duration="6418000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="262910000" />
+    <option name="totallyTimeSpent" value="269328000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -441,20 +480,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/terminaleES.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/matrices.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="164" column="39" selection-start-line="164" selection-start-column="39" selection-end-line="164" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/text/thèmes/fonctionsII.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -752,23 +777,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/text/thèmes/ondesIII.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-          <folding>
-            <element signature="e#119#241#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/text/thèmes/ondesI.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
-          <folding>
-            <element signature="e#118#240#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -779,24 +791,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/text/thèmes/spectrale.json">
+    <entry file="file://$PROJECT_DIR$/spectrale.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+        <state relative-caret-position="229">
+          <caret line="150" lean-forward="true" selection-start-line="150" selection-end-line="150" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spectrale.html">
+    <entry file="file://$PROJECT_DIR$/text/thèmes/ondesIII.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1564">
-          <caret line="164" column="44" selection-start-line="164" selection-start-column="44" selection-end-line="164" selection-end-column="44" />
+        <state relative-caret-position="102">
+          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="16" selection-end-column="8" />
+          <folding>
+            <element signature="e#119#241#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/thèmes/spectrale.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="15" column="83" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/thèmes/thermodynamique.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="59" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thermodynamique.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="164" column="50" selection-start-line="164" selection-start-column="50" selection-end-line="164" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/text/data.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="1043" column="143" selection-start-line="1043" selection-start-column="143" selection-end-line="1043" selection-end-column="143" />
+        <state relative-caret-position="212">
+          <caret line="1424" column="29" selection-start-line="1424" selection-start-column="29" selection-end-line="1424" selection-end-column="29" />
+          <folding>
+            <element signature="e#24615#29655#0" />
+            <element signature="e#24678#29649#0" />
+            <element signature="e#24688#25662#0" />
+            <element signature="e#25672#26682#0" />
+            <element signature="e#26692#27664#0" />
+            <element signature="e#27674#28634#0" />
+            <element signature="e#28644#29641#0" />
+            <element signature="e#29661#35030#0" />
+            <element signature="e#35101#38477#0" />
+            <element signature="e#35111#36197#0" />
+            <element signature="e#38564#39525#0" />
+            <element signature="e#38564#39728#0" />
+          </folding>
         </state>
       </provider>
     </entry>

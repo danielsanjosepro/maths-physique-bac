@@ -1,7 +1,29 @@
 {
   "thème": "Analyse Spectrale",
   "description": "UV-Visible, IR, RMN...",
-  "Théorie":{},
+  "Théorie":{
+    "classes":[
+      {
+        "course": "Terminale S",
+        "color": "danger",
+        "reference": "terminaleS.html"
+      }
+    ],
+    "intro": "Les analyses spectrales permettent de différencier des espèces chimiques grâce aux rayonnements absorbées par des liaisons. Les liaisons entre les atomes sont comme un ressort, qui oscille lorsqu'il absorbe des des rayonnements à certains niveaux d'énergie (pour certaines longueurs d'onde). Il existe trois types d'analyse:<ol><li> <b>Spectroscopie UV-visible: </b> cette spectroscopie permet de caractériser une solution qui a été dilué. En connaissant la concentration de la solution mère, on peut déterminer la concentration inconnue d'une solution mère.</li><li><b>Spectroscopie IR: </b> cette spectroscopie permet de determiner des groupes caractéristiques en repérant des liaisons chimiques.</li><li><b>Spectroscopie RMN: </b> cette spectroscopie est plus complexe mais elle permet une analyse plus approfondie des espèces chimiques, si l'analyse IR n'est pas suffisante.</li></ol><p>Ici vous pouvez voir un résumé de toute les analyses spectrales: <button type='button' class='btn btn-sm btnForThem' data-toggle='modal' data-target='#spectroscopie'> Spectroscopie </button></p>",
+    "thèmes": [
+      {
+        "difficultée": "danger",
+        "thème": "Comprendre la loi de Beer-Lambert <img style='position: relative; bottom: 2px' src='math/beer_lambert.svg'> , et pouvoir déterminer par le calcul ou graphiquement la concentration d'une solution fille inconnue par une analyse spectrale UV-visible"
+      },
+      {
+        "difficultée": "dark",
+        "thème": "Grâce à des analyses spectrales déterminer quelle molécule, parmi les espèces chmiques proposées, correspond aux spectroscopies. Ce type d'exercice peut être un exercice de prise d'initiative sur 5 points au bac !"
+      }
+    ]
+  },
   "Exercices I": [],
-  "Exercices II": []
+  "Exercices II": [],
+  "others":[
+    "<!-- Modal --> <div class='modal fade' id='spectroscopie' tabindex='-1' role='dialog' aria-labelledby='spectroscopie' aria-hidden='true'>   <div class='modal-dialog modal-lg' role='document'>     <div class='modal-content'>       <div class='modal-header'>         <h5 class='modal-title' id='inter'>Analyse spectrale</h5>         <button type='button' class='close' data-dismiss='modal' aria-label='Close'>           <span aria-hidden='true'>&times;</span>         </button>       </div>       <div class='modal-body'><img class='img-fluid' src='documents/analyse_spectrale.jpg'>  <footer class='blockquote-footer'><cite title='Physique Chimie Hatier'>Physique Chimie TleS, Hatier 2012 </cite> : page 120, ISBN: 978-2-218-95396-5</footer>     </div>     </div>   </div> </div>"
+  ]
 }
