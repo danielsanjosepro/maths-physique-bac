@@ -15,49 +15,52 @@
     <session id="-1665187604">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="139" />
+          <entry key="project.closed" value="148" />
           <entry key="project.open.time.0" value="8" />
-          <entry key="project.open.time.10" value="3" />
-          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.10" value="4" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.3" value="5" />
-          <entry key="project.open.time.4" value="8" />
+          <entry key="project.open.time.4" value="9" />
           <entry key="project.open.time.5" value="27" />
           <entry key="project.open.time.6" value="50" />
-          <entry key="project.open.time.7" value="24" />
-          <entry key="project.open.time.8" value="12" />
+          <entry key="project.open.time.7" value="27" />
+          <entry key="project.open.time.8" value="14" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="140" />
+          <entry key="project.opened" value="149" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="22" />
-          <entry key="html" value="459" />
+          <entry key="html" value="462" />
           <entry key="http" value="1" />
           <entry key="js" value="28" />
-          <entry key="json" value="200" />
+          <entry key="json" value="213" />
           <entry key="mst" value="86" />
           <entry key="png" value="1" />
+          <entry key="svg" value="1" />
           <entry key="txt" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="22" />
-          <entry key="HTML" value="459" />
+          <entry key="HTML" value="462" />
           <entry key="Image" value="1" />
-          <entry key="JSON" value="200" />
+          <entry key="JSON" value="213" />
           <entry key="JavaScript" value="28" />
           <entry key="PLAIN_TEXT" value="94" />
+          <entry key="SVG" value="1" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="451" />
-          <entry key="html" value="11903" />
+          <entry key="html" value="11911" />
           <entry key="js" value="1210" />
-          <entry key="json" value="54037" />
+          <entry key="json" value="58760" />
           <entry key="mst" value="1880" />
           <entry key="txt" value="27" />
         </counts>
@@ -65,8 +68,8 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="451" />
-          <entry key="HTML" value="11903" />
-          <entry key="JSON" value="54037" />
+          <entry key="HTML" value="11911" />
+          <entry key="JSON" value="58760" />
           <entry key="JavaScript" value="1210" />
           <entry key="PLAIN_TEXT" value="1907" />
         </counts>
@@ -75,43 +78,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/text/data.json">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newton.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="1424" column="29" selection-start-line="1424" selection-start-column="29" selection-end-line="1424" selection-end-column="29" />
+            <state relative-caret-position="612">
+              <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/text/thèmes/newton.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
               <folding>
-                <element signature="e#24615#29655#0" />
-                <element signature="e#24678#29649#0" />
-                <element signature="e#24688#25662#0" />
-                <element signature="e#25672#26682#0" />
-                <element signature="e#26692#27664#0" />
-                <element signature="e#27674#28634#0" />
-                <element signature="e#28644#29641#0" />
-                <element signature="e#29661#35030#0" />
-                <element signature="e#35101#38477#0" />
-                <element signature="e#35111#36197#0" />
-                <element signature="e#38564#39525#0" />
-                <element signature="e#38564#39728#0" />
+                <element signature="e#138#260#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thermodynamique.html">
+        <entry file="file://$PROJECT_DIR$/text/thèmes/ondesII.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="164" column="50" selection-start-line="164" selection-start-column="50" selection-end-line="164" selection-end-column="50" />
+            <state relative-caret-position="391">
+              <caret line="23" column="298" selection-start-line="23" selection-start-column="298" selection-end-line="23" selection-end-column="298" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/text/thèmes/thermodynamique.json">
+        <entry file="file://$PROJECT_DIR$/ondesII.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="59" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
+            <state relative-caret-position="884">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
             </state>
           </provider>
         </entry>
@@ -129,8 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/notation.html" />
-        <option value="$PROJECT_DIR$/probaI.html" />
         <option value="$PROJECT_DIR$/probaII.html" />
         <option value="$PROJECT_DIR$/probaIII.html" />
         <option value="$PROJECT_DIR$/probaIV.html" />
@@ -150,8 +149,6 @@
         <option value="$PROJECT_DIR$/physicsandchemistry.html" />
         <option value="$PROJECT_DIR$/text/thèmes/suitesI.json" />
         <option value="$PROJECT_DIR$/text/thèmes/suitesIII.json" />
-        <option value="$PROJECT_DIR$/text/thèmes/quantique.json" />
-        <option value="$PROJECT_DIR$/text/thèmes/newton.json" />
         <option value="$PROJECT_DIR$/text/thèmes/pesanteur.json" />
         <option value="$PROJECT_DIR$/text/thèmes/electrostatique.json" />
         <option value="$PROJECT_DIR$/text/thèmes/celeste.json" />
@@ -162,7 +159,6 @@
         <option value="$PROJECT_DIR$/newton.html" />
         <option value="$PROJECT_DIR$/ondesII.html" />
         <option value="$PROJECT_DIR$/pesanteur.html" />
-        <option value="$PROJECT_DIR$/quantique.html" />
         <option value="$PROJECT_DIR$/ondesIII.html" />
         <option value="$PROJECT_DIR$/main.css" />
         <option value="$PROJECT_DIR$/mustache_templates/classePCTemplate.mst" />
@@ -173,13 +169,18 @@
         <option value="$PROJECT_DIR$/html/navbar.html" />
         <option value="$PROJECT_DIR$/search.html" />
         <option value="$PROJECT_DIR$/text/thèmes/calculette.json" />
-        <option value="$PROJECT_DIR$/text/thèmes/ondesII.json" />
         <option value="$PROJECT_DIR$/text/thèmes/ondesIII.json" />
         <option value="$PROJECT_DIR$/spectrale.html" />
         <option value="$PROJECT_DIR$/text/thèmes/spectrale.json" />
         <option value="$PROJECT_DIR$/thermodynamique.html" />
         <option value="$PROJECT_DIR$/text/thèmes/thermodynamique.json" />
+        <option value="$PROJECT_DIR$/quantique.html" />
         <option value="$PROJECT_DIR$/text/data.json" />
+        <option value="$PROJECT_DIR$/text/thèmes/suitesII.json" />
+        <option value="$PROJECT_DIR$/text/thèmes/quantique.json" />
+        <option value="$PROJECT_DIR$/text/thèmes/probaI.json" />
+        <option value="$PROJECT_DIR$/text/thèmes/ondesII.json" />
+        <option value="$PROJECT_DIR$/text/thèmes/newton.json" />
       </list>
     </option>
   </component>
@@ -190,9 +191,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="57" />
-    <option name="width" value="1890" />
-    <option name="height" value="930" />
+    <option name="x" value="948" />
+    <option name="width" value="981" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -217,10 +218,6 @@
               <item name="Website" type="462c0819:PsiDirectoryNode" />
               <item name="text" type="462c0819:PsiDirectoryNode" />
               <item name="thèmes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -424,16 +421,25 @@
       <workItem from="1538053280328" duration="6539000" />
       <workItem from="1538063261030" duration="422000" />
       <workItem from="1538121791065" duration="6418000" />
+      <workItem from="1538145102076" duration="6432000" />
+      <workItem from="1538154448479" duration="2232000" />
+      <workItem from="1538304982076" duration="964000" />
+      <workItem from="1538412175680" duration="717000" />
+      <workItem from="1538414598386" duration="171000" />
+      <workItem from="1538898090021" duration="1193000" />
+      <workItem from="1539002195140" duration="322000" />
+      <workItem from="1539003214336" duration="203000" />
+      <workItem from="1539004864605" duration="153000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="269328000" />
+    <option name="totallyTimeSpent" value="281715000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49646643" visible="true" weight="0.23571429" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49646643" visible="true" weight="0.21507937" />
       <window_info id="Structure" order="1" sideWeight="0.50353354" side_tool="true" weight="0.24285714" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -480,20 +486,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/text/thèmes/fonctionsII.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/text/thèmes/matrices.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mustache_templates/mathCardsTemplate.mst">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -536,13 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/text/thèmes/suitesII.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/maths.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2482">
@@ -554,34 +539,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/text/thèmes/suitesI.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="59" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/text/thèmes/suitesIII.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="25" column="56" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/text/thèmes/quantique.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/text/thèmes/newton.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -627,23 +584,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newton.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="46" column="111" selection-start-line="46" selection-start-column="111" selection-end-line="46" selection-end-column="111" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pesanteur.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
-          <caret line="46" column="111" selection-start-line="46" selection-start-column="111" selection-end-line="46" selection-end-column="111" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quantique.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
           <caret line="46" column="111" selection-start-line="46" selection-start-column="111" selection-end-line="46" selection-end-column="111" />
         </state>
       </provider>
@@ -763,20 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ondesII.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/text/thèmes/ondesII.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/text/thèmes/ondesI.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -802,16 +731,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="16" selection-end-column="8" />
-          <folding>
-            <element signature="e#119#241#0" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/text/thèmes/spectrale.json">
+    <entry file="file://$PROJECT_DIR$/thermodynamique.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="15" column="83" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="83" />
+        <state relative-caret-position="2788">
+          <caret line="164" column="50" selection-start-line="164" selection-start-column="50" selection-end-line="164" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -822,30 +748,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thermodynamique.html">
+    <entry file="file://$PROJECT_DIR$/math/energie.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quantique.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="164" column="50" selection-start-line="164" selection-start-column="50" selection-end-line="164" selection-end-column="50" />
+        <state relative-caret-position="-238">
+          <caret line="106" column="45" lean-forward="true" selection-start-line="106" selection-start-column="45" selection-end-line="106" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/thèmes/spectrale.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/thèmes/suitesI.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="72" column="6" lean-forward="true" selection-start-line="67" selection-start-column="4" selection-end-line="72" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/thèmes/suitesIII.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="25" column="56" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/thèmes/suitesII.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="36" column="56" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/text/data.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="1424" column="29" selection-start-line="1424" selection-start-column="29" selection-end-line="1424" selection-end-column="29" />
+        <state relative-caret-position="232">
+          <caret line="1413" column="42" selection-start-line="1413" selection-start-column="42" selection-end-line="1413" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/thèmes/quantique.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/thèmes/probaI.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newton.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/thèmes/ondesII.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="298" selection-start-line="23" selection-start-column="298" selection-end-line="23" selection-end-column="298" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ondesII.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/thèmes/newton.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
           <folding>
-            <element signature="e#24615#29655#0" />
-            <element signature="e#24678#29649#0" />
-            <element signature="e#24688#25662#0" />
-            <element signature="e#25672#26682#0" />
-            <element signature="e#26692#27664#0" />
-            <element signature="e#27674#28634#0" />
-            <element signature="e#28644#29641#0" />
-            <element signature="e#29661#35030#0" />
-            <element signature="e#35101#38477#0" />
-            <element signature="e#35111#36197#0" />
-            <element signature="e#38564#39525#0" />
-            <element signature="e#38564#39728#0" />
+            <element signature="e#138#260#0" />
           </folding>
         </state>
       </provider>

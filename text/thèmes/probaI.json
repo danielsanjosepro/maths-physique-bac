@@ -40,7 +40,7 @@
       },
       {
         "difficultée": "danger",
-        "thème": "Connaître la rédaction pour la loi binomiale"
+        "thème": "Connaître la rédaction pour la loi binomiale: <p><span style='color: #3b7cb8'>* Description de le'épreuve et du succés *</span> constitue une épreuve de Bernoulli de probabilité de succés <img src='math/n.svg'> = ... .</p><p> On répète l'épreuve <img src='math/n.svg'> fois de manière identique et indépendante.</p><p>Soit <img style='position: relative; bottom: 2px' src='math/valéatoire.svg'> la variable aléatoire qui <span style='color: #3b7cb8'>* compte le nombre de succés *</span>.</p><p>Donc <img style='position: relative; bottom: 2px' src='math/valéatoire.svg'> suit une loi binomiale de paramètres <img src='math/n.svg'> = ... et <img src='math/p.svg'> = ...</p>"
       },
       {
         "difficultée": "dark",

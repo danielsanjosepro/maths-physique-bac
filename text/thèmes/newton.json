@@ -1,7 +1,38 @@
 {
   "thème": "Lois de Newton",
-  "description": "mouvements d'objets dans l'espace, forces...",
-  "Théorie":{},
+  "description": "mouvements d'objets dans l'espace, lois de la dynamique...",
+  "Théorie":{
+    "classes":[
+      {
+        "course": "Terminale S",
+        "color": "danger",
+        "reference": "terminaleS.html"
+      }
+    ],
+    "intro": "L'arrivée d'<a href='https://de.wikipedia.org/wiki/Isaac_Newton'>Isaac Newton</a> et ses lois de la dynamique ont permis une meilleure compréhension des mouvements des objets macroscopiques (et dans une certaine mesure microscopiques.). Pour comprendre ces lois il faut connaître les types de <i>référentiels</i>, les types de mouvements d'un point dans l'espace, et ce qu'est la <i>quantité de mouvement</i> <img style='position: relative; top: 3px' src='math/p.svg'> . <p>Les Lois de Newton sont: <ul><li><b> 1<sup>ère</sup> Loi de Newton: </b> Si dans un référentiel galiléen la somme des forces extérieurs à un système s'annule, l'objet est immobile ou il a un mouvement rectiligne uniforme. <p><u>Mathématiquement:</u></p><p> <div> <img style='margin: auto; left: 50%' src='math/newton1.svg'></div></p></li><li> <b>2<sup>ème</sup> Loi de Newton: </b>Dans un référentiel galiléen, la dérivée de la quantité de mouvement est égale à la somme des forces extérieures qui s'exercent sur le solide. <p><u>Mathématiquement:</u></p> <p><div> <img style='margin: auto' src='math/newton2.svg'> et si <img style='margin: auto' src='math/m.svg'> est constant: <img style='margin: auto' src='math/newton2b.svg'></div></p></li><li><b>3<sup>ème</sup> Loi de Newton: </b> L’action est toujours égale à la réaction, c’est-à-dire que les actions de deux corps l’un sur l’autre sont toujours égales et de sens contraires. <p><u>Mathématiquement:</u></p><p><div> <img style='margin: auto' src='math/newton3.svg'></div></p></li></ul></p>",
+    "thèmes": [
+      {
+        "difficultée": "success",
+        "thème": "Connaître les types de référentiel et leurs différences"
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Comprendre le lien (mathématique) entre position, vitesse et accélération"
+      },
+      {
+        "difficultée": "danger",
+        "thème": ""
+      },
+      {
+        "difficultée": "danger",
+        "thème": ""
+      },
+      {
+        "difficultée": "danger",
+        "thème": ""
+      }
+    ]
+  },
   "Exercices I": [],
   "Exercices II": []
 }

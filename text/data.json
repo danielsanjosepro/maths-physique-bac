@@ -1059,7 +1059,7 @@
           "groupe": "ondes"
         },
         {
-          "title": "Mécanique Quantique",
+          "title": "Physique Quantique",
           "tags": [
             "quant",
             "quantique",
@@ -1411,7 +1411,7 @@
       "id": "autres",
       "thèmes":[
         {
-          "title": "Signaux analogiques/numériques",
+          "title": "Signaux analogiques / numériques",
           "tags": [
             "binaire",
             "analgique",

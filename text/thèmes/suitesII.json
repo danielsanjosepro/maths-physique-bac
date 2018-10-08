@@ -34,10 +34,35 @@
       },
       {
         "difficultée": "danger",
+        "thème": "Comprendre les termes <i>majorée</i>, <i>minorée</i> et <i>bornée</i>, et les propriétés des suites de ce type."
+      },
+      {
+        "difficultée": "danger",
         "thème": "Comprendre (compléter et peut être écrire) un algorithme pour déterminer un seuil à partir duquel <img src='math/q^n.svg'> est inférieur à un réel <img src='math/a.svg'> positif donné."
       }
     ]
   },
-  "Exercices I": [],
-  "Exercices II": []
+  "Exercices I": [
+
+  ],
+  "Exercices II": [
+    {
+      "titre": "Les Bons Profs: Convergence/Majorée/Minorée - Rappel",
+      "type": "<i class='fab fa-youtube'></i>",
+      "référence": "https://www.youtube.com/watch?v=zbJKZnYRVfQ&index=15&list=PL_1WVGjLTYqLUnZ1_MbfeVZKMqr3prAF2",
+      "nomSite": "Convergence/Majorée/Minorée"
+    },
+    {
+      "titre": "Les Bons Profs: Convergence/Majorée/Minorée - Exercice 1",
+      "type": "<i class='fab fa-youtube'></i>",
+      "référence": "https://www.youtube.com/watch?v=by4Aphi4JJ4&list=PL_1WVGjLTYqLUnZ1_MbfeVZKMqr3prAF2&index=16",
+      "nomSite": "Convergence/Majorée/Minorée : Exercice 1"
+    },
+    {
+      "titre": "Les Bons Profs: Convergence/Majorée/Minorée - Exercice 2",
+      "type": "<i class='fab fa-youtube'></i>",
+      "référence": "https://www.youtube.com/watch?v=BkpTaoYdztw&index=17&list=PL_1WVGjLTYqLUnZ1_MbfeVZKMqr3prAF2",
+      "nomSite": "Convergence/Majorée/Minorée : Exercice 2"
+    }
+  ]
 }

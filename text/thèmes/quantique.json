@@ -1,7 +1,38 @@
 {
-  "thème": "Mécanique Quantique",
+  "thème": "Physique Quantique",
   "description": "dualisme onde-particule, équation de Broglie...",
-  "Théorie":{},
+  "Théorie":{
+    "classes":[
+      {
+        "course": "Terminale S",
+        "color": "danger",
+        "reference": "terminaleS.html"
+      }
+    ],
+    "intro": "Au début de <span style='font-family: \"Times New Roman\"'>XX<sup>ème</sup></span>, la physique change complètement avec l'arrivée de l'hypothèse de <a href='https://fr.wikipedia.org/wiki/Max_Planck'>Max Planck</a>. On a toujours dit que la lumière est une onde, ce qui permet d'expliquer une grande partie des phénomènes de la lumière, malheuresement la théorie de la lumière en tant qu'onde, n'arrive à expliquer pas tous les phénomènes comme par exemple <i>l'effet photoélectrique</i>.<p> Pour expliquer ces effets, une nouvelle théorie arrive. La lumière est \"transportée\" par des particule: le <i>photon</i> ou <i>quanta</i>. Cette particule porte une certaine quantité d'énergie, d'où le nom physique quantique.</p><p>Une grande partie de la technologie de nos jours s'explique grâce à la physique quantique, comme par exemple le laser.</p><p>Cependant la lumière est toujours une onde, et au même temps une particule: on parle de la <i>dualité onde-corpuscule</i>. Cette théorie à été affirmé par <a href='https://fr.wikipedia.org/wiki/Louis_de_Broglie'>Louis de Broglie</a>, mais pas uniquement pour la lumière mais également pour tout objet (quantique).</p>",
+    "thèmes": [
+      {
+        "difficultée": "danger",
+        "thème": "Comprendre ce qu'est un transfert quantique entre deux niveux d'énergie ( <img src='math/energie.svg'> ) et connaître les differents types de transferts: <ul><li>Absorption d'un photon</li><li>Émission spontanée d'un photon</li><li>Émission stimulée d'un photon</li></ul>"
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Connaître les caractéristiques du laser, et connaître les termes <i>pompage optique</i> et <i>inversion de la population</i>"
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Connaître les types de transitions selon l'énergie du photon"
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Comprendre le concepte du dualisme onde-corpuscule"
+      },
+      {
+        "difficultée": "danger",
+        "thème": "Connaître la loi de Broglie : <img src='math/broglie.svg'>"
+      }
+    ]
+  },
   "Exercices I": [],
   "Exercices II": []
 }
